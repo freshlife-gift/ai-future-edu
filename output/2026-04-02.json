@@ -1,0 +1,115 @@
+{
+  "date": "2026-04-02",
+  "updated_at": "2026-04-02T00:24:01.858258+09:00",
+  "sections": {
+    "news": [],
+    "global_trends": [
+      {
+        "title": "[일본] 2029년 차세대 학습 거점 학교 개교, 통학·원격 결합한 쿼터제 운영",
+        "url": "https://edpolicy.kedi.re.kr/edpolicy/board/30/844702",
+        "source": "도쿄도 교육위원회",
+        "author": "",
+        "published_date": "2026.03.11",
+        "summary": "도쿄도 교육위원회는 2029년 '차세대 학습 기반 프로젝트'를 통해 AI를 활용한 대면·디지털 하이브리드형 학습과 통학·원격 학습을 결합한 학교를 개교한다. 이 학교는 학생들이 스스로 학습을 디자인하고 선택하며 유연하고 자유로운 사고를 가진 세계적 인재, 새로운 가치를 창조하는 이노베이터로 성장하도록 돕는다. 1학년부터 데이터 사이언스 등 탐구 기초 과목을 포함하며, 학년이 올라갈수록 자유 선택 과목의 비중이 확대된다.",
+        "score": 5,
+        "implications": "AI와 디지털을 기반으로 한 유연한 하이브리드 학습 모델은 우리 교육청의 미래 교육혁신 방향 설정에 중요한 참고 사례가 됩니다. 데이터 사이언스 등 AI 융합 교육과정을 학생들이 스스로 선택하여 디자인할 수 있도록 지원하는 방안을 모색하는 데 기여하며, 디지털을 활용한 자기 주도 원격 학습 시스템은 '디벗'을 활용한 교수학습 지원 및 정책 설계에 구체적인 방향을 제시할 수 있습니다. 또한 AI 기반의 유연한 학습 환경과 공간 활용 방식은 '신나는 AI교실' 모델 구축 및 운영 계획 수립에 영감을 줄 수 있습니다."
+      },
+      {
+        "title": "[일본] 고등학교 개혁 기본 방침 발표, 2040년까지 문이과 통합 추진",
+        "url": "https://edpolicy.kedi.re.kr/edpolicy/board/30/844700",
+        "source": "문부과학성,아사히신문,아사히신문",
+        "author": "",
+        "published_date": "2026.03.11",
+        "summary": "일본 문부과학성은 고등학교 교육개혁 기본 방침을 발표하며, 디지털 기술 활용을 통한 유연한 교육과정 구현과 AI로 대체 불가능한 능력 육성을 강조했다. 특히 AI·디지털 전환(DX)·수리 분야에 대한 관심을 높이고, 문리 융합, STEAM 교육, 과제 해결형 학습 등을 주요 수단으로 제시했다. 2040년까지 문이과 통합을 목표로 하며, 이는 미래 사회에 필요한 인재 양성을 위한 교육 시스템 전환 의지를 보여준다.",
+        "score": 5,
+        "implications": "고등학교 교육개혁의 핵심으로 AI·DX를 제시한 것은 우리 교육청의 AI·디지털 기반 교육혁신 운영 방향과 일치하며, 교육 전반에 걸친 혁신 전략을 수립하는 데 참고할 수 있습니다. AI로 대체 불가능한 능력 육성을 위한 문리 융합, STEAM 교육, 과제 해결형 학습 등은 AI 융합교육 프로그램 개발 및 교과 연계 방안에 중요한 시사점을 제공하며, AI·정보 교육의 목표와 내용 설정에 구체적인 가이드라인을 제공할 수 있습니다. 또한 AI·DX 역량을 갖춘 교원 양성을 위한 연수 프로그램 기획 시, 유연한 교육과정 및 STEAM 교육 역량을 강화하는 내용을 포함하는 데 참고할 수 있습니다."
+      },
+      {
+        "title": "[호주] 호주 교사 3명 중 2명 AI 활용, 형평성 도구 될지 불평등 도구 될지 기로",
+        "url": "https://edpolicy.kedi.re.kr/edpolicy/board/30/844692",
+        "source": "The Guardian,The Guardian",
+        "author": "",
+        "published_date": "2026.03.11",
+        "summary": "호주 교사 3명 중 2명이 AI를 활용하고 있는 것으로 나타났으며, AI가 교육 현장에서 형평성을 증진하는 도구가 될지 불평등을 심화시키는 도구가 될지 중요한 갈림길에 서 있다는 분석이 제기되었다. 이는 AI 기술의 교육적 활용 확산과 더불어 디지털 격차 해소 및 공정한 학습 기회 제공이 미래 교육 정책의 핵심 과제임을 시사한다. 모든 학생에게 AI 기술의 긍정적 효과가 미치도록 정책적 방안 마련이 시급하다.",
+        "score": 5,
+        "implications": "AI 활용으로 인한 교육적 불평등 심화 가능성에 대한 경각심을 가지고, 교육격차 해소를 위한 AI·디지털 기반 교육혁신 정책을 선제적으로 수립해야 합니다. 학생뿐만 아니라 교사의 AI 활용 역량과 AI 윤리 의식을 함양하기 위한 AI·디지털 리터러시 교육을 적극적으로 활성화하고, 교사들이 AI를 효과적으로 교수학습에 활용하되, 잠재적인 불평등 문제를 인식하고 해결할 수 있도록 지원하는 연수 프로그램을 개발해야 합니다. 또한 AI 활용의 형평성 문제를 AI 윤리 및 디지털 시민성 교육의 중요한 주제로 다루어, 책임감 있는 AI 활용 문화를 조성해야 합니다."
+      }
+    ],
+    "policy": [],
+    "reports": [],
+    "academic_domestic": [
+      {
+        "title": "Development and Application of AI Education Club Program for Elementary School Students Using Minecraft Education",
+        "url": "https://doi.org/10.36237/koedus.7.4.139",
+        "source": "Journal of the Edutainment",
+        "author": ", Inseong Jeon",
+        "published_date": "2025-12-31",
+        "summary": "본 연구는 마인크래프트 에듀케이션을 활용하여 초등학생을 위한 AI 교육 동아리 프로그램을 개발하고 그 효과를 검증하는 것을 목적으로 했습니다. 프로그램은 마인크래프트 기반의 몰입형 프로젝트 활동을 통해 AI 개념과 컴퓨팅 사고력을 통합적으로 교육하도록 설계되었습니다. 동아리 활동 적용 결과, 학생들의 AI 개념 이해도와 컴퓨팅 사고력 향상에 긍정적인 영향을 미쳤음이 확인되었습니다. 최종적으로 이 프로그램은 초등학생들의 AI 교육에 대한 흥미와 참여도를 높이는 데 성공하며, 게임 기반 플랫폼이 기초 AI 리터러시 함양에 효과적임을 보여주었습니다.",
+        "score": 5.0,
+        "implications": "이 연구는 초등학생을 위한 '신나는 AI교실 구축 및 운영' 및 'AI·디지털 활용 및 AI 융합교육'에 대한 실질적인 모델을 제공합니다. 마인크래프트와 같은 게임 기반 학습의 성공은 K-12 학생들의 AI·SW 교육에 대한 동기와 참여도를 높이는 효과적인 전략임을 시사합니다. 이는 'AI·정보(AI·SW) 교육'의 방향성을 제시하고, 'AI·에듀테크 선도교사단'이 매력적인 교육 프로그램을 개발하는 데 중요한 참고 자료가 될 수 있습니다."
+      },
+      {
+        "title": "Impact of Uneven SW􌝆AI Experience on Educational Gap: Focusing on AI education cases of hands-on activity programs",
+        "url": "https://doi.org/10.26734/jfe.2021.11.04.06",
+        "source": "The Journal of Future Education",
+        "author": ", EunSill Jang, Kyungsun Oh",
+        "published_date": "2021-10-30",
+        "summary": "본 연구는 소프트웨어(SW) 및 인공지능(AI) 경험의 불균등이 교육 격차에 미치는 영향을 탐색하기 위해 체험 활동 프로그램 중심의 AI 교육 사례를 분석했습니다. 연구는 학생들이 AI 교육 프로그램에 참여하기 전의 경험 수준이 학습 성과와 참여도에 어떻게 영향을 미치는지에 주목했습니다. 핵심 발견은 사전 SW/AI 경험이 부족한 학생들이 그렇지 않은 학생들에 비해 학습에 어려움을 겪으며 교육 격차가 심화될 수 있다는 것입니다. 따라서 연구는 모든 학생에게 기초적인 SW/AI 경험을 제공하고 디지털 격차를 해소할 수 있는 포괄적인 AI 교육 프로그램의 필요성을 강조합니다.",
+        "score": 5.0,
+        "implications": "이 연구는 'AI·디지털 기반 교육혁신 운영' 및 'AI·디지털 리터러시 교육 활성화'에 있어 교육 형평성 문제를 해결하는 데 중요한 시사점을 제공합니다. 학생들의 사전 경험 격차를 인지하고, 이를 해소하기 위한 맞춤형 또는 기초 강화 프로그램을 'AI·정보(AI·SW) 교육'에 적극적으로 포함해야 함을 강조합니다. 이는 모든 학생에게 균등한 AI 학습 기회를 제공하여 디지털 소외를 방지하고 디지털 시민성을 함양하는 데 필수적인 고려사항이 됩니다."
+      },
+      {
+        "title": "Comparing Automated Scoring Using Natural Language Generation and Understanding Models in Constructed-Response Assessment for Economic Education",
+        "url": "https://doi.org/10.54346/sjer.2026.35.1.85",
+        "source": "The SNU Journal of Education Research",
+        "author": ", Kyung Hoon Kim, Hyung Joon Park",
+        "published_date": "2026-3-30",
+        "summary": "본 연구는 중학교 사회(경제) 교과 논술형 평가에서 자연어 생성(NLG) 모델과 자연어 이해(NLU) 모델의 자동 채점 성능을 비교 분석했습니다. 2022 개정 교육과정 범주(지식·이해, 과정·기능, 가치·태도)를 반영한 세 문항을 300명의 학생에게 실시하여 총 900개의 응답을 수집했습니다. 인간 채점자와 AI 채점 간의 일치도를 Quadratic Weighted Kappa 지수를 통해 분석한 결과, 지식·이해 문항에서는 두 모델 모두 인간 채점과 높은 일치도를 보였습니다. 반면, 과정·기능 문항에서는 NLU 모델이, 가치·태도 문항에서는 NLG 모델이 상대적으로 높은 일치도를 나타내어 채점 대상의 인지 영역에 따라 적합한 AI 모델이 다름을 시사했습니다.",
+        "score": 5.0,
+        "implications": "이 연구는 'AI·디지털 기반 수업·평가혁신 전문가 연수' 및 'AI·디지털 기반 교육혁신 운영'에 있어 AI 기반 평가 시스템 도입에 대한 실질적인 가이드라인을 제공합니다. 중학교 수준의 논술형 평가에서 AI 자동 채점의 가능성과 한계를 구체적인 수치로 제시하며, 평가 문항의 특성(지식, 과정, 가치)에 따라 적합한 AI 모델을 신중하게 선택해야 함을 보여줍니다. 이는 AI를 활용한 평가 혁신 방향을 설정하고, 교사 연수 시 AI 평가 도구의 효과적인 활용 방안을 교육하는 데 중요한 기초 자료가 될 수 있습니다."
+      }
+    ],
+    "academic_international": [
+      {
+        "title": "Affordances and Challenges of Artificial Intelligence in K-12 Education: A Systematic Review",
+        "url": "https://eric.ed.gov/?id=EJ1423162",
+        "source": "",
+        "author": "Helen Crompton, Mildred V. Jones, Diane Burke",
+        "published_date": 2024,
+        "summary": "본 연구는 2011년부터 2021년까지 발표된 K-12 교육 분야의 AIEd(AI in Education) 관련 169개 연구를 체계적으로 검토하여 AIEd의 적용 가능성과 당면 과제를 종합적으로 분석했습니다. 연구 결과, AIEd의 장점은 교수법(게이밍, 개인화 등), 행정(진단 도구 등), 그리고 교과 내용 강화의 세 가지 주요 주제로 분류되었습니다. 반면, AI에 대한 부정적 인식, 학생 및 교사의 AI 기술 부족, 윤리적 문제, 그리고 사용 편의성 및 디자인 문제가 핵심적인 과제로 도출되었습니다. 이 연구는 K-12 AI 교육의 효과적인 도입과 확산을 위해 기술적, 윤리적, 교육적 측면을 아우르는 다각적인 접근이 필요함을 강조합니다.",
+        "score": 4.8,
+        "implications": "이 연구는 서울시교육청 AI미래교육팀의 AI·디지털 기반 교육혁신 운영 및 AI·디지털 활용·융합 교육에 광범위한 시사점을 제공합니다. AIEd의 장점을 활용하여 개인화된 학습, 지능형 튜터링 등 교수학습 혁신 방안을 모색하고, 행정 효율화 및 교과 내용 강화에 AI를 활용할 수 있는 기반을 마련할 수 있습니다. 특히, 교사 및 학생의 기술 부족과 윤리적 문제가 주요 과제로 지적된 만큼, AI·디지털 리터러시 교육 활성화 및 AI 윤리·디지털 시민성 교육을 강화하는 데 핵심적인 참고 자료가 됩니다. 또한, AI·디지털 기반 수업·평가혁신 전문가 연수 및 AIEDAP 프로그램을 설계할 때, 교사의 AI 기술 역량 강화와 AI에 대한 긍정적 태도 형성을 위한 실질적인 방안을 모색하는 데 중요한 근거로 활용될 수 있습니다."
+      },
+      {
+        "title": "Understanding K-12 Teachers&apos; Technological Pedagogical Content Knowledge Readiness and Attitudes toward Artificial Intelligence Education",
+        "url": "https://eric.ed.gov/?id=EJ1449016",
+        "source": "",
+        "author": "Miao Yue, Morris Siu-Yung Jong, Davy Tsz Kit Ng",
+        "published_date": 2024,
+        "summary": "본 연구는 K-12 교사들의 AI 교육 준비도와 태도를 심층적으로 파악하고 효과적인 교사 연수 프로그램 개발을 위한 기초 자료를 제공하고자 했습니다. 젠더, 교과목, 학년, 교육 경력, AI 교육 경험 등 다양한 배경을 가진 1,664명의 K-12 교사를 대상으로 설문 조사를 실시하여 AI 교육에 대한 기술적 교수 내용 지식(TPACK) 준비도와 태도를 분석했습니다. 연구 결과, K-12 교사들의 AI 교육 준비도와 태도에 상당한 격차가 존재하며, 특히 AI 교육 경험이 없는 교사, 특정 교과목 교사, 저학년 교사 그룹에서 낮은 준비도를 보이는 것으로 나타났습니다. 이는 교사들의 AI에 대한 기술적 지식(TK)과 이를 교수법에 통합하는 지식(TPK) 부족이 두드러진다는 것을 의미하며, 교사 맞춤형 AI 연수 프로그램 개발의 필요성을 강력히 시사합니다.",
+        "score": 4.7,
+        "implications": "서울시교육청 AI미래교육팀은 이 연구를 통해 AI·디지털 기반 교육혁신 운영에 있어 교사의 준비도와 태도가 핵심 요소임을 인지하고, 이에 대한 전략적 접근이 필요합니다. 특히, AI·디지털 기반 수업·평가혁신 전문가 연수와 AI·에듀테크 선도교사단 및 AIEDAP 운영 시, 1,664명 교사 데이터에서 나타난 '상당한 격차'와 '기술적 지식 및 교수법 통합 지식 부족'이라는 구체적인 문제를 해결하는 데 중점을 두어야 합니다. 교사의 AI 리터러시와 AI 활용 능력을 강화하기 위한 맞춤형 연수 프로그램 개발이 필수적이며, AI 교육 경험이 부족한 교사 및 특정 교과목 교사를 위한 차별화된 지원 방안을 마련해야 합니다. 또한, 디지털튜터 운영을 통해 교사들의 AI 도구 활용을 실질적으로 지원하여, AI 교육에 대한 긍정적 태도와 자신감을 고취시키는 데 기여할 수 있습니다."
+      }
+    ]
+  },
+  "filter_info": {
+    "news_source": "서울시교육청 오늘의 뉴스 (sen.go.kr)",
+    "kedi_source": "KEDI 교육정책네트워크 (edpolicy.kedi.re.kr)",
+    "academic_domestic_source": "CrossRef (국내 학술지 검색)",
+    "academic_international_source": "ERIC (Education Resources Information Center)"
+  },
+  "stats": {
+    "news_collected": 0,
+    "news_selected": 0,
+    "trends_collected": 30,
+    "trends_selected": 3,
+    "policy_collected": 0,
+    "policy_selected": 0,
+    "reports_collected": 0,
+    "reports_selected": 0,
+    "academic_domestic_collected": 73,
+    "academic_domestic_selected": 3,
+    "academic_international_collected": 60,
+    "academic_international_selected": 2
+  }
+}
