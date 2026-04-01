@@ -438,6 +438,33 @@ body {
   background: var(--text-dim);
 }
 
+/* APA 인용 */
+.card__apa {
+  font-size: .8rem;
+  line-height: 1.7;
+  color: var(--text-muted);
+  padding: var(--space-sm) var(--space-md);
+  margin-bottom: var(--space-md);
+  background: rgba(99, 102, 241, .05);
+  border-radius: var(--radius-sm);
+  border-left: 3px solid rgba(99, 102, 241, .3);
+  font-style: normal;
+  word-break: break-word;
+}
+.card__apa em {
+  font-style: italic;
+}
+
+/* 시사점 라벨 */
+.impl-label {
+  display: inline;
+  font-weight: 700;
+  margin-right: 4px;
+}
+.impl-label--duty { color: #6366f1; }
+.impl-label--policy { color: #06b6d4; }
+.impl-label--note { color: #f59e0b; }
+
 /* 요약 */
 .card__summary {
   font-size: .88rem;

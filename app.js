@@ -43,10 +43,18 @@
   // ═══════════════════════════════════════════════
   // 초기화
   // ═══════════════════════════════════════════════
-  function init() {
+  let availableDates = [];
+
+  async function init() {
     const today = formatDate(new Date());
     datePicker.value = today;
     datePicker.max = today;
+
+    // 사용 가능한 날짜 목록 로드
+    try {
+      const resp = await fetch("output/dates.json");
+      if (resp.ok) availableDates = await resp.json();
+    } catch (e) { /* 무시 */ }
 
     // 이벤트
     datePicker.addEventListener("change", () => loadData(datePicker.value));
@@ -59,8 +67,10 @@
       btn.addEventListener("click", () => switchSubTab(btn.dataset.sub));
     });
 
-    // 첫 로드
-    loadData(today);
+    // 첫 로드: 오늘 데이터 없으면 가장 최근 날짜 로드
+    const startDate = availableDates.includes(today) ? today : (availableDates[0] || today);
+    datePicker.value = startDate;
+    loadData(startDate);
   }
 
   // ═══════════════════════════════════════════════
@@ -225,6 +235,12 @@
       ? `<a href="${esc(item.url)}" target="_blank" rel="noopener">${esc(item.title)}</a>`
       : esc(item.title);
 
+    // APA 인용 (학술지만)
+    const isAcademic = currentSection === "academic";
+    const apaCitationHtml = item.apa_citation
+      ? `<div class="card__apa">${formatApa(item.apa_citation)}</div>`
+      : "";
+
     card.innerHTML = `
       <div class="card__header">
         <h3 class="card__title">${titleHtml}</h3>
@@ -234,7 +250,7 @@
         </div>
       </div>
 
-      <div class="card__meta">${metaHtml}</div>
+      ${isAcademic ? apaCitationHtml : `<div class="card__meta">${metaHtml}</div>`}
 
       <div class="card__summary">${esc(item.summary)}</div>
 
@@ -328,7 +344,18 @@
 
   function formatImplications(text) {
     if (!text) return "";
-    return esc(text).replace(/\n/g, "<br>");
+    // [관련업무], [정책방향], [참고사항] 라벨을 볼드 처리
+    return esc(text)
+      .replace(/\[관련업무\]/g, '<strong class="impl-label impl-label--duty">[관련업무]</strong>')
+      .replace(/\[정책방향\]/g, '<strong class="impl-label impl-label--policy">[정책방향]</strong>')
+      .replace(/\[참고사항\]/g, '<strong class="impl-label impl-label--note">[참고사항]</strong>')
+      .replace(/\n/g, "<br>");
+  }
+
+  function formatApa(text) {
+    if (!text) return "";
+    // 이탤릭 처리: *text* → <em>text</em>
+    return esc(text).replace(/\*([^*]+)\*/g, "<em>$1</em>");
   }
 
   function showLoading() {

@@ -441,14 +441,28 @@ class AcademicCollector:
                     if self.history.is_used("international", identifier):
                         continue
 
+                    author_list = doc.get("author", [])
+                    author_str = ", ".join(author_list[:3])
+                    pub_year = str(doc.get("publicationdateyear", ""))
+                    source = doc.get("source", "")
+
+                    # APA 인용 생성
+                    apa_authors = ", ".join(author_list[:6])
+                    if len(author_list) > 6:
+                        apa_authors += f", ... {author_list[-1]}"
+                    apa_citation = f"{apa_authors} ({pub_year}). {title}. *{source}*." if source else f"{apa_authors} ({pub_year}). {title}."
+                    if eric_id:
+                        apa_citation += f" https://eric.ed.gov/?id={eric_id}"
+
                     all_articles.append({
                         "title": title,
                         "url": url,
-                        "source": doc.get("source", ""),
-                        "author": ", ".join(doc.get("author", [])[:3]),
-                        "published_date": doc.get("publicationdateyear", ""),
+                        "source": source,
+                        "author": author_str,
+                        "published_date": pub_year,
                         "body_preview": doc.get("description", "")[:1000],
                         "identifier": identifier,
+                        "apa_citation": apa_citation,
                     })
                 time.sleep(0.3)
             except Exception as e:
@@ -492,26 +506,49 @@ class AcademicCollector:
                     if not titles:
                         continue
                     title = titles[0]
-                    doi = item.get("DOI", "")
+                    # 한글 제목 우선 (original-title 필드)
+                    orig_titles = item.get("original-title", [])
+                    ko_title = ""
+                    for ot in orig_titles:
+                        if any(ord(c) >= 0xAC00 and ord(c) <= 0xD7A3 for c in ot):
+                            ko_title = ot
+                            break
+                    display_title = ko_title or title
 
+                    doi = item.get("DOI", "")
                     if doi in seen_dois or (not doi and title in seen_dois):
                         continue
                     seen_dois.add(doi or title)
 
-                    # 중복 체크 (이력)
                     identifier = doi or title
                     if self.history.is_used("domestic", identifier):
                         continue
 
-                    # 저자
+                    # 저자 (APA: 성, 이름 이니셜)
                     authors = item.get("author", [])
                     author_str = ", ".join(
                         f"{a.get('given', '')} {a.get('family', '')}".strip()
                         for a in authors[:3]
                     )
+                    # APA 저자 형식: 성, 이름이니셜.
+                    apa_authors = []
+                    for a in authors[:6]:
+                        family = a.get("family", "")
+                        given = a.get("given", "")
+                        if family and given:
+                            initials = ". ".join(g[0] for g in given.split() if g) + "."
+                            apa_authors.append(f"{family}, {initials}")
+                        elif family:
+                            apa_authors.append(family)
+                    if len(authors) > 6:
+                        apa_authors = apa_authors[:6] + ["... " + apa_authors[-1]]
+                    apa_author_str = ", ".join(apa_authors) if apa_authors else ""
 
                     # 학술지명
                     journal = (item.get("container-title") or [""])[0]
+                    volume = item.get("volume", "")
+                    issue = item.get("issue", "")
+                    pages = item.get("page", "")
 
                     # 날짜
                     deposited = item.get("deposited", {}).get("date-parts", [[]])[0]
@@ -519,6 +556,22 @@ class AcademicCollector:
                     published = item.get("published-print", item.get("published-online", {}))
                     pub_parts = published.get("date-parts", [[]])[0] if published else []
                     pub_date = "-".join(str(d) for d in pub_parts) if pub_parts else ""
+                    pub_year = str(pub_parts[0]) if pub_parts else (str(deposited[0]) if deposited else "")
+
+                    # APA 인용 생성
+                    apa_parts = []
+                    if apa_author_str:
+                        apa_parts.append(apa_author_str)
+                    apa_parts.append(f"({pub_year})." if pub_year else "(n.d.).")
+                    apa_parts.append(f"{display_title}.")
+                    if journal:
+                        vol_info = f", {volume}" if volume else ""
+                        issue_info = f"({issue})" if issue else ""
+                        page_info = f", {pages}" if pages else ""
+                        apa_parts.append(f"*{journal}*{vol_info}{issue_info}{page_info}.")
+                    if doi:
+                        apa_parts.append(f"https://doi.org/{doi}")
+                    apa_citation = " ".join(apa_parts)
 
                     # 초록
                     abstract = item.get("abstract", "")
@@ -528,15 +581,17 @@ class AcademicCollector:
                     url = f"https://doi.org/{doi}" if doi else ""
 
                     all_articles.append({
-                        "title": title,
+                        "title": display_title,
+                        "original_title": title if ko_title else "",
                         "url": url,
                         "source": journal,
                         "author": author_str,
-                        "published_date": pub_date or dep_date,
+                        "published_date": pub_year or pub_date or dep_date,
                         "deposited_date": dep_date,
-                        "body_preview": abstract or title,
+                        "body_preview": abstract or display_title,
                         "identifier": identifier,
                         "is_yesterday": dep_date == yesterday,
+                        "apa_citation": apa_citation,
                     })
                 time.sleep(0.3)
             except Exception as e:
@@ -603,8 +658,14 @@ class GeminiAnalyzer:
 ## 자료
 {entries}
 
+## 시사점 작성 형식
+- 관련 업무를 간략히 명시
+- 마련해야 할 정책 방향 제시
+- 정책 추진 시 참고사항 포함
+- 핵심적이고 실행 가능한 내용 중심으로 작성
+
 ## JSON만 출력 (마크다운 코드블록 없이, 순수 JSON 배열만)
-[{{"index":0,"score":4.5,"summary":"3~5문장 요약","implications":"팀 업무 기준 시사점"}}]"""
+[{{"index":0,"score":4.5,"summary":"3~5문장 요약","implications":"[관련업무] 업무명\\n[정책방향] 내용\\n[참고사항] 내용"}}]"""
 
         return self._call_gemini(prompt, articles, "뉴스", max_items=3)
 
@@ -631,8 +692,14 @@ class GeminiAnalyzer:
 ## 자료
 {entries}
 
+## 시사점 작성 형식
+- 관련 업무를 간략히 명시
+- 마련해야 할 정책 방향 제시
+- 정책 추진 시 참고사항 포함
+- 핵심적이고 실행 가능한 내용 중심으로 작성
+
 ## JSON만 출력 (마크다운 코드블록 없이, 순수 JSON 배열만)
-[{{"index":0,"score":4.5,"summary":"3~5문장 요약","implications":"팀 업무 기준 시사점"}}]"""
+[{{"index":0,"score":4.5,"summary":"3~5문장 요약","implications":"[관련업무] 업무명\\n[정책방향] 내용\\n[참고사항] 내용"}}]"""
 
         return self._call_gemini(prompt, articles, category, max_items=3)
 
@@ -666,8 +733,14 @@ class GeminiAnalyzer:
 ## 자료
 {entries}
 
+## 시사점 작성 형식
+- 관련 업무를 간략히 명시
+- 마련해야 할 정책 방향 제시
+- 정책 추진 시 참고사항 포함
+- 핵심적이고 실행 가능한 내용 중심으로 작성
+
 ## JSON만 출력 (마크다운 코드블록 없이, 순수 JSON 배열만)
-[{{"index":0,"score":4.5,"summary":"연구결과 핵심내용 4~6문장 요약","implications":"AI미래교육팀에게 주는 시사점"}}]"""
+[{{"index":0,"score":4.5,"summary":"연구결과 핵심내용 4~6문장 요약","implications":"[관련업무] 업무명\\n[정책방향] 내용\\n[참고사항] 내용"}}]"""
 
         return self._call_gemini(prompt, articles, category, max_items=max_items)
 
@@ -690,7 +763,7 @@ class GeminiAnalyzer:
                 if r.get("score", 0) < 4.0:
                     continue
                 a = articles[idx]
-                analyzed.append({
+                entry = {
                     "title": a["title"],
                     "url": a.get("url", ""),
                     "source": a["source"],
@@ -699,7 +772,12 @@ class GeminiAnalyzer:
                     "summary": r.get("summary", ""),
                     "score": round(r.get("score", 0), 1),
                     "implications": r.get("implications", ""),
-                })
+                }
+                if a.get("apa_citation"):
+                    entry["apa_citation"] = a["apa_citation"]
+                if a.get("identifier"):
+                    entry["identifier"] = a["identifier"]
+                analyzed.append(entry)
                 if len(analyzed) >= max_items:
                     break
             logger.info(f"  [{label}] 분석 완료: {len(analyzed)}건 선별")
@@ -864,6 +942,22 @@ def main():
     with open(out_file, "w", encoding="utf-8") as f:
         json.dump(result, f, ensure_ascii=False, indent=2)
     logger.info(f"저장 완료: {out_file}")
+
+    # ── 날짜 인덱스 갱신 ──
+    index_file = OUTPUT_DIR / "dates.json"
+    existing_dates = []
+    if index_file.exists():
+        try:
+            with open(index_file, "r", encoding="utf-8") as f:
+                existing_dates = json.load(f)
+        except Exception:
+            pass
+    if str(TODAY) not in existing_dates:
+        existing_dates.append(str(TODAY))
+        existing_dates.sort(reverse=True)
+    with open(index_file, "w", encoding="utf-8") as f:
+        json.dump(existing_dates, f)
+    logger.info(f"날짜 인덱스 갱신: {len(existing_dates)}개 날짜")
 
     # ── 이메일 알림 ──
     counts = {
