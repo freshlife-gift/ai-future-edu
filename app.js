@@ -1,15 +1,9 @@
 /**
  * AI 미래교육 지식의 창 — 프론트엔드 로직
- * ─────────────────────────────────────
- * - JSON 데이터 로드 (output/YYYY-MM-DD.json)
- * - 탭 전환 · 학술지 서브탭 · 날짜 변경
- * - 카드 렌더링 · 아코디언 · 스크롤 애니메이션
  */
-
 (() => {
   "use strict";
 
-  // ── DOM refs ──
   const $ = (sel) => document.querySelector(sel);
   const $$ = (sel) => document.querySelectorAll(sel);
 
@@ -24,13 +18,15 @@
   const tabBtns        = $$(".tab-btn");
   const subTabNav      = $("#subTabNav");
   const subTabBtns     = $$(".sub-tab-btn");
+  const searchInput    = $("#searchInput");
+  const searchClear    = $("#searchClear");
 
-  // ── 상태 ──
   let currentData = null;
   let currentSection = "news";
   let currentSubSection = "academic_domestic";
+  let availableDates = [];
+  let searchQuery = "";
 
-  // ── 섹션 메타 ──
   const SECTION_META = {
     news:          { icon: "📰", label: "뉴스기사",   sourceLabel: "📌 출처: 서울시교육청 오늘의 뉴스 (sen.go.kr)" },
     global_trends: { icon: "🌏", label: "해외동향",   sourceLabel: "📌 출처: KEDI 교육정책네트워크 (edpolicy.kedi.re.kr)" },
@@ -43,31 +39,33 @@
   // ═══════════════════════════════════════════════
   // 초기화
   // ═══════════════════════════════════════════════
-  let availableDates = [];
-
   async function init() {
     const today = formatDate(new Date());
     datePicker.value = today;
     datePicker.max = today;
 
-    // 사용 가능한 날짜 목록 로드
     try {
       const resp = await fetch("output/dates.json");
       if (resp.ok) availableDates = await resp.json();
     } catch (e) { /* 무시 */ }
 
-    // 이벤트
     datePicker.addEventListener("change", () => loadData(datePicker.value));
+    tabBtns.forEach((btn) => btn.addEventListener("click", () => switchTab(btn.dataset.section)));
+    subTabBtns.forEach((btn) => btn.addEventListener("click", () => switchSubTab(btn.dataset.sub)));
 
-    tabBtns.forEach((btn) => {
-      btn.addEventListener("click", () => switchTab(btn.dataset.section));
+    // 검색 이벤트
+    searchInput.addEventListener("input", () => {
+      searchQuery = searchInput.value.trim().toLowerCase();
+      searchClear.style.display = searchQuery ? "block" : "none";
+      renderCurrentSection();
+    });
+    searchClear.addEventListener("click", () => {
+      searchInput.value = "";
+      searchQuery = "";
+      searchClear.style.display = "none";
+      renderCurrentSection();
     });
 
-    subTabBtns.forEach((btn) => {
-      btn.addEventListener("click", () => switchSubTab(btn.dataset.sub));
-    });
-
-    // 첫 로드: 오늘 데이터 없으면 가장 최근 날짜 로드
     const startDate = availableDates.includes(today) ? today : (availableDates[0] || today);
     datePicker.value = startDate;
     loadData(startDate);
@@ -78,10 +76,8 @@
   // ═══════════════════════════════════════════════
   async function loadData(dateStr) {
     showLoading();
-
     try {
-      const url = `output/${dateStr}.json`;
-      const resp = await fetch(url);
+      const resp = await fetch(`output/${dateStr}.json`);
       if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
       currentData = await resp.json();
       renderPage();
@@ -102,44 +98,43 @@
   // ═══════════════════════════════════════════════
   function renderPage() {
     if (!currentData) return;
-
     hideAll();
 
-    // 업데이트 시간
     if (currentData.updated_at) {
       const dt = new Date(currentData.updated_at);
       lastUpdated.textContent = `마지막 업데이트: ${dt.toLocaleString("ko-KR")}`;
     }
 
-    // 배지 카운트
+    updateBadges();
+    renderCurrentSection();
+  }
+
+  function updateBadges() {
+    if (!currentData) return;
     const sections = currentData.sections || {};
+
     for (const key of ["news", "global_trends", "policy", "reports"]) {
       const badge = $(`#badge-${key}`);
       if (badge) badge.textContent = (sections[key] || []).length;
     }
 
-    // 학술지 배지: 국내 + 해외 합계
+    const domesticCount = (sections.academic_domestic || []).length;
+    const internationalCount = (sections.academic_international || []).length;
     const academicBadge = $("#badge-academic");
-    if (academicBadge) {
-      const domesticCount = (sections.academic_domestic || []).length;
-      const internationalCount = (sections.academic_international || []).length;
-      academicBadge.textContent = domesticCount + internationalCount;
-    }
+    if (academicBadge) academicBadge.textContent = domesticCount + internationalCount;
 
-    // 학술지 서브탭 배지
     const domBadge = $("#badge-academic_domestic");
-    if (domBadge) domBadge.textContent = (sections.academic_domestic || []).length;
+    if (domBadge) domBadge.textContent = domesticCount;
     const intBadge = $("#badge-academic_international");
-    if (intBadge) intBadge.textContent = (sections.academic_international || []).length;
-
-    // 현재 섹션 렌더
-    renderCurrentSection();
+    if (intBadge) intBadge.textContent = internationalCount;
   }
 
   function renderCurrentSection() {
     if (currentSection === "academic") {
+      subTabNav.style.display = "block";
       renderSection(currentSubSection);
     } else {
+      subTabNav.style.display = "none";
       renderSection(currentSection);
     }
   }
@@ -147,10 +142,17 @@
   function renderSection(section) {
     if (!currentData) return;
 
-    const items = (currentData.sections || {})[section] || [];
+    let items = (currentData.sections || {})[section] || [];
     const meta = SECTION_META[section];
 
-    // 출처 안내
+    // 검색 필터
+    if (searchQuery) {
+      items = items.filter((item) => {
+        const text = `${item.title} ${item.summary} ${item.source} ${item.author} ${item.implications || ""}`.toLowerCase();
+        return text.includes(searchQuery);
+      });
+    }
+
     if (meta && meta.sourceLabel) {
       filterInfo.innerHTML = `<span>${meta.icon}</span> ${meta.sourceLabel}`;
       filterInfo.style.display = "inline-flex";
@@ -158,22 +160,15 @@
       filterInfo.style.display = "none";
     }
 
-    // 통계
     renderStats(section);
-
-    // 카드들
     cardsContainer.innerHTML = "";
+
     if (items.length === 0) {
       emptyState.style.display = "flex";
       return;
     }
     emptyState.style.display = "none";
-
-    items.forEach((item, i) => {
-      const card = createCard(item, i);
-      cardsContainer.appendChild(card);
-    });
-
+    items.forEach((item, i) => cardsContainer.appendChild(createCard(item, i)));
     observeCards();
   }
 
@@ -181,10 +176,7 @@
   // 통계 바
   // ═══════════════════════════════════════════════
   function renderStats(section) {
-    if (!currentData || !currentData.stats) {
-      statsBar.innerHTML = "";
-      return;
-    }
+    if (!currentData || !currentData.stats) { statsBar.innerHTML = ""; return; }
     const s = currentData.stats;
     const map = {
       news:                    { collected: s.news_collected, selected: s.news_selected },
@@ -195,18 +187,12 @@
       academic_international:  { collected: s.academic_international_collected, selected: s.academic_international_selected },
     };
     const info = map[section] || { collected: 0, selected: 0 };
-
-    const threshold = (section === "academic_domestic" || section === "academic_international")
-      ? "상위 2건" : "관련성 4점↑";
+    const threshold = (section === "academic_domestic" || section === "academic_international") ? "상위 선별" : "관련성 4점↑";
 
     statsBar.innerHTML = `
-      <div class="stat-chip">
-        🔍 수집 <span class="stat-chip__num">${info.collected || 0}건</span>
-      </div>
-      <div class="stat-chip">
-        ✅ 선별 <span class="stat-chip__num">${info.selected || 0}건</span>
-        <span style="color:var(--text-dim)">(${threshold})</span>
-      </div>
+      <div class="stat-chip">🔍 수집 <span class="stat-chip__num">${info.collected || 0}건</span></div>
+      <div class="stat-chip">✅ 선별 <span class="stat-chip__num">${info.selected || 0}건</span>
+        <span style="color:var(--text-dim)">(${threshold})</span></div>
     `;
   }
 
@@ -222,38 +208,30 @@
     const scoreClass = score >= 4.5 ? "score-badge--high" : "score-badge--mid";
     const stars = "★".repeat(Math.round(score)) + "☆".repeat(5 - Math.round(score));
 
-    // 출처 메타
     const metaParts = [];
     if (item.source) metaParts.push(`<span class="card__meta-item">🏢 ${esc(item.source)}</span>`);
     if (item.author) metaParts.push(`<span class="card__meta-item">✍️ ${esc(item.author)}</span>`);
-    if (item.published_date) metaParts.push(`<span class="card__meta-item">📅 ${esc(item.published_date)}</span>`);
+    if (item.published_date) metaParts.push(`<span class="card__meta-item">📅 ${esc(String(item.published_date))}</span>`);
     const metaHtml = metaParts.join('<span class="card__meta-divider"></span>');
 
-    // URL이 없거나 ScrapMaster URL이면 제목만 표시
     const hasUrl = item.url && !item.url.includes("scrapmaster");
     const titleHtml = hasUrl
       ? `<a href="${esc(item.url)}" target="_blank" rel="noopener">${esc(item.title)}</a>`
       : esc(item.title);
 
-    // APA 인용 (학술지만)
     const isAcademic = currentSection === "academic";
     const apaCitationHtml = item.apa_citation
-      ? `<div class="card__apa">${formatApa(item.apa_citation)}</div>`
-      : "";
+      ? `<div class="card__apa">${formatApa(item.apa_citation)}</div>` : "";
 
     card.innerHTML = `
       <div class="card__header">
         <h3 class="card__title">${titleHtml}</h3>
         <div class="score-badge ${scoreClass}" title="관련성 ${score}/5">
-          <span>${stars}</span>
-          <span>${score}</span>
+          <span>${stars}</span><span>${score}</span>
         </div>
       </div>
-
       ${isAcademic ? apaCitationHtml : `<div class="card__meta">${metaHtml}</div>`}
-
       <div class="card__summary">${esc(item.summary)}</div>
-
       ${item.implications ? `
       <div class="accordion" id="acc-${index}">
         <button class="accordion__trigger" onclick="toggleAccordion('acc-${index}')">
@@ -265,13 +243,9 @@
         </div>
       </div>` : ""}
     `;
-
     return card;
   }
 
-  // ═══════════════════════════════════════════════
-  // 아코디언
-  // ═══════════════════════════════════════════════
   window.toggleAccordion = function (id) {
     const el = document.getElementById(id);
     if (el) el.classList.toggle("accordion--open");
@@ -282,46 +256,25 @@
   // ═══════════════════════════════════════════════
   function switchTab(section) {
     currentSection = section;
-    tabBtns.forEach((btn) => {
-      btn.classList.toggle("tab-btn--active", btn.dataset.section === section);
-    });
-
-    // 학술지 서브탭 표시/숨기기
-    subTabNav.style.display = section === "academic" ? "block" : "none";
-
-    if (currentData) {
-      hideAll();
-      renderCurrentSection();
-    }
+    tabBtns.forEach((btn) => btn.classList.toggle("tab-btn--active", btn.dataset.section === section));
+    if (currentData) { hideAll(); renderCurrentSection(); }
   }
 
   function switchSubTab(sub) {
     currentSubSection = sub;
-    subTabBtns.forEach((btn) => {
-      btn.classList.toggle("sub-tab-btn--active", btn.dataset.sub === sub);
-    });
-
-    if (currentData) {
-      hideAll();
-      renderSection(sub);
-    }
+    subTabBtns.forEach((btn) => btn.classList.toggle("sub-tab-btn--active", btn.dataset.sub === sub));
+    if (currentData) { hideAll(); renderSection(sub); }
   }
 
   // ═══════════════════════════════════════════════
-  // IntersectionObserver (스크롤 애니메이션)
+  // IntersectionObserver
   // ═══════════════════════════════════════════════
   function observeCards() {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add("card--visible");
-            observer.unobserve(entry.target);
-          }
-        });
-      },
-      { threshold: 0.08, rootMargin: "0px 0px -40px 0px" }
-    );
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) { entry.target.classList.add("card--visible"); observer.unobserve(entry.target); }
+      });
+    }, { threshold: 0.08, rootMargin: "0px 0px -40px 0px" });
     $$(".card").forEach((c) => observer.observe(c));
   }
 
@@ -329,10 +282,7 @@
   // 유틸
   // ═══════════════════════════════════════════════
   function formatDate(d) {
-    const y = d.getFullYear();
-    const m = String(d.getMonth() + 1).padStart(2, "0");
-    const day = String(d.getDate()).padStart(2, "0");
-    return `${y}-${m}-${day}`;
+    return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`;
   }
 
   function esc(str) {
@@ -344,7 +294,6 @@
 
   function formatImplications(text) {
     if (!text) return "";
-    // [관련업무], [정책방향], [참고사항] 라벨을 볼드 처리
     return esc(text)
       .replace(/\[관련업무\]/g, '<strong class="impl-label impl-label--duty">[관련업무]</strong>')
       .replace(/\[정책방향\]/g, '<strong class="impl-label impl-label--policy">[정책방향]</strong>')
@@ -354,14 +303,10 @@
 
   function formatApa(text) {
     if (!text) return "";
-    // 이탤릭 처리: *text* → <em>text</em>
     return esc(text).replace(/\*([^*]+)\*/g, "<em>$1</em>");
   }
 
-  function showLoading() {
-    hideAll();
-    loadingState.style.display = "flex";
-  }
+  function showLoading() { hideAll(); loadingState.style.display = "flex"; }
 
   function hideAll() {
     loadingState.style.display = "none";
@@ -393,22 +338,14 @@
     const input = document.getElementById("lockPassword");
     const error = document.getElementById("lockError");
 
-    if (sessionStorage.getItem("auth") === "1") {
-      unlock();
-      return;
-    }
+    if (sessionStorage.getItem("auth") === "1") { unlock(); return; }
 
     if (form) {
       form.addEventListener("submit", async (e) => {
         e.preventDefault();
         const hash = await sha1(input.value);
-        if (hash === PASS_HASH) {
-          unlock();
-        } else {
-          error.style.display = "block";
-          input.value = "";
-          input.focus();
-        }
+        if (hash === PASS_HASH) { unlock(); }
+        else { error.style.display = "block"; input.value = ""; input.focus(); }
       });
     }
   });

@@ -330,7 +330,7 @@ class KEDICollector:
         return ""
 
     def collect(self, category: str) -> tuple:
-        """카테고리별 수집 → (전체수, 기사목록) 반환"""
+        """카테고리별 수집 → (전체수, 기사목록) 반환. 전날 업로드 자료 우선"""
         info = self.BOARDS[category]
         board_id = info["id"]
         label = info["label"]
@@ -341,6 +341,15 @@ class KEDICollector:
             articles = self._scrape_board_cards(board_id, label)
 
         total = len(articles)
+
+        # 전날 업로드 자료 필터링
+        yesterday_str = str(YESTERDAY).replace("-", ".")
+        yesterday_articles = [a for a in articles if yesterday_str in a.get("published_date", "")]
+        if yesterday_articles:
+            logger.info(f"  [{label}] 전날({YESTERDAY}) 자료: {len(yesterday_articles)}건")
+            articles = yesterday_articles + [a for a in articles if a not in yesterday_articles]
+        else:
+            logger.info(f"  [{label}] 전날 자료 없음 → 최신 자료 활용")
 
         # 상세 본문 추출 (상위 10건만, 토큰 절약)
         for a in articles[:10]:
@@ -820,7 +829,8 @@ class EmailSender:
 
         html = f"""<html><body style="font-family:'Noto Sans KR',sans-serif;padding:20px">
 <h2 style="color:#4f46e5">AI 미래교육 지식의 창</h2>
-<p><strong>{date_str}</strong> 자료가 업데이트되었습니다. (총 {total}건)</p>
+<p>AI 미래교육 지식의 창에 자료가 업로드 되었습니다.</p>
+<p><strong>{date_str}</strong> 자료 (총 {total}건)</p>
 <table style="border-collapse:collapse;margin:16px 0">
 <tr style="background:#f3f4f6"><th style="padding:8px 16px;border:1px solid #e5e7eb">카테고리</th>
 <th style="padding:8px 16px;border:1px solid #e5e7eb">건수</th></tr>

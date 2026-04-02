@@ -305,6 +305,38 @@ body {
   min-height: 60vh;
 }
 
+/* ── 검색 ── */
+.search-wrap {
+  position: relative;
+  margin-bottom: var(--space-md);
+}
+.search-input {
+  width: 100%;
+  padding: 10px 40px 10px 16px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--bg-card);
+  color: var(--text);
+  font-family: var(--font);
+  font-size: .88rem;
+  outline: none;
+  transition: border-color .2s;
+}
+.search-input:focus { border-color: #6366f1; }
+.search-input::placeholder { color: var(--text-dim); }
+.search-clear {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 4px;
+}
+
 /* ── 필터 안내 ── */
 .filter-info {
   display: inline-flex;
@@ -665,16 +697,32 @@ body {
     align-items: flex-start;
     gap: var(--space-sm);
   }
+  .date-picker-wrap { width: 100%; }
+  .date-picker { width: 100%; }
   .tab-nav { top: 0; position: relative; }
   .sub-tab-nav { top: 0; position: relative; }
-  .card__header { flex-direction: column; }
+  .tab-nav__inner { padding: var(--space-xs) var(--space-md); }
+  .card__header { flex-direction: column; gap: var(--space-sm); }
   .score-badge { align-self: flex-start; }
   .stats-bar { gap: var(--space-sm); }
+  .card__summary { font-size: .84rem; padding: var(--space-sm); }
+  .card__apa { font-size: .75rem; }
+  .accordion__trigger { font-size: .78rem; }
+  .accordion__content { font-size: .8rem; }
+  .lock-box { min-width: auto; width: 90vw; padding: var(--space-xl) var(--space-md); }
 }
 
 @media (max-width: 480px) {
   .header__title { font-size: 1.1rem; }
-  .tab-btn { padding: 6px 12px; font-size: .75rem; }
-  .card { padding: var(--space-md); }
-  .main { padding: var(--space-md) var(--space-md) var(--space-xl); }
+  .header__icon { font-size: 1.8rem; }
+  .tab-btn { padding: 6px 10px; font-size: .72rem; gap: 3px; }
+  .tab-btn__icon { font-size: .85rem; }
+  .tab-btn__badge { min-width: 18px; height: 18px; font-size: .65rem; }
+  .sub-tab-btn { padding: 5px 12px; font-size: .72rem; }
+  .card { padding: var(--space-sm) var(--space-md); }
+  .card__title { font-size: .95rem; }
+  .main { padding: var(--space-md) var(--space-sm) var(--space-xl); }
+  .search-input { font-size: .82rem; padding: 8px 36px 8px 12px; }
+  .filter-info { font-size: .72rem; padding: 5px 12px; }
+  .stat-chip { font-size: .7rem; padding: 4px 10px; }
 }
