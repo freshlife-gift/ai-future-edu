@@ -19,12 +19,18 @@
   let query = "";
 
   const META = {
-    news: { icon: "📰", label: "뉴스기사" },
-    global_trends: { icon: "🌏", label: "해외동향" },
-    policy: { icon: "📋", label: "정책" },
-    reports: { icon: "📚", label: "연구보고서" },
-    academic_domestic: { icon: "📖", label: "국내학술지" },
-    academic_international: { icon: "🌐", label: "해외학술지" },
+    news: { icon: "📰", label: "뉴스기사",
+      sources: "서울시교육청 오늘의 뉴스 · 네이버 뉴스" },
+    global_trends: { icon: "🌏", label: "해외동향",
+      sources: 'KEDI 교육정책네트워크 · <a href="https://www.unesco.org/en/education" target="_blank">UNESCO</a> · <a href="https://www.oecd.org/en/about/directorates/directorate-for-education-and-skills.html" target="_blank">OECD</a>' },
+    policy: { icon: "📋", label: "정책",
+      sources: "KEDI 교육정책네트워크" },
+    reports: { icon: "📚", label: "연구보고서",
+      sources: "KEDI 교육정책네트워크" },
+    academic_domestic: { icon: "📖", label: "국내학술지",
+      sources: "CrossRef (국내 학술지)" },
+    academic_international: { icon: "🌐", label: "해외학술지",
+      sources: "ERIC (Education Resources Information Center)" },
   };
 
   async function init() {
@@ -108,6 +114,17 @@
 
     cardsContainer.innerHTML = "";
     emptyState.style.display = "none";
+
+    // 출처 표시 (검색 모드가 아닐 때)
+    if (!query) {
+      const meta = META[key];
+      if (meta && meta.sources) {
+        const srcDiv = document.createElement("div");
+        srcDiv.className = "source-info";
+        srcDiv.innerHTML = `<span>${meta.icon}</span> 출처: ${meta.sources}`;
+        cardsContainer.appendChild(srcDiv);
+      }
+    }
 
     if (items.length === 0) {
       emptyState.style.display = "flex";

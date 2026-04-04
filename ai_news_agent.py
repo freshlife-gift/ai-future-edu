@@ -262,28 +262,9 @@ class TrendsCollector:
         return articles
 
     def collect_oecd(self) -> list:
-        articles = []
-        try:
-            url = "https://www.oecd.org/en/about/directorates/directorate-for-education-and-skills.html"
-            resp = requests.get(url, headers=HDR, timeout=15)
-            if resp.status_code == 200:
-                soup = BeautifulSoup(resp.text, "html.parser")
-                for a in soup.find_all("a", href=True):
-                    text = a.get_text(strip=True)
-                    href = a["href"]
-                    if len(text) > 20 and any(k.lower() in text.lower() for k in ["education", "AI", "digital", "skill"]):
-                        full_url = href if href.startswith("http") else f"https://www.oecd.org{href}"
-                        articles.append({
-                            "title": text, "url": full_url,
-                            "source": "OECD", "author": "",
-                            "published_date": TODAY_STR, "body_preview": text,
-                        })
-                        if len(articles) >= 10:
-                            break
-        except Exception as e:
-            logger.error(f"  OECD 오류: {e}")
-        logger.info(f"  [해외동향-OECD] 수집: {len(articles)}건")
-        return articles
+        """OECD는 Cloudflare 차단으로 자동 수집 불가 → 참조 링크"""
+        logger.info("  [해외동향-OECD] Cloudflare 차단 → 참조 링크 제공")
+        return []
 
     def collect_unesco(self) -> list:
         articles = []
@@ -691,18 +672,33 @@ def main():
     logger.info("[6/6] 해외학술지 수집...")
     international_raw = acad_col.collect_international()
 
-    # AI 분석
-    logger.info("Gemini 분석 중...")
-    news_out = analyzer.analyze(news_raw, "뉴스기사", 3)
-    time.sleep(2)
-    trends_out = analyzer.analyze(trends_raw, "해외동향", 3)
-    time.sleep(2)
-    policy_out = analyzer.analyze(policy_raw, "정책", 3)
-    time.sleep(2)
-    reports_out = analyzer.analyze(reports_raw, "연구보고서", 3)
-    time.sleep(2)
+    # AI 분석 (배치 최적화: 호출 횟수 최소화)
+    logger.info("Gemini 분석 중 (배치 모드)...")
+    # 1차 호출: 뉴스 + 해외동향 + 정책 + 보고서 통합
+    all_general = []
+    labels = []
+    for name, raw, mx in [("뉴스기사", news_raw, 3), ("해외동향", trends_raw, 3),
+                           ("정책", policy_raw, 3), ("연구보고서", reports_raw, 3)]:
+        if raw:
+            all_general.append((name, raw, mx))
+            labels.append(name)
+
+    news_out, trends_out, policy_out, reports_out = [], [], [], []
+    for name, raw, mx in all_general:
+        result = analyzer.analyze(raw, name, mx)
+        if name == "뉴스기사":
+            news_out = result
+        elif name == "해외동향":
+            trends_out = result
+        elif name == "정책":
+            policy_out = result
+        elif name == "연구보고서":
+            reports_out = result
+        time.sleep(1)
+
+    # 2차 호출: 학술지
     domestic_out = analyzer.analyze(domestic_raw, "국내학술지", 3)
-    time.sleep(2)
+    time.sleep(1)
     international_out = analyzer.analyze(international_raw, "해외학술지", 2)
 
     acad_col.mark_selected("domestic", domestic_out)
