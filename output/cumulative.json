@@ -1,14 +1,5 @@
 {
-  "date": "2026-04-04",
-  "updated_at": "2026-04-04T18:00:53.952948+09:00",
-  "new_counts": {
-    "news": 1,
-    "global_trends": 3,
-    "policy": 0,
-    "reports": 0,
-    "academic_domestic": 2,
-    "academic_international": 2
-  },
+  "last_updated": "2026-04-04T18:00:53.952948+09:00",
   "sections": {
     "news": [
       {

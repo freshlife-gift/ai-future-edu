@@ -305,10 +305,21 @@ body {
   min-height: 60vh;
 }
 
-/* ── 검색 ── */
-.search-wrap {
+/* ── 검색 바 (탭 상단) ── */
+.search-bar {
+  position: sticky;
+  top: 68px;
+  z-index: 95;
+  background: rgba(6, 10, 24, 0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--border);
+}
+.search-bar__inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: var(--space-sm) var(--space-lg);
   position: relative;
-  margin-bottom: var(--space-md);
 }
 .search-input {
   width: 100%;
@@ -326,7 +337,7 @@ body {
 .search-input::placeholder { color: var(--text-dim); }
 .search-clear {
   position: absolute;
-  right: 12px;
+  right: calc(var(--space-lg) + 12px);
   top: 50%;
   transform: translateY(-50%);
   background: none;
@@ -334,8 +345,59 @@ body {
   color: var(--text-muted);
   font-size: 1rem;
   cursor: pointer;
-  padding: 4px;
 }
+
+/* ── NEW 배지 ── */
+.new-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 4px;
+  background: linear-gradient(135deg, #ef4444, #f97316);
+  color: #fff;
+  font-size: .65rem;
+  font-weight: 700;
+  letter-spacing: .5px;
+  vertical-align: middle;
+  margin-left: 6px;
+  animation: pulse 1.5s ease infinite;
+}
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: .7; }
+}
+
+/* ── 카드 메타 행 ── */
+.card__meta-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-md);
+  font-size: .78rem;
+  color: var(--text-dim);
+}
+.card__meta { display: flex; align-items: center; gap: 4px; flex-wrap: wrap; }
+.dot { opacity: .4; }
+.card__date {
+  margin-left: auto;
+  font-size: .72rem;
+  color: var(--text-dim);
+  opacity: .7;
+}
+.card__section-tag {
+  padding: 2px 8px;
+  border-radius: 4px;
+  background: rgba(99,102,241,.15);
+  color: #a5b4fc;
+  font-size: .7rem;
+  font-weight: 600;
+}
+
+/* ── 시사점 라벨 ── */
+.il { font-weight: 700; margin-right: 4px; }
+.il--d { color: #6366f1; }
+.il--p { color: #06b6d4; }
+.il--n { color: #f59e0b; }
 
 /* ── 필터 안내 ── */
 .filter-info {

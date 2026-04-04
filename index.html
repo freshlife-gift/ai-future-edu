@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AI 미래교육 지식의 창</title>
-  <meta name="description" content="서울특별시교육청 AI미래교육팀을 위한 AI 교육 뉴스·동향·정책 일일 큐레이션 서비스">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧠</text></svg>">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,9 +12,7 @@
 </head>
 <body>
 
-  <!-- ══════════════════════════════════════════════════════
-       비밀번호 잠금 화면
-       ══════════════════════════════════════════════════════ -->
+  <!-- 잠금 -->
   <div id="lockScreen" class="lock-screen">
     <div class="lock-box">
       <span class="lock-box__icon">🔒</span>
@@ -23,21 +20,18 @@
       <p class="lock-box__sub">서울특별시교육청 AI미래교육팀 내부용</p>
       <form id="lockForm" class="lock-form" onsubmit="return false">
         <input type="password" id="lockPassword" class="lock-input" placeholder="비밀번호 입력" autocomplete="off">
-        <button type="submit" class="lock-btn" id="lockSubmit">입장</button>
+        <button type="submit" class="lock-btn">입장</button>
       </form>
       <p id="lockError" class="lock-error" style="display:none">비밀번호가 올바르지 않습니다</p>
     </div>
   </div>
 
-  <!-- ── 배경 장식 ── -->
   <div class="bg-orb bg-orb--1"></div>
   <div class="bg-orb bg-orb--2"></div>
   <div class="bg-orb bg-orb--3"></div>
 
-  <!-- ══════════════════════════════════════════════════════
-       헤더
-       ══════════════════════════════════════════════════════ -->
-  <header id="header" class="header">
+  <!-- 헤더 -->
+  <header class="header">
     <div class="header__inner">
       <div class="header__brand">
         <span class="header__icon">🧠</span>
@@ -46,106 +40,67 @@
           <p class="header__sub">서울특별시교육청 창의미래교육과 AI미래교육팀</p>
         </div>
       </div>
-      <div class="header__controls">
-        <div class="date-picker-wrap">
-          <label for="datePicker" class="date-picker-label">📅 날짜 선택</label>
-          <input type="date" id="datePicker" class="date-picker">
-        </div>
-        <p class="header__updated" id="lastUpdated">업데이트 확인 중...</p>
-      </div>
+      <p class="header__updated" id="lastUpdated">업데이트 확인 중...</p>
     </div>
   </header>
 
-  <!-- ══════════════════════════════════════════════════════
-       탭 네비게이션
-       ══════════════════════════════════════════════════════ -->
-  <nav id="tabNav" class="tab-nav">
+  <!-- 검색 (탭 위) -->
+  <div class="search-bar">
+    <div class="search-bar__inner">
+      <input type="text" id="searchInput" class="search-input" placeholder="🔍 키워드로 전체 자료 검색...">
+      <button id="searchClear" class="search-clear" style="display:none">✕</button>
+    </div>
+  </div>
+
+  <!-- 탭 (순서: 뉴스 > 학술지 > 해외동향 > 정책 > 연구보고서) -->
+  <nav class="tab-nav">
     <div class="tab-nav__inner">
-      <button class="tab-btn tab-btn--active" data-section="news" id="tab-news">
+      <button class="tab-btn tab-btn--active" data-section="news">
         <span class="tab-btn__icon">📰</span> 뉴스기사
         <span class="tab-btn__badge" id="badge-news">0</span>
       </button>
-      <button class="tab-btn" data-section="global_trends" id="tab-global_trends">
+      <button class="tab-btn" data-section="academic">
+        <span class="tab-btn__icon">📖</span> 학술지
+        <span class="tab-btn__badge" id="badge-academic">0</span>
+      </button>
+      <button class="tab-btn" data-section="global_trends">
         <span class="tab-btn__icon">🌏</span> 해외동향
         <span class="tab-btn__badge" id="badge-global_trends">0</span>
       </button>
-      <button class="tab-btn" data-section="policy" id="tab-policy">
+      <button class="tab-btn" data-section="policy">
         <span class="tab-btn__icon">📋</span> 정책
         <span class="tab-btn__badge" id="badge-policy">0</span>
       </button>
-      <button class="tab-btn" data-section="reports" id="tab-reports">
+      <button class="tab-btn" data-section="reports">
         <span class="tab-btn__icon">📚</span> 연구보고서
         <span class="tab-btn__badge" id="badge-reports">0</span>
-      </button>
-      <button class="tab-btn" data-section="academic" id="tab-academic">
-        <span class="tab-btn__icon">📖</span> 학술지
-        <span class="tab-btn__badge" id="badge-academic">0</span>
       </button>
     </div>
   </nav>
 
-  <!-- ══════════════════════════════════════════════════════
-       학술지 서브탭
-       ══════════════════════════════════════════════════════ -->
+  <!-- 학술지 서브탭 -->
   <nav id="subTabNav" class="sub-tab-nav" style="display:none">
     <div class="sub-tab-nav__inner">
-      <button class="sub-tab-btn sub-tab-btn--active" data-sub="academic_domestic" id="sub-tab-domestic">
-        📖 국내학술지
+      <button class="sub-tab-btn sub-tab-btn--active" data-sub="academic_domestic">📖 국내학술지
         <span class="sub-tab-btn__badge" id="badge-academic_domestic">0</span>
       </button>
-      <button class="sub-tab-btn" data-sub="academic_international" id="sub-tab-international">
-        🌐 해외학술지
+      <button class="sub-tab-btn" data-sub="academic_international">🌐 해외학술지
         <span class="sub-tab-btn__badge" id="badge-academic_international">0</span>
       </button>
     </div>
   </nav>
 
-  <!-- ══════════════════════════════════════════════════════
-       메인 콘텐츠
-       ══════════════════════════════════════════════════════ -->
-  <main id="main" class="main">
-    <!-- 검색 -->
-    <div class="search-wrap">
-      <input type="text" id="searchInput" class="search-input" placeholder="키워드로 자료 검색...">
-      <button id="searchClear" class="search-clear" style="display:none">✕</button>
-    </div>
-
-    <!-- 출처 안내 -->
-    <div id="filterInfo" class="filter-info"></div>
-
-    <!-- 통계 바 -->
-    <div id="statsBar" class="stats-bar"></div>
-
-    <!-- 기사 카드 영역 -->
+  <!-- 메인 -->
+  <main class="main">
     <div id="cardsContainer" class="cards-container"></div>
-
-    <!-- 로딩 -->
-    <div id="loadingState" class="state-msg state-msg--loading" style="display:none">
-      <div class="spinner"></div>
-      <p>자료를 불러오는 중...</p>
-    </div>
-
-    <!-- 빈 상태 -->
-    <div id="emptyState" class="state-msg state-msg--empty" style="display:none">
-      <span class="state-msg__icon">📭</span>
-      <p>해당 날짜의 자료가 없습니다</p>
-      <p class="state-msg__hint">다른 날짜를 선택해 보세요</p>
-    </div>
-
-    <!-- 에러 -->
-    <div id="errorState" class="state-msg state-msg--error" style="display:none">
-      <span class="state-msg__icon">⚠️</span>
-      <p id="errorMsg">데이터를 불러올 수 없습니다</p>
-    </div>
+    <div id="loadingState" class="state-msg" style="display:none"><div class="spinner"></div><p>자료를 불러오는 중...</p></div>
+    <div id="emptyState" class="state-msg" style="display:none"><span class="state-msg__icon">📭</span><p>해당 자료가 없습니다</p></div>
+    <div id="errorState" class="state-msg" style="display:none"><span class="state-msg__icon">⚠️</span><p id="errorMsg">데이터를 불러올 수 없습니다</p></div>
   </main>
 
-  <!-- ══════════════════════════════════════════════════════
-       푸터
-       ══════════════════════════════════════════════════════ -->
-  <footer id="footer" class="footer">
+  <footer class="footer">
     <p>서울특별시교육청 창의미래교육과 AI미래교육팀</p>
     <p class="footer__disclaimer">⚠ 본 페이지는 AI가 자동 분석한 결과이므로 참고용으로 활용해주세요.</p>
-    <p class="footer__sources">출처: 서울시교육청 오늘의 뉴스 · KEDI 교육정책네트워크 · ERIC · KCI</p>
     <p class="footer__copy">© 2026 AI 미래교육 지식의 창 · 매일 오전 6:30 자동 업데이트</p>
   </footer>
 
