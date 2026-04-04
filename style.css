@@ -306,13 +306,28 @@ body {
 }
 
 /* ── 검색 ── */
+.search-bar {
+  position: sticky;
+  top: 68px;
+  z-index: 95;
+  background: rgba(6, 10, 24, 0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--border);
+}
+.search-bar__inner {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: var(--space-sm) var(--space-lg);
+  position: relative;
+}
 .search-wrap {
   position: relative;
   margin-bottom: var(--space-md);
 }
 .search-input {
   width: 100%;
-  padding: 10px 40px 10px 16px;
+  padding: 10px 72px 10px 16px;
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
   background: var(--bg-card);

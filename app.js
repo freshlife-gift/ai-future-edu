@@ -219,6 +219,7 @@
     if (!t) return "";
     return esc(t)
       .replace(/\[관련업무\]/g, '<strong class="il il--d">[관련업무]</strong>')
+      .replace(/\[정책제언\]/g, '<strong class="il il--p">[정책제언]</strong>')
       .replace(/\[정책방향\]/g, '<strong class="il il--p">[정책제언]</strong>')
       .replace(/\[참고사항\]/g, '<strong class="il il--n">[참고사항]</strong>')
       .replace(/\n/g, "<br>");
