@@ -329,15 +329,21 @@ body {
   right: 44px;
   top: 50%;
   transform: translateY(-50%);
-  background: none;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--grad-primary);
   border: none;
-  font-size: 1.1rem;
+  border-radius: 50%;
+  color: #fff;
+  font-size: .85rem;
   cursor: pointer;
-  padding: 4px;
-  opacity: .6;
-  transition: opacity .2s;
+  opacity: .8;
+  transition: opacity .2s, transform .2s;
 }
-.search-btn:hover { opacity: 1; }
+.search-btn:hover { opacity: 1; transform: translateY(-50%) scale(1.1); }
 .search-clear {
   position: absolute;
   right: 14px;
@@ -408,6 +414,62 @@ body {
   text-underline-offset: 2px;
 }
 .source-info a:hover { color: #c7d2fe; }
+
+/* ── NEW 배지 (이미지 스타일) ── */
+.new-badge {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #ef4444 0%, #f97316 100%);
+  color: #fff;
+  font-size: .58rem;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  vertical-align: middle;
+  margin-left: 8px;
+  box-shadow: 0 2px 8px rgba(239,68,68,.4), 0 0 12px rgba(249,115,22,.3);
+  animation: newPulse 2s ease-in-out infinite;
+  text-shadow: 0 1px 2px rgba(0,0,0,.3);
+}
+@keyframes newPulse {
+  0%, 100% { box-shadow: 0 2px 8px rgba(239,68,68,.4), 0 0 12px rgba(249,115,22,.3); }
+  50% { box-shadow: 0 2px 16px rgba(239,68,68,.6), 0 0 20px rgba(249,115,22,.5); }
+}
+
+/* ── 카드 메타 행 ── */
+.card__meta-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-md);
+  font-size: .78rem;
+  color: var(--text-dim);
+}
+.card__meta { display: flex; align-items: center; gap: 4px; flex-wrap: wrap; }
+.dot { opacity: .4; }
+.card__date {
+  margin-left: auto;
+  font-size: .65rem;
+  color: var(--text-dim);
+  opacity: .5;
+  white-space: nowrap;
+}
+.card__section-tag {
+  padding: 2px 8px;
+  border-radius: 4px;
+  background: rgba(99,102,241,.15);
+  color: #a5b4fc;
+  font-size: .7rem;
+  font-weight: 600;
+}
+
+/* ── 시사점 라벨 ── */
+.il { font-weight: 700; margin-right: 4px; }
+.il--d { color: #818cf8; }
+.il--p { color: #22d3ee; }
+.il--n { color: #fbbf24; }
 
 /* ── 카드 그리드 ── */
 .cards-container {

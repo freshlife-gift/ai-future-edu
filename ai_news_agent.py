@@ -518,11 +518,11 @@ class GeminiAnalyzer:
 
 ## 시사점 작성 형식
 - [관련업무] 해당 업무를 간략히 명시
-- [정책방향] 마련해야 할 구체적 정책 방향
+- [정책제언] 마련해야 할 구체적 정책 방향
 - [참고사항] 정책 추진 시 참고할 핵심 포인트
 
 ## JSON만 출력 (마크다운 코드블록 없이)
-[{{"index":0,"score":4.5,"summary":"구체적 요약","implications":"[관련업무] 업무명\\n[정책방향] 내용\\n[참고사항] 내용"}}]"""
+[{{"index":0,"score":4.5,"summary":"구체적 요약","implications":"[관련업무] 업무명\\n[정책제언] 내용\\n[참고사항] 내용"}}]"""
 
         try:
             resp = self.model.generate_content(prompt)
