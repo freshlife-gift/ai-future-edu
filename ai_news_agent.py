@@ -611,24 +611,29 @@ def load_cumulative():
     }}
 
 
-def merge_cumulative(existing, new_items, section, max_keep=50):
-    """새 항목을 누적 데이터에 병합. 중복 제거, 최대 max_keep건 유지"""
+def merge_cumulative(existing, new_items, section, max_daily=5):
+    """새 항목을 하루 최대 max_daily건 추가. 기존 자료 유지. NEW는 오늘 것만."""
     current = existing.get("sections", {}).get(section, [])
     existing_ids = {_id(a["title"]) for a in current}
-    added = 0
-    for item in new_items:
-        item_id = _id(item["title"])
-        if item_id not in existing_ids:
-            item["is_new"] = True
-            current.insert(0, item)  # 최신 항목을 앞에
-            existing_ids.add(item_id)
-            added += 1
-    # 기존 항목 is_new 제거 (오늘 것만 NEW)
+
+    # 기존 항목 is_new 해제 (오늘 것만 NEW)
     for item in current:
         if item.get("collected_date") != TODAY_STR:
             item["is_new"] = False
-    # 최대 건수 유지
-    existing["sections"][section] = current[:max_keep]
+
+    # 신규 항목 추가 (하루 최대 max_daily건)
+    added = 0
+    for item in new_items:
+        if added >= max_daily:
+            break
+        item_id = _id(item["title"])
+        if item_id not in existing_ids:
+            item["is_new"] = True
+            current.insert(0, item)
+            existing_ids.add(item_id)
+            added += 1
+
+    existing["sections"][section] = current
     return added
 
 

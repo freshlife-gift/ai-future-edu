@@ -47,7 +47,8 @@
   <!-- 검색 (탭 위) -->
   <div class="search-bar">
     <div class="search-bar__inner">
-      <input type="text" id="searchInput" class="search-input" placeholder="🔍 키워드로 전체 자료 검색...">
+      <input type="text" id="searchInput" class="search-input" placeholder="키워드로 전체 자료 검색...">
+      <button id="searchBtn" class="search-btn" title="검색">🔍</button>
       <button id="searchClear" class="search-clear" style="display:none">✕</button>
     </div>
   </div>
@@ -92,6 +93,9 @@
 
   <!-- 메인 -->
   <main class="main">
+    <!-- 자료출처 안내 -->
+    <div id="sourceInfo" class="source-info" style="display:none"></div>
+
     <div id="cardsContainer" class="cards-container"></div>
     <div id="loadingState" class="state-msg" style="display:none"><div class="spinner"></div><p>자료를 불러오는 중...</p></div>
     <div id="emptyState" class="state-msg" style="display:none"><span class="state-msg__icon">📭</span><p>해당 자료가 없습니다</p></div>

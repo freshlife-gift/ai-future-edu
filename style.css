@@ -324,9 +324,23 @@ body {
 }
 .search-input:focus { border-color: #6366f1; }
 .search-input::placeholder { color: var(--text-dim); }
+.search-btn {
+  position: absolute;
+  right: 44px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  font-size: 1.1rem;
+  cursor: pointer;
+  padding: 4px;
+  opacity: .6;
+  transition: opacity .2s;
+}
+.search-btn:hover { opacity: 1; }
 .search-clear {
   position: absolute;
-  right: 12px;
+  right: 14px;
   top: 50%;
   transform: translateY(-50%);
   background: none;
@@ -336,6 +350,7 @@ body {
   cursor: pointer;
   padding: 4px;
 }
+.search-input { padding-right: 72px; }
 
 /* ── 필터 안내 ── */
 .filter-info {
