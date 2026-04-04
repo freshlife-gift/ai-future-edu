@@ -1,0 +1,77 @@
+{
+  "date": "2026-04-05",
+  "updated_at": "2026-04-05T07:05:03.234377+09:00",
+  "new_counts": {
+    "news": 1,
+    "global_trends": 0,
+    "policy": 0,
+    "reports": 0,
+    "academic_domestic": 1,
+    "academic_international": 2
+  },
+  "sections": {
+    "news": [
+      {
+        "title": "[북한 브리핑 3.29~4.4] 김정은 이미지 부각 속 AI교육 강화…러시아·중...",
+        "url": "http://kor.theasian.asia/archives/403872",
+        "source": "네이버뉴스",
+        "author": "",
+        "published_date": "2026-04-05",
+        "summary": "북한 최고 교육기관인 김일성종합대학이 기존 '정보과학부'를 '인공지능(AI)학부'로 전면 개편했다. 이는 인공지능 기술을 국가 전략 산업으로 육성하려는 북한의 강력한 의지를 보여주는 구체적인 사례이다. 이처럼 국가 주도로 교육기관을 재편하며 AI 교육을 강화하는 움직임은 서울시 교육청 또한 미래 핵심 역량 확보를 위한 AI 융합교육 및 AI·SW 교육의 중요성을 재고하고 고등 교육 연계 강화를 모색해야 함을 시사한다.",
+        "score": 4.5,
+        "implications": "[관련업무] 1. AI·디지털 기반 교육혁신 운영, 2. AI·디지털 활용 및 AI 융합교육, 3. AI·정보(AI·SW) 교육\n[정책제언] 서울시교육청은 국가 전략적 관점에서 AI 인재 양성의 중요성을 인식하고, K-12 교육부터 AI 기본 소양 및 심화 학습 기회를 제공하는 AI·디지털 기반 교육혁신 전략을 수립해야 한다. 초·중등 교육과정 내 AI 융합교육 및 AI·SW 교육을 심화하고, AI 분야 진출을 위한 고등학교 선택과목 확대 및 지역 내 대학/연구기관과의 연계 프로그램을 개발하여 AI 전문 인력 양성 기반을 강화해야 한다. 급변하는 AI 기술 트렌드에 발맞춰 기존 교육과정 및 학부(과) 개편 사례를 벤치마킹하여 서울 관내 학교의 AI 교육 과정 및 학과 개편(정보과 등)을 적극적으로 지원하고, 교사 역량 강화를 위한 AI·디지털 기반 수업·평가혁신 전문가 연수를 확대해야 한다.\n[참고사항] 타 국가 사례에서 보이는 고등 교육기관의 AI 학부 개편은 AI 기술의 중요성을 보여주는 강력한 신호이며, 서울시 교육도 미래 사회의 핵심 기술 주도권 확보를 위한 교육 시스템의 선제적이고 유연한 혁신 방안을 지속적으로 모색해야 한다. 특히, 이러한 고등 교육 기관의 변화가 K-12 교육에 미칠 파급 효과를 고려하여, 초·중등 교육 단계에서부터 AI 분야 진로 교육을 강화하고 학생들이 AI 관련 심화 학습을 지속할 수 있는 교육 생태계를 조성하는 데 주력해야 한다.",
+        "collected_date": "2026-04-05",
+        "is_new": true
+      }
+    ],
+    "global_trends": [],
+    "policy": [],
+    "reports": [],
+    "academic_domestic": [
+      {
+        "title": "초등학생의 디지털 리터러시와 인공지능에 대한 태도 분석",
+        "url": "https://doi.org/10.24062/kpae.2026.39.1.145",
+        "source": "The Korean Association of Practical Arts Education",
+        "author": ", Sang-Hee Ryu",
+        "published_date": "2026",
+        "summary": "본 연구는 충북 지역 초등학교 5, 6학년 학생 518명을 대상으로 설문조사를 통해 초등학생의 디지털 리터러시와 인공지능(AI)에 대한 태도를 분석하고 그 관계를 탐색했다. 연구 결과, 학생들의 디지털 리터러시 수준은 중간 이상으로 나타났으며 특히 하위요인 중 ‘윤리’ 영역 점수가 높았다. 반면 AI에 대한 태도는 중간 수준이었으나, ‘사회적 영향’과 ‘정서적 교류’에 대한 인식은 중간 이하였다. 성별에 따른 디지털 리터러시의 유의미한 차이는 발견되지 않았으며, 이는 초등학생 대상 AI 교육 시 사회적 영향 및 정서적 교류 등 비기술적 측면을 강화하여 AI 윤리 및 디지털 시민성을 함양해야 함을 시사한다.",
+        "score": 5.0,
+        "implications": "[관련업무] AI·디지털 리터러시 교육 활성화, AI윤리·디지털 시민성 교육, AI·디지털 기반 교육혁신 운영\n[정책제언] 초등학생의 AI에 대한 ‘사회적 영향’ 및 ‘정서적 교류’ 인식이 중간 이하로 나타난 점을 고려하여, AI 윤리 및 디지털 시민성 교육 프로그램에 AI의 사회적 파급효과와 인간과의 상호작용 및 공존 방안에 대한 내용을 구체적으로 포함하고 강화해야 한다. 특히, 디지털 리터러시의 ‘윤리’ 영역은 높게 평가되었으므로, 이를 기반으로 실생활 사례 중심의 AI 윤리 토론 및 프로젝트 학습을 확대하여 학생들의 비판적 사고력을 신장해야 한다.\n[참고사항] 교육과정 개발 시 성별에 따른 디지털 리터러시 차이가 없다는 점을 반영하여 모든 학생에게 균등한 학습 기회를 제공하는 보편적 설계에 중점을 두며, AI 윤리 교육을 기술적 역량 교육과 함께 균형 있게 다루어 미래 사회에 필요한 전인적 AI 시민을 양성할 필요가 있다.",
+        "collected_date": "2026-04-05",
+        "apa_citation": "Ryu, S. (2026). 초등학생의 디지털 리터러시와 인공지능에 대한 태도 분석. *The Korean Association of Practical Arts Education*, 39(1). https://doi.org/10.24062/kpae.2026.39.1.145",
+        "identifier": "10.24062/kpae.2026.39.1.145",
+        "is_new": true
+      }
+    ],
+    "academic_international": [
+      {
+        "title": "In-Service Teachers&apos; (Mis)conceptions of Artificial Intelligence in K-12 Science Education",
+        "url": "https://eric.ed.gov/?id=EJ1377781",
+        "source": "",
+        "author": "Antonenko, Pavlo, Abramowitz, Brian",
+        "published_date": "2023",
+        "summary": "이 연구는 K-12 과학 교육 현장의 현직 교사들이 인공지능(AI)에 대해 가지고 있는 (오)개념을 탐색하여, 학생들이 AI 시대에 대비할 수 있도록 교사를 준비시키는 데 필요한 시사점을 제공하는 것을 목적으로 한다. 교사들의 의도적 및 비공식적 학습을 통해 AI에 대한 이해와 오해를 조사했다. 핵심 발견은 교사들 사이에 AI에 대한 다양한 (오)개념이 존재하며, 이는 K-12 교육에서 AI 도구와 프로세스를 효과적으로 통합하는 데 방해가 될 수 있음을 시사한다. 따라서 본 연구는 교사들이 AI가 무엇인지(그리고 무엇이 아닌지)에 대해 명확히 이해하고, AI 활용 지식과 기술 및 자기 효능감을 갖출 수 있도록 교사 양성 및 현직 전문성 개발의 중요성을 강조한다.",
+        "score": 4.5,
+        "implications": "[관련업무] 7. AI·디지털 기반 수업·평가혁신 전문가 연수, 9. AI·에듀테크 선도교사단 및 AIEDAP\n[정책제언] 현직 교사들의 AI에 대한 정확한 이해를 돕고 올바른 개념을 형성할 수 있도록 AI 기초 지식, 교육적 활용 방안, AI 윤리 등을 포함하는 심화된 연수 프로그램을 필수적으로 제공해야 한다. 특히, AI 리터러시의 정의와 범위, 교육 현장에서의 실질적인 적용 사례를 중심으로 교사들이 AI 도구와 프로세스 활용에 대한 자신감(자기 효능감)을 높일 수 있도록 실습 중심의 프로그램을 개발해야 한다.\n[참고사항] 교사의 AI (오)개념은 교육 현장에서 AI 도입과 활용을 저해하는 주요 요인이 될 수 있으므로, 연수 프로그램 개발 시 교사 설문이나 심층 인터뷰를 통해 현직 교사들의 구체적인 요구와 기존의 (오)개념을 면밀히 분석하여 반영하는 것이 중요하다.",
+        "collected_date": "2026-04-05",
+        "apa_citation": "Antonenko, Pavlo, Abramowitz, Brian (2023). In-Service Teachers&apos; (Mis)conceptions of Artificial Intelligence in K-12 Science Education. https://eric.ed.gov/?id=EJ1377781",
+        "identifier": "EJ1377781",
+        "is_new": true
+      },
+      {
+        "title": "Developing and Validating the Artificial Intelligence Literacy Concept Inventory: An Instrument to Assess Artificial Intelligence Literacy among Middle School Students",
+        "url": "https://eric.ed.gov/?id=EJ1461172",
+        "source": "",
+        "author": "Helen Zhang, Anthony Perry, Irene Lee",
+        "published_date": "2025",
+        "summary": "이 연구는 중학생들의 인공지능(AI) 리터러시 개념 이해도를 평가하기 위한 AI 리터러시 개념 인벤토리(AI-CI)를 개발하고 검증하는 것을 목적으로 한다. AI 교육의 학습 효과를 측정하고 교육 과정을 개선하는 데 필수적인 평가 도구의 부재를 해결하기 위해 다지선다형 문항으로 구성된 AI-CI를 개발했다. 핵심 발견은 AI-CI가 중학생들의 AI 리터러시 개념을 효과적으로 측정할 수 있는 타당하고 신뢰할 수 있는 도구임을 확인했다는 점이다. 본 연구는 AI 학습과 교수법에 대한 중요한 정보를 제공하여, 체계적인 AI 리터러시 교육의 기반을 마련할 수 있다.",
+        "score": 5.0,
+        "implications": "[관련업무] 4. AI·디지털 리터러시 교육 활성화, 7. AI·디지털 기반 수업·평가혁신 전문가 연수\n[정책제언] 중학생 대상 AI 리터러시 수준 진단을 위한 표준화된 평가 도구(예: AI-CI)를 도입하고, 이 도구를 활용하여 학교 현장에서 AI 리터러시 교육의 효과를 정량적으로 측정하고 맞춤형 교육 방향을 설정하도록 지원해야 한다. 또한, 평가 결과를 바탕으로 교사들이 학생들의 AI 리터러시 수준에 맞춰 수업을 설계하고 평가하는 역량을 강화할 수 있도록 연수 프로그램을 마련해야 한다.\n[참고사항] AI-CI와 같은 진단 도구는 학생들의 현재 AI 리터러시 수준을 파악하고, 교육과정 설계 시 강점과 약점을 반영하는 데 필수적이다. 평가 도구의 개발 및 보급은 AI 리터러시 교육의 질적 향상과 목표 달성 여부 확인에 핵심적인 역할을 한다.",
+        "collected_date": "2026-04-05",
+        "apa_citation": "Helen Zhang, Anthony Perry, Irene Lee (2025). Developing and Validating the Artificial Intelligence Literacy Concept Inventory: An Instrument to Assess Artificial Intelligence Literacy among Middle School Students. https://eric.ed.gov/?id=EJ1461172",
+        "identifier": "EJ1461172",
+        "is_new": true
+      }
+    ]
+  }
+}
