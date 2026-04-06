@@ -51,13 +51,15 @@ TODAY = datetime.now(KST).date()
 YESTERDAY = TODAY - timedelta(days=1)
 TODAY_STR = str(TODAY)
 
-# 검색 키워드 (초중고 + 대학 + 성인교육 확대)
+# 검색 키워드 (초중고 + 대학 + 성인교육 + 리터러시/문해력)
 KEYWORDS = [
     "AI교육", "AI 교육", "인공지능 교육", "인공지능교육",
     "미래교육", "AI학교", "AI 학교", "에듀테크",
-    "디지털교육", "디지털 교육",
+    "디지털교육", "디지털 교육", "디지털리터러시", "디지털 리터러시",
+    "AI리터러시", "AI 리터러시", "문해력", "AI문해력",
     "AI 대학", "AI 대학교육", "AI 평생교육", "AI 성인교육",
     "AI 고등교육", "AI 직업교육",
+    "인공지능", "AI", "디지털",
 ]
 
 NEWS_QUERIES = [
@@ -147,8 +149,22 @@ class NewsCollector:
                     articles.append(a)
 
         total = len(articles)
-        # 키워드 필터
-        filtered = [a for a in articles if any(k.lower() in a["title"].lower() for k in KEYWORDS)]
+        # 키워드 필터: 교육 맥락에서 AI/디지털/리터러시 관련 기사
+        edu_ctx = ["교육", "학교", "학생", "교사", "수업", "학습", "리터러시", "문해력", "에듀", "교원", "교과", "대학"]
+        broad_kw = ["인공지능", "AI", "디지털"]
+        specific_kw = [k for k in KEYWORDS if k not in broad_kw]
+
+        def _matches(title):
+            t = title.lower()
+            # 구체적 키워드 직접 매칭
+            if any(k.lower() in t for k in specific_kw):
+                return True
+            # 넓은 키워드는 교육 맥락이 함께 있을 때만
+            if any(k.lower() in t for k in broad_kw) and any(e in t for e in edu_ctx):
+                return True
+            return False
+
+        filtered = [a for a in articles if _matches(a["title"])]
         # 지역 후순위
         filtered.sort(key=lambda a: any(r in a["title"] for r in REGIONAL_KEYWORDS))
 
@@ -640,12 +656,36 @@ def merge_cumulative(existing, new_items, section, max_daily=5):
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # 메인
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+def _load_existing_titles():
+    """누적 데이터에서 이미 분석된 제목 ID 목록 로드"""
+    existing = set()
+    if CUMULATIVE_FILE.exists():
+        try:
+            data = json.load(open(CUMULATIVE_FILE, "r", encoding="utf-8"))
+            for items in data.get("sections", {}).values():
+                for a in items:
+                    existing.add(_id(a.get("title", "")))
+        except Exception:
+            pass
+    return existing
+
+
+def _filter_new(articles, existing_ids):
+    """이미 분석된 자료 제외"""
+    fresh = [a for a in articles if _id(a["title"]) not in existing_ids]
+    skipped = len(articles) - len(fresh)
+    if skipped > 0:
+        logger.info(f"    기존 자료 {skipped}건 제외 → 신규 {len(fresh)}건")
+    return fresh
+
+
 def main():
     logger.info("=" * 60)
     logger.info(f"  AI 미래교육 지식의 창 | {TODAY}")
     logger.info("=" * 60)
 
     OUTPUT_DIR.mkdir(exist_ok=True)
+    existing_ids = _load_existing_titles()
     news_col = NewsCollector()
     trends_col = TrendsCollector()
     acad_col = AcademicCollector()
@@ -654,28 +694,34 @@ def main():
     # 1) 뉴스
     logger.info("[1/6] 뉴스 수집...")
     news_total, news_raw = news_col.collect(TODAY)
+    news_raw = _filter_new(news_raw, existing_ids)
 
     # 2) 해외동향 (KEDI + OECD + UNESCO)
     logger.info("[2/6] 해외동향 수집...")
     trends_raw = trends_col.collect_kedi()
     trends_raw += trends_col.collect_oecd()
     trends_raw += trends_col.collect_unesco()
+    trends_raw = _filter_new(trends_raw, existing_ids)
 
     # 3) 정책
     logger.info("[3/6] 정책 수집...")
     policy_raw = trends_col.collect_kedi_policy(45, "정책")
+    policy_raw = _filter_new(policy_raw, existing_ids)
 
     # 4) 보고서
     logger.info("[4/6] 연구보고서 수집...")
     reports_raw = trends_col.collect_kedi_policy(47, "연구보고서")
+    reports_raw = _filter_new(reports_raw, existing_ids)
 
     # 5) 국내학술지
     logger.info("[5/6] 국내학술지 수집...")
     domestic_raw = acad_col.collect_domestic()
+    domestic_raw = _filter_new(domestic_raw, existing_ids)
 
     # 6) 해외학술지
     logger.info("[6/6] 해외학술지 수집...")
     international_raw = acad_col.collect_international()
+    international_raw = _filter_new(international_raw, existing_ids)
 
     # AI 분석 (배치 최적화: 호출 횟수 최소화)
     logger.info("Gemini 분석 중 (배치 모드)...")
@@ -720,17 +766,29 @@ def main():
         new_counts[section] = merge_cumulative(cumul, items, section)
 
     cumul["last_updated"] = datetime.now(KST).isoformat()
+
+    # ── 검증 에이전트 ──
+    logger.info("검증 에이전트 실행...")
+    errors = verify_data(cumul, new_counts)
+    if errors:
+        logger.error(f"  검증 실패! {len(errors)}건 오류:")
+        for e in errors:
+            logger.error(f"    - {e}")
+        logger.error("  데이터를 저장하지 않습니다.")
+        return None
+
+    logger.info("  검증 통과! 데이터 저장 중...")
     with open(CUMULATIVE_FILE, "w", encoding="utf-8") as f:
         json.dump(cumul, f, ensure_ascii=False, indent=2)
-    logger.info(f"누적 데이터 저장 완료")
 
-    # 일별 백업도 저장
+    # 일별 백업
     daily = {"date": TODAY_STR, "updated_at": cumul["last_updated"],
              "new_counts": new_counts,
              "sections": {k: [a for a in v if a.get("collected_date") == TODAY_STR]
                           for k, v in cumul["sections"].items()}}
     with open(OUTPUT_DIR / f"{TODAY}.json", "w", encoding="utf-8") as f:
         json.dump(daily, f, ensure_ascii=False, indent=2)
+    logger.info(f"누적 데이터 저장 완료")
 
     # 이메일
     EmailSender().send(TODAY_STR, new_counts)
@@ -740,6 +798,43 @@ def main():
     for k, v in new_counts.items():
         logger.info(f"     {k}: +{v}건")
     return cumul
+
+
+def verify_data(cumul, new_counts):
+    """업로드 전 검증. 오류 목록 반환 (빈 리스트면 통과)"""
+    errors = []
+    sections = cumul.get("sections", {})
+
+    # 필수 섹션 존재
+    for key in ["news", "global_trends", "policy", "reports", "academic_domestic", "academic_international"]:
+        if key not in sections:
+            errors.append(f"섹션 '{key}' 없음")
+
+    # 중복 제목 체크
+    for key, items in sections.items():
+        titles = [a["title"] for a in items]
+        ids = [_id(t) for t in titles]
+        dups = len(ids) - len(set(ids))
+        if dups > 0:
+            errors.append(f"[{key}] 중복 자료 {dups}건")
+
+    # 새 자료에 collected_date 존재
+    for key, items in sections.items():
+        for a in items:
+            if a.get("is_new") and not a.get("collected_date"):
+                errors.append(f"[{key}] 수집날짜 없는 NEW 자료: {a.get('title','?')[:30]}")
+
+    # 요약 길이 (너무 짧으면 경고)
+    all_items = sum(sections.values(), [])
+    summaries = [a.get("summary", "") for a in all_items if a.get("summary")]
+    if summaries:
+        avg = sum(len(s) for s in summaries) / len(summaries)
+        if avg < 50:
+            errors.append(f"요약 평균 {avg:.0f}자 — 너무 짧음 (50자 이상 필요)")
+
+    if not errors:
+        logger.info("  [검증] 모든 항목 통과")
+    return errors
 
 
 if __name__ == "__main__":

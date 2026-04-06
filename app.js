@@ -123,9 +123,11 @@
       }
       items = all;
     } else {
-      // 전체 누적 자료 표시 (신규 먼저, 이후 적합도순)
+      // 수집날짜 최신순 → 같은 날짜 내 적합도순
       items = [...items].sort((a, b) => {
-        if (a.is_new !== b.is_new) return a.is_new ? -1 : 1;
+        const da = a.collected_date || "0";
+        const db = b.collected_date || "0";
+        if (da !== db) return db.localeCompare(da);
         return (b.score || 0) - (a.score || 0);
       });
     }

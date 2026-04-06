@@ -2,8 +2,8 @@ name: Daily News Update
 
 on:
   schedule:
-    # 매일 KST 오전 6:30 = UTC 21:30 (전날)
-    - cron: '30 21 * * *'
+    # 매일 KST 오전 6:00 = UTC 21:00 (전날)
+    - cron: '0 21 * * *'
   workflow_dispatch:  # 수동 실행
 
 permissions:

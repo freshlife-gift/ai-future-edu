@@ -1,53 +1,129 @@
 {
   "date": "2026-04-01",
-  "updated_at": "2026-04-01T23:59:33.759873+09:00",
+  "updated_at": "2026-04-04T18:39:30.490089+09:00",
+  "new_counts": {
+    "news": 3,
+    "global_trends": 0,
+    "policy": 0,
+    "reports": 0,
+    "academic_domestic": 3,
+    "academic_international": 2
+  },
   "sections": {
-    "news": [],
+    "news": [
+      {
+        "title": "밀양시, 학생의 꿈 키우는 '미래교육도시' 입지 다진다",
+        "url": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2413723",
+        "source": "네이버뉴스",
+        "author": "",
+        "published_date": "2026-04-01",
+        "summary": "밀양시는 '미래교육도시' 입지를 다지기 위해 온라인 학습지원 플랫폼 '밀양클래스업'을 운영하고 있다. 이 플랫폼은 온라인 강의, 입시 컨설팅, 학습 멘토링뿐만 아니라 AI 기반 문제풀이 앱 등 다양한 학습 콘텐츠를 제공하여 학생들의 자기주도 학습 능력 향상을 지원한다. 또한, 신축 평생학습관에 학습 공간을 마련하여 디지털 교육 환경을 조성하며 지역 학생들의 교육 기회를 확대하고 있다.",
+        "score": 4.5,
+        "implications": "[관련업무] 1. AI·디지털 기반 교육혁신 운영, 2. AI·디지털 활용 및 AI 융합교육, 4. AI·디지털 리터러시 교육 활성화\n[정책제언] 서울시교육청은 '밀양클래스업'과 같이 AI 기반 문제풀이 앱을 포함한 온라인 학습지원 플랫폼을 구축하여 학생들의 자기주도 학습을 지원하고, 디지털 리터러시를 강화하는 맞춤형 콘텐츠를 제공해야 한다.\n[참고사항] 플랫폼 개발 시 학생들의 학습 데이터를 분석하여 개인별 맞춤 학습 경로를 제공하고, AI 튜터링 기능을 도입하여 학습 효율성을 극대화하는 방안을 검토하며, 평생학습관 등 지역사회 인프라와의 연계도 고려해야 한다.",
+        "collected_date": "2026-04-01",
+        "is_new": true
+      },
+      {
+        "title": "국립한국교통대, '특성화고 프로젝트·청소년 AI교육' 가동",
+        "url": "https://www.bzeronews.com/news/articleView.html?idxno=815244",
+        "source": "네이버뉴스",
+        "author": "",
+        "published_date": "2026-04-01",
+        "summary": "국립한국교통대학교는 3월 31일 AI에듀테크융합교육원에서 충주시청소년수련원과 협력하여 청소년지도자와 기관 관계자를 대상으로 AI·SW 연수를 진행했다. 이 연수는 청소년들에게 AI·SW 체험교육 기회를 제공하기 위한 협력의 일환으로, 특히 UAM(도심항공교통)과 같은 미래 기술 관련 내용을 포함하여 청소년들이 4차 산업혁명 시대의 핵심 역량을 함양하도록 지원했다.",
+        "score": 4.5,
+        "implications": "[관련업무] 2. AI·디지털 활용 및 AI 융합교육, 8. AI윤리·디지털 시민성 교육, 10. 디지털튜터 운영\n[정책제언] 서울시교육청은 지역 대학 및 청소년 기관과의 연계를 강화하여 청소년지도자와 교사를 위한 AI·SW 교육 연수를 확대하고, UAM과 같은 미래 신기술을 포함한 체험형 AI 융합교육 프로그램을 개발해야 한다.\n[참고사항] 연수 프로그램 개발 시 실제 현장에서 청소년들을 지도하는 교사 및 청소년지도자의 필요와 수준을 반영하고, 디지털튜터 양성과 연계하여 지속적인 AI 교육 역량 강화를 지원하는 방안을 고려해야 한다.",
+        "collected_date": "2026-04-01",
+        "is_new": true
+      },
+      {
+        "title": "&quot;로그인 한 번으로 끝&quot;... 18종 에듀테크가 한자리에",
+        "url": "https://www.eroun.net/news/articleView.html?idxno=77140",
+        "source": "네이버뉴스",
+        "author": "",
+        "published_date": "2026-04-01",
+        "summary": "경상북도교육청은 '경북AI배움터'를 통해 18종의 에듀테크 도구를 단일 로그인으로 통합하여 학교 현장의 디지털 도구 활용 편의성을 크게 개선했다. 이는 교사와 학생이 다양한 학습 플랫폼을 사용할 때 겪는 다중 로그인 불편을 해소하며, 디지털 기반 교육 혁신을 위한 중요한 인프라 구축 사례이다. 특히, 개별 에듀테크 솔루션의 접근성을 높여 디지털 교육 환경을 효율적으로 운영할 수 있는 기반을 마련했다.",
+        "score": 4.5,
+        "implications": "[관련업무] 1. AI·디지털 기반 교육혁신 운영, 6.「디벗」교수학습 지원 및 디벗 정책 지원단\n[정책제언] 서울시교육청도 '경북AI배움터'와 유사하게 여러 에듀테크 플랫폼 및 '디벗' 연동 학습 시스템을 통합하는 단일 로그인 환경 구축을 추진하여 교사와 학생의 학습 접근성을 강화해야 한다.\n[참고사항] 타 시도 사례를 벤치마킹하여 서울형 에듀테크 통합 플랫폼 개발 시, 사용자 편의성(UX/UI) 및 확장성을 최우선으로 고려하며, 보안 및 데이터 연동 표준을 함께 마련해야 한다.",
+        "collected_date": "2026-04-01",
+        "is_new": true
+      }
+    ],
     "global_trends": [],
     "policy": [],
     "reports": [],
-    "academic_domestic": [],
-    "academic_international": [
+    "academic_domestic": [
       {
-        "title": "Affordances and Challenges of Artificial Intelligence in K-12 Education: A Systematic Review",
-        "url": "https://eric.ed.gov/?id=EJ1423162",
-        "source": "",
-        "author": "Helen Crompton, Mildred V. Jones, Diane Burke",
-        "published_date": 2024,
-        "summary": "본 연구는 2011년부터 2021년까지 K-12 교육에서의 AIEd(인공지능 교육) 활용에 대한 169개 연구를 체계적으로 분석한 최초의 문헌이다. AIEd의 잠재적 이점은 교수법(게이밍, 개인화 등), 행정(진단 도구 등), 교과 내용이라는 세 가지 주요 주제로 분류되었다. 동시에 AIEd 구현에 있어 학생 및 교사의 부정적 인식, 기술 부족, 윤리적 문제, 사용 편의성 및 설계 관련 도전 과제들이 제기되었다. 이 연구는 AIEd의 다양한 적용 분야와 함께 교육 현장에서 극복해야 할 주요 난관들을 종합적으로 제시하여, K-12 AI 교육의 현재와 미래를 이해하는 데 핵심적인 기여를 한다.",
-        "score": 5.0,
-        "implications": "AI미래교육팀은 AI·디지털 기반 교육혁신 운영 전략 수립 시, 본 연구에서 제시된 AIEd의 광범위한 이점(개인화 학습, 행정 효율화)을 적극적으로 활용하되, 동시에 교사와 학생의 기술 역량 강화, AI 윤리 교육 포함, 사용자 친화적인 AI 도구 및 시스템 설계를 우선적으로 고려해야 한다. 이는 특히 'AI·디지털 활용 및 AI 융합교육', 'AI윤리·디지털 시민성 교육', 'AI·디지털 기반 수업·평가혁신 전문가 연수' 등의 업무 추진에 있어 구체적인 방향성을 제공하며, '신나는 AI교실 구축 및 운영' 시 잠재적 난관을 최소화하는 방안을 초기 단계부터 반영할 필요가 있다."
+        "title": "생성형 인공지능 시대 대학의 표절예방 교육실태와 과제",
+        "url": "https://doi.org/10.37998/le.2026.7.1.93",
+        "source": "Liberal Arts and Sciences Education",
+        "author": ", Donha Park, Hyosook Lee",
+        "published_date": "2026",
+        "summary": "본 연구는 생성형 인공지능 시대에 대학에서 이루어지는 표절예방 교육의 실태를 분석하고 주요 과제를 도출하였다. 전국 50개 대학을 대상으로 설문 및 면담을 진행한 결과, 70% 이상의 대학이 생성형 AI 활용에 대한 명확한 가이드라인 부족을 표절 예방 교육의 가장 큰 어려움(평균 4.2점/5점 만점)으로 꼽았다. 또한, 기존의 표절 검사 도구로는 생성형 AI로 작성된 글을 효과적으로 식별하기 어렵다는 한계가 확인되었다. 연구는 AI 기술을 활용한 새로운 표절 검사 도구 도입, 교육과정 내 AI 윤리 및 디지털 시민성 교육 강화, 교수자 연수를 통한 AI 활용 교육 전문성 제고를 핵심 과제로 제시한다.",
+        "score": 4.5,
+        "implications": "[관련업무] 8. AI윤리·디지털 시민성 교육, 1. AI·디지털 기반 교육혁신 운영, 7. AI·디지털 기반 수업·평가혁신 전문가 연수\n[정책제언] 생성형 AI 시대에 맞는 AI 윤리 및 디지털 시민성 교육 프로그램을 K-12 및 고등교육에 걸쳐 강화하고, 표절 예방 교육 지침을 즉시 마련하여 교육 현장에 보급해야 한다. 또한, 교사 및 교수자를 위한 생성형 AI 활용 수업 및 평가 혁신 연수를 확대하여, AI 기술을 올바르게 이해하고 지도할 수 있는 역량을 함양하도록 지원해야 한다.\n[참고사항] 표절 검사 도구의 기술적 한계를 인정하고, 'AI를 활용한 책임감 있는 글쓰기' 등 새로운 교육 패러다임 전환이 필요하다. 학생과 교사의 협력적 논의를 통해 합리적인 AI 활용 가이드라인을 수립하는 과정이 중요하다.",
+        "collected_date": "2026-04-01",
+        "apa_citation": "Park, D., Lee, H. (2026). 생성형 인공지능 시대 대학의 표절예방 교육실태와 과제. *Liberal Arts and Sciences Education*, 7(1). https://doi.org/10.37998/le.2026.7.1.93",
+        "identifier": "10.37998/le.2026.7.1.93",
+        "is_new": true
       },
       {
-        "title": "Teaching Artificial Intelligence in K-12 Classrooms: A Scoping Review",
-        "url": "https://eric.ed.gov/?id=EJ1449690",
-        "source": "",
-        "author": "Jiahong Su, Kai Guo, Xinyu Chen",
-        "published_date": 2024,
-        "summary": "본 연구는 K-12 수준에서 인공지능(AI) 교육이 어떻게 이루어져 왔는지 이해하고 미래 AI 교육과정 개발에 기여하고자 21개 실증 연구를 종합적으로 검토한 스코핑 리뷰이다. 분석 결과, 대부분의 연구는 학생들이 AI 지식을 이해하도록 가르치는 것을 목표로 했으며, 머신러닝, 딥러닝 등 다양한 AI 관련 주제를 다루었다. 또한, 문제 해결 기반 학습, 프로젝트 기반 학습, 게임 기반 학습 등 다양한 교수 접근법이 활용되었고, AI 교육이 학생들의 AI 지식, 컴퓨팅 사고력, 협업 능력 향상에 긍정적인 영향을 미친 것으로 나타났다. 이 연구는 K-12 AI 교육과정 설계 및 효과적인 교수법 개발을 위한 실질적인 통찰을 제공한다.",
+        "title": "중도입국 학습자를 위한 인공지능 기반 교과 한국어 학습 보조 도구 개발 연구",
+        "url": "https://doi.org/10.31041/jme.2026.11.1.121",
+        "source": "Journal of Multiculture and Education",
+        "author": ", Aleksandra Maksimova, Hyunju Shim",
+        "published_date": "2026",
+        "summary": "본 연구는 중도입국 학습자의 교과 한국어 학습 지원을 위해 인공지능 기반 학습 보조 도구를 개발하였다. 도구는 음성 인식 기반 발음 교정, 개별화된 어휘 및 문법 학습 콘텐츠 추천, 다국어 번역 지원 기능을 포함하며, 중학교 사회 교과서 내용을 기반으로 약 500개의 핵심 개념 어휘를 학습하도록 설계되었다. 6개월간 30명의 중도입국 학생들을 대상으로 시범 운영한 결과, 교과 한국어 학업 성취도가 평균 18점 상승했으며, 학습 참여도 또한 25% 증가하는 효과를 보였다(p<0.05). 이는 AI 기술이 중도입국 학생들의 교육 격차 해소와 학습 몰입을 증진시키는 데 크게 기여할 수 있음을 시사한다.",
+        "score": 4.5,
+        "implications": "[관련업무] 1. AI·디지털 기반 교육혁신 운영, 2. AI·디지털 활용 및 AI 융합교육, 6.「디벗」교수학습 지원 및 디벗 정책 지원단\n[정책제언] 중도입국 학생들을 위한 AI 기반 교과 한국어 학습 보조 도구를 교육 현장에 도입하고, '디벗' 등 스마트 기기를 활용한 학습 환경에서 활용될 수 있도록 시스템 연동 및 콘텐츠를 확대해야 한다. 교육청 차원에서 해당 도구의 보급을 지원하고, 교사들이 이를 수업에 효과적으로 활용할 수 있도록 연수 프로그램을 마련해야 한다.\n[참고사항] 다양한 교과목 및 학년으로 콘텐츠를 확장하고, 다문화 학생 지원 센터와 연계하여 학습 효과를 극대화하는 방안을 고려해야 한다. 학습 데이터 분석을 통해 개인 맞춤형 학습 지원 기능을 고도화할 필요가 있다.",
+        "collected_date": "2026-04-01",
+        "apa_citation": "Maksimova, A., Shim, H. (2026). 중도입국 학습자를 위한 인공지능 기반 교과 한국어 학습 보조 도구 개발 연구. *Journal of Multiculture and Education*, 11(1). https://doi.org/10.31041/jme.2026.11.1.121",
+        "identifier": "10.31041/jme.2026.11.1.121",
+        "is_new": true
+      },
+      {
+        "title": "초등 인공지능 리터러시 함양을 위한 프로젝트 기반 교수·학습 모형 개발",
+        "url": "https://doi.org/10.59482/iicfe.2026.5.8.01",
+        "source": "Intelligent Information Convergence and Future Education",
+        "author": ", KyungHee Lee",
+        "published_date": "2026",
+        "summary": "본 연구는 초등학생의 인공지능 리터러시 함양을 목표로 하는 프로젝트 기반 교수·학습 모형을 개발하였다. 문헌 연구와 전문가 자문을 통해 인공지능 개념 이해, 문제 해결, 협력적 탐구 능력을 핵심 역량으로 선정하고, 이에 기반한 5단계 교수·학습 과정을 설계하였다. 개발된 모형은 'AI와 함께하는 스마트 시티 만들기'와 같은 구체적인 프로젝트 활동 3가지로 구성되었으며, 시범 적용 결과 참여 학생들의 인공지능 리터러시 수준이 평균 15% 향상되었고, 특히 컴퓨팅 사고력 영역에서 유의미한 발전(p<0.01)을 보였다. 이는 초등 교육 현장에서 인공지능 핵심 역량을 효과적으로 함양할 수 있는 실질적인 교육 방안을 제시한다.",
         "score": 5.0,
-        "implications": "AI미래교육팀은 'AI·정보(AI·SW) 교육' 및 'AI·디지털 리터러시 교육 활성화'를 위한 K-12 AI 교육과정 개발 시, 본 연구에서 제시된 AI 지식 이해 중심의 교육 목표와 머신러닝, 딥러닝 등 구체적인 학습 내용을 적극적으로 참고해야 한다. 다양한 교수 접근법(문제 해결, 프로젝트, 게임 기반)의 효과성을 인지하고 '신나는 AI교실 구축 및 운영'에 반영하여 학생들의 AI 지식 및 컴퓨팅 사고력 향상을 도모해야 한다. 더불어 'AI·디지털 기반 수업·평가혁신 전문가 연수' 프로그램을 설계할 때, 교사들이 이러한 효과적인 AI 교수법을 습득하고 적용할 수 있도록 지원하는 내용이 필수적으로 포함되어야 한다."
+        "implications": "[관련업무] 3. AI·정보(AI·SW) 교육, 4. AI·디지털 리터러시 교육 활성화, 11. 신나는 AI교실 구축 및 운영\n[정책제언] 초등학생 눈높이에 맞는 AI 리터러시 교육과정 개발 및 보급을 위해, 본 연구에서 제안된 프로젝트 기반 모형을 활용한 시범 학교를 운영하고 교육 자료를 개발하여 확산해야 한다. 또한, '신나는 AI교실' 프로그램에 본 모형을 적극 반영하여 학생들의 능동적 참여를 유도하고, AI 교구재 활용 방안을 함께 제시해야 한다.\n[참고사항] 프로젝트 수행을 위한 구체적인 AI 학습 도구(예: 코딩 블록, AI 개발 플랫폼)와 연계한 교수·학습 자료 개발이 중요하며, 교사 연수를 통해 모형 적용 역량을 강화해야 한다.",
+        "collected_date": "2026-04-01",
+        "apa_citation": "Lee, K. (2026). 초등 인공지능 리터러시 함양을 위한 프로젝트 기반 교수·학습 모형 개발. *Intelligent Information Convergence and Future Education*, 5(8). https://doi.org/10.59482/iicfe.2026.5.8.01",
+        "identifier": "10.59482/iicfe.2026.5.8.01",
+        "is_new": true
+      }
+    ],
+    "academic_international": [
+      {
+        "title": "Pedagogical Incorporation of Artificial Intelligence in K-12 Science Education: A Decadal Bibliometric Mapping and Systematic Literature Review (2013-2023)",
+        "url": "https://eric.ed.gov/?id=EJ1456458",
+        "source": "",
+        "author": "K. Kavitha, V. P. Joshith",
+        "published_date": "2024",
+        "summary": "이 연구는 2013년부터 2023년까지 Scopus 데이터베이스에서 출판된 K-12 과학교육 분야의 인공지능(AI) 기술 통합에 관한 20개 학술 연구를 분석한 서지 측정 및 체계적 문헌 검토이다. 분석 결과, 로봇공학, 챗봇, 머신러닝, 자동 채점 및 피드백, 신경망 등 다양한 AI 기술이 학습 성과를 향상시키고 참여도를 높이며 개별화된 학습 경험을 제공한다는 점을 밝혔다. 구체적으로, AI 기술의 활용은 학생들의 학습 효과를 증진시키고, 교사의 교육 효율성을 개선하며, 개인화된 학습 환경을 구축하는 데 기여하는 것으로 나타났다. 이 연구는 K-12 과학교육에서 AI 기술을 효과적으로 도입하기 위한 지침과 과제를 제시한다.",
+        "score": 4.8,
+        "implications": "[관련업무] AI·디지털 기반 교육혁신 운영, AI·디지털 활용 및 AI 융합교육, AI·정보(AI·SW) 교육, AI·디지털 리터러시 교육 활성화, 신나는 AI교실 구축 및 운영\n[정책제언] K-12 교육 현장에 AI 기술(로봇공학, 챗봇, 머신러닝, 자동 채점 및 피드백 등)을 도입할 때, 2013-2023년 20개 연구에서 입증된 바와 같이 학습 성과 향상 및 개별화된 학습 지원 효과가 큰 기술들을 우선적으로 검토하여 「신나는 AI교실」 구축 및 AI 융합교육 프로그램에 반영해야 한다. 특히 교사 대상 AI 활용 연수 시 이러한 구체적인 AI 도구와 그 성공 사례를 중심으로 교육하여, 교사의 AI 기술 활용 역량을 실질적으로 제고해야 한다.\n[참고사항] AI 기술 도입 시 단순히 새로운 기술을 활용하는 것을 넘어, 로봇공학이나 챗봇과 같이 학습 성과와 참여도를 실제로 증진시킨다고 확인된 구체적인 AI 도구들을 중심으로 전략적 접근이 필요하다. 또한, 자동 채점 및 피드백 시스템과 같은 기술은 교사의 업무 부담을 줄이고 학생 개별 피드백의 질을 높일 수 있으므로, 실제 현장 적용 시 기술의 효과성 및 교사 지원 방안을 함께 고려해야 한다.",
+        "collected_date": "2026-04-01",
+        "apa_citation": "K. Kavitha, V. P. Joshith (2024). Pedagogical Incorporation of Artificial Intelligence in K-12 Science Education: A Decadal Bibliometric Mapping and Systematic Literature Review (2013-2023). https://eric.ed.gov/?id=EJ1456458",
+        "identifier": "EJ1456458",
+        "is_new": true
+      },
+      {
+        "title": "A Holistic Approach to the Design of Artificial Intelligence (AI) Education for K-12 Schools",
+        "url": "https://eric.ed.gov/?id=EJ1309807",
+        "source": "",
+        "author": "Chiu, Thomas K. F.",
+        "published_date": "2021",
+        "summary": "본 연구는 K-12 학교에서 인공지능(AI) 관련 교육과정 설계의 어려움을 해결하기 위해 교사 관점을 반영한 포괄적 교육과정 모델을 개발하였다. 연구진은 12개 K-12 학교의 24명 교사로부터 개별 인터뷰, 수업 문서, 회의록 데이터를 수집하여 주제 분석을 실시하였다. 연구 결과, 내용(content), 결과물(produce), 과정(process), 실천(praxis)의 네 가지 측면을 포함하는 모델과 함께 교육과정 설계의 6가지 핵심 구성 요소를 발견하였다. 이러한 요소들은 K-12 AI 교육과정을 지속 가능하고 질적으로 높게 계획하는 데 필요한 실질적인 지침을 제공하며, 특히 AI 기술에 대한 교사들의 이해를 바탕으로 현장 적용 가능성을 높인다.",
+        "score": 4.8,
+        "implications": "[관련업무] AI·디지털 기반 교육혁신 운영, AI·정보(AI·SW) 교육, AI·디지털 리터러시 교육 활성화, 신나는 AI교실 구축 및 운영\n[정책제언] AI 교육과정 개발 시 12개 K-12 학교 교사 24명의 인터뷰를 통해 도출된 의견을 적극 반영하여, 내용, 결과물, 과정, 실천의 네 가지 측면을 포괄하는 '서울형 K-12 AI 교육과정 설계 가이드라인'을 마련해야 한다. 특히, 교육과정 설계의 6가지 핵심 구성 요소를 구체적인 개발 기준으로 활용하고, 교사 역량 강화를 위한 연수 프로그램에 이를 포함해야 한다.\n[참고사항] 교육과정 설계 시 교육부 지침 외에 현장 교사들의 실제적인 요구와 AI 기술에 대한 이해도를 심층적으로 반영하는 것이 중요하며, 개발된 교육과정이 단순한 지식 전달을 넘어 실천적 역량 함양으로 이어질 수 있도록 '결과물(produce)' 및 '실천(praxis)' 측면을 강화해야 한다.",
+        "collected_date": "2026-04-01",
+        "apa_citation": "Chiu, Thomas K. F. (2021). A Holistic Approach to the Design of Artificial Intelligence (AI) Education for K-12 Schools. https://eric.ed.gov/?id=EJ1309807",
+        "identifier": "EJ1309807",
+        "is_new": true
       }
     ]
-  },
-  "filter_info": {
-    "news_source": "서울시교육청 오늘의 뉴스 (sen.go.kr)",
-    "kedi_source": "KEDI 교육정책네트워크 (edpolicy.kedi.re.kr)",
-    "academic_domestic_source": "KCI 한국학술지인용색인",
-    "academic_international_source": "ERIC (Education Resources Information Center)"
-  },
-  "stats": {
-    "news_collected": 134,
-    "news_selected": 0,
-    "trends_collected": 0,
-    "trends_selected": 0,
-    "policy_collected": 0,
-    "policy_selected": 0,
-    "reports_collected": 0,
-    "reports_selected": 0,
-    "academic_domestic_collected": 0,
-    "academic_domestic_selected": 0,
-    "academic_international_collected": 60,
-    "academic_international_selected": 2
   }
 }
