@@ -1,7 +1,19 @@
 {
-  "last_updated": "2026-04-10T06:43:53.155473+09:00",
+  "last_updated": "2026-04-11T06:44:59.539794+09:00",
   "sections": {
     "news": [
+      {
+        "title": "AI가 그리는 교실 풍경 … 충남교육청 '웹툰 수업 혁신' 시동",
+        "url": "https://www.tournews21.com/news/articleView.html?idxno=133535",
+        "source": "네이버뉴스",
+        "author": "",
+        "published_date": "2026-04-11",
+        "summary": "충남교육청은 AI 기반 교육 생태계 확산을 목표로 웹툰 수업 혁신을 추진하고 있으며, 2027년 말까지 교원 및 학생 대상의 AI 활용 교육과 전산 교육 체계 활성화를 위한 공동 홍보를 지속적으로 추진할 계획이다. 이러한 기관 간 협력을 통해 AI를 활용한 창의적인 교실 환경을 조성하고, 디지털 역량을 강화하는 데 주력하고 있다.",
+        "score": 4.5,
+        "implications": "[관련업무] 1. AI·디지털 기반 교육혁신 운영, 2. AI·디지털 활용 및 AI 융합교육, 7. AI·디지털 기반 수업·평가혁신 전문가 연수\n[정책제언] 서울시교육청은 2027년 말까지 AI 웹툰 등 예술·창작 분야의 AI 융합교육 프로그램을 개발하고, 교원 및 학생 대상 AI 활용 및 전산 교육 체계 활성화 계획을 수립해야 한다. 특히, 관련 산업계와의 협력을 통해 교육 콘텐츠를 개발하고 공동 홍보를 추진하는 방안을 모색해야 한다.\n[참고사항] 타 시도(충남)의 사례에서 AI 기반 교육 생태계 확산을 위한 목표 시점(2027년 말) 설정, 구체적인 교육 대상(교원 및 학생) 명시, 전산 교육 체계 활성화를 위한 공동 홍보 추진 계획을 참고할 수 있다. 또한 웹툰과 같이 특정 분야에 AI를 융합하는 혁신 수업 모델을 서울형 AI 교육에 적용하는 방안을 고려해볼 수 있다.",
+        "collected_date": "2026-04-11",
+        "is_new": true
+      },
       {
         "title": "인천시교육청, '청소년 디지털 과의존 예방 사업' 본격 확대",
         "url": "https://www.cstimes.com/news/articleView.html?idxno=701510",
@@ -12,7 +24,7 @@
         "score": 4.0,
         "implications": "[관련업무] 3. AI·정보(AI·SW) 교육, 4. AI·디지털 리터러시 교육 활성화, 8. AI윤리·디지털 시민성 교육\n[정책제언] 서울시교육청은 청소년의 디지털 과의존 예방과 건강한 AI 윤리·디지털 시민성 함양을 위해 AI·SW 교육과 AI 윤리 교육을 통합한 프로그램을 확대해야 한다. 특히, 민간 기관(예: NIA, 기업 사회공헌 프로그램) 및 에듀테크 기업과의 협력을 통해 학교로 '찾아가는 AI·SW 교육'과 '찾아가는 AI 윤리교육' 모델을 적극 도입하고, 구체적으로 연간 1,000학급 이상을 지원하는 규모의 교육을 계획해야 한다.\n[참고사항] 인천시교육청의 사례는 AI·디지털 교육이 단순 기술 습득을 넘어 건강한 디지털 환경 조성과 윤리적 활용 능력을 키우는 데 중요함을 보여준다. 서울시교육청은 '디벗' 교수학습 지원 정책과 연계하여, AI 윤리 및 디지털 시민성 교육을 필수적으로 포함하고, 민간 전문가를 활용한 프로그램 도입 시 교육 콘텐츠의 질과 전문성을 확보하는 방안을 고려해야 한다.",
         "collected_date": "2026-04-10",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "AI 시대, 대학은 무엇을 가르칠 것인가",
@@ -24,7 +36,7 @@
         "score": 4.0,
         "implications": "[관련업무] 2. AI·디지털 활용 및 AI 융합교육, 3. AI·정보(AI·SW) 교육, 11. 신나는 AI교실 구축 및 운영\n[정책제언] 서울시교육청은 초·중등 AI·정보(AI·SW) 교육의 방향을 단순히 코딩이나 기술 습득을 넘어, AI 기술을 활용하여 실생활 및 지역사회의 문제를 해결하는 융합 교육 모델로 전환해야 한다. 이를 위해 '신나는 AI 교실' 운영 시 지역사회 연계 프로젝트, 메이커 교육, 문제 기반 학습(PBL)을 적극적으로 도입하여 학생들이 AI를 통해 실제 가치를 창출하고 사회에 기여하는 경험을 제공해야 한다.\n[참고사항] 고등 교육 기관의 AI·SW 교육 철학은 K-12 교육에도 중요한 시사점을 제공하며, 특히 문제 해결 중심의 접근은 AI 융합교육의 핵심 가치가 될 수 있다. 서울시교육청은 AI·SW 교육 과정을 설계할 때, 학생들의 자율성과 창의성을 존중하며, AI를 도구로 활용하여 실질적인 문제 해결 역량을 기르는 데 중점을 두어야 한다.",
         "collected_date": "2026-04-10",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "테크빌교육, 서울대 미래교육혁신센터와 'AI·디지털 교육 생태계 조성...",
@@ -36,7 +48,7 @@
         "score": 5.0,
         "implications": "[관련업무] 1. AI·디지털 기반 교육혁신 운영, 2. AI·디지털 활용 및 AI 융합교육, 7. AI·디지털 기반 수업·평가혁신 전문가 연수\n[정책제언] 서울시교육청은 서울대학교 미래교육혁신센터와 같은 지역 내 고등 교육 기관 및 테크빌교육과 같은 선도 에듀테크 기업과의 파트너십을 적극적으로 추진하여, 서울형 AI·디지털 교육 생태계를 구축해야 한다. 특히, AI 에이전트 기술을 활용한 개인별 맞춤형 교수학습 지원 시스템을 개발하고, 이를 활용할 수 있는 교사 역량 강화를 위한 AI·디지털 기반 수업·평가혁신 전문가 연수 프로그램을 구체적으로 마련해야 한다.\n[참고사항] 서울대와 에듀테크 기업 간의 산학연 협력 모델은 서울시교육청이 추진할 수 있는 효과적인 전략으로, 특히 전 연령대를 아우르는 포괄적 접근과 AI 에이전트와 같은 최신 기술 적용 방안은 서울 교육 현장에 큰 시사점을 제공한다. AI 에이전트의 교육적 효과 검증 및 실제 학교 현장 적용 가능성을 면밀히 검토하고, 이를 서울 교육 정책에 반영하는 방안을 모색해야 한다.",
         "collected_date": "2026-04-10",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "충남교육청 'AI 전문가 교사 172명 육성', 디지털 공교육 전열 정비",
@@ -281,6 +293,42 @@
     ],
     "global_trends": [
       {
+        "title": "[아랍에미리트] IB 학생들, 올해 시험 없이 성적 산정... 대체 평가 방식 적용",
+        "url": "https://edpolicy.kedi.re.kr/edpolicy/board/30/844805",
+        "source": "khaleejtimes",
+        "author": "",
+        "published_date": "2026.04.08",
+        "summary": "아랍에미리트에서 IB(International Baccalaureate) 학생들이 올해는 시험 없이 성적을 산정받게 되었으며, 이는 대체 평가 방식이 적용됨을 의미한다. 이러한 정책은 예측 불가능한 상황에 대한 교육 시스템의 유연한 대응을 보여주며, 학생의 학습 과정과 다양한 역량을 종합적으로 평가하는 방향으로의 전환 가능성을 시사한다. 전통적인 일회성 시험의 한계를 극복하고 학생 개개인의 성취를 다각도로 측정하려는 시도로 볼 수 있으며, 디지털 기반의 새로운 평가 도구 활용을 촉진할 수 있다.",
+        "score": 4.0,
+        "implications": "[관련업무] AI·디지털 기반 수업·평가혁신 전문가 연수, AI·디지털 활용 및 AI 융합교육\n[정책제언] 인공지능 및 에듀테크를 활용한 다양한 대체 평가 모델(예: AI 기반 프로젝트 평가, 디지털 포트폴리오, 역량 기반 평가)을 개발하고, 이를 학교 현장에 적용하기 위한 교원 연수 프로그램을 확대해야 한다. 특히 AI가 제공하는 학습 분석 데이터를 활용하여 학생의 성장 과정을 다면적으로 평가하는 방안을 모색한다.\n[참고사항] 대체 평가 방식 도입 시 평가의 공정성, 신뢰성 확보 방안과 데이터 보안 및 AI 윤리 문제에 대한 가이드라인 마련이 필수적이다.",
+        "collected_date": "2026-04-11",
+        "is_new": true
+      },
+      {
+        "title": "[중국] 학과·전공 구조조정 ‘선택과 집중’, 신설 전공 80% 긴급 수요 분야 배치",
+        "url": "https://edpolicy.kedi.re.kr/edpolicy/board/30/844795",
+        "source": "中国教育新闻网",
+        "author": "",
+        "published_date": "2026.04.08",
+        "summary": "중국은 교육 시스템의 '선택과 집중' 전략에 따라 학과 및 전공 구조조정을 단행했으며, 신설되는 전공의 80%를 인공지능, 빅데이터, 첨단 제조 등 국가와 사회의 '긴급 수요 분야'에 배치하고 있다. 이는 국가 산업 발전 및 미래 사회가 요구하는 핵심 인재 양성에 초점을 맞춘 교육 개혁의 일환으로 해석된다. 이러한 정책은 교육이 사회·경제적 변화에 민감하게 반응하여 인력 수급 불균형을 해소하고 국가 경쟁력을 확보하려는 중국의 의지를 분명히 보여준다.",
+        "score": 4.5,
+        "implications": "[관련업무] AI·정보(AI·SW) 교육, AI·디지털 리터러시 교육 활성화, AI·디지털 기반 교육혁신 운영\n[정책제언] 서울 교육청은 미래 사회의 인력 수요 변화를 선제적으로 분석하여, AI·SW 교육 및 AI 융합교육 과목의 확대와 심화를 위한 교육과정 재구조화를 추진해야 한다. 특히 인공지능, 데이터 과학 등 신기술 분야의 전문가를 양성하기 위한 특화 교육 프로그램 개발 및 운영을 지원하고, 일반 학생들의 AI·디지털 리터러시 함양을 위한 필수 교육을 강화한다.\n[참고사항] 산업계 및 학계와의 긴밀한 협력을 통해 미래 핵심 기술 분야의 인재 수요를 예측하고, 이에 부응하는 교육 콘텐츠 개발 및 교원 역량 강화 방안을 지속적으로 모색해야 한다.",
+        "collected_date": "2026-04-11",
+        "is_new": true
+      },
+      {
+        "title": "[아랍에미리트] UAE 학교들, 원격수업 전환 ‘신속’…준비된 시스템이 만든 대응력",
+        "url": "https://edpolicy.kedi.re.kr/edpolicy/board/30/844802",
+        "source": "khaleejtimes",
+        "author": "",
+        "published_date": "2026.04.08",
+        "summary": "아랍에미리트 학교들이 비상 상황 발생 시 원격수업으로 신속하게 전환할 수 있었던 것은 미리 준비된 시스템 덕분이었다. 이는 디지털 인프라 구축과 원격 학습 환경에 대한 사전 투자가 교육 현장의 위기 대응력을 크게 높였음을 보여준다. UAE는 이러한 디지털 학습 시스템을 통해 학생들의 학습 연속성을 확보하고, 급변하는 교육 환경에 유연하게 대처하는 역량을 강화하고 있다. 결과적으로, 견고한 디지털 교육 시스템이 교육의 안정성과 효율성을 담보하는 핵심 요소로 작용했음을 알 수 있다.",
+        "score": 4.5,
+        "implications": "[관련업무] AI·디지털 기반 교육혁신 운영, 「디벗」교수학습 지원 및 디벗 정책 지원단, 디지털 교육 세계화(ODA) 사업\n[정책제언] '디벗' 정책을 통해 보급된 기기뿐만 아니라 안정적인 네트워크 환경 및 학습관리시스템(LMS) 등 디지털 인프라를 상시 점검하고 고도화해야 한다. 비상 상황 발생 시 즉각적으로 원격수업으로 전환할 수 있는 시스템 운영 매뉴얼을 수립하고, 학교별 디지털 전환 준비도를 정기적으로 평가하여 교육 연속성을 확보한다.\n[참고사항] 국가 단위의 디지털 교육 인프라 구축 및 유지보수 계획을 장기적으로 수립하고, '디벗'과 연계하여 실질적인 학습 효과를 높일 수 있는 디지털 콘텐츠 및 플랫폼 활용 교육을 강화해야 한다.",
+        "collected_date": "2026-04-11",
+        "is_new": true
+      },
+      {
         "title": "[일본] 문부과학성, AI 활용한 과학 연구 추진 기본 전략",
         "url": "https://edpolicy.kedi.re.kr/edpolicy/board/30/844786",
         "source": "도쿄신문,문부과학성",
@@ -290,7 +338,7 @@
         "score": 4.5,
         "implications": "[관련업무] AI·디지털 기반 교육혁신 운영, AI·디지털 활용 및 AI 융합교육, AI·정보(AI·SW) 교육, AI·디지털 기반 수업·평가혁신 전문가 연수\n[정책제언] 과학/수학 등 STEM 교육에서 AI 활용 연구 방법을 도입하는 기본 전략을 수립하고, 학생들이 AI 도구를 활용하여 직접 탐구하고 문제 해결하는 수업 모델을 개발해야 합니다. 이를 위해 AI 도구를 활용한 과학/수학 교사 전문 연수를 강화하고, 교과 융합형 AI 교육 콘텐츠를 개발해야 합니다.\n[참고사항] 일본 문부과학성의 전략은 교육 분야에 대한 직접적인 언급은 적으나, 미래 인재 양성이라는 큰 틀에서 K-12 교육과정 및 교사 역량 강화에 중요한 시사점을 제공합니다. AI를 활용한 탐구 학습 환경 구축을 위한 인프라 투자 및 정책 지원이 필요합니다.",
         "collected_date": "2026-04-10",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "[싱가포르] 향후 5년간 학생 1만 명에 '피지컬 AI' 교육 실시",
@@ -302,7 +350,7 @@
         "score": 5,
         "implications": "[관련업무] AI·정보(AI·SW) 교육, AI·디지털 활용 및 AI 융합교육, 신나는 AI교실 구축 및 운영\n[정책제언] 서울시교육청도 K-12 학생들을 위한 AI 교육 범위를 확장하여, 소프트웨어 코딩을 넘어 로봇, IoT 등 물리적 AI 시스템을 직접 설계하고 구현하는 '피지컬 AI' 교육 프로그램을 도입해야 합니다. 이를 위해 '신나는 AI 교실' 또는 '첨단교실'에 관련 장비와 교육 환경을 구축하고, 융합형 교육과정을 개발해야 합니다.\n[참고사항] 싱가포르의 10,000명 규모 교육 계획을 참고하여, 서울 관내 학교 대상 시범 사업을 추진하고, 단계적으로 교육 대상을 확대하는 로드맵을 수립해야 합니다. 관련 교육 콘텐츠 개발 및 교사 연수 지원이 필수적입니다.",
         "collected_date": "2026-04-10",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "[싱가포르] 난양공업대학교, 교육과정 개편으로 전 학부생에 구글 AI 도구 전면 제공",
@@ -314,7 +362,7 @@
         "score": 5,
         "implications": "[관련업무] AI·디지털 기반 교육혁신 운영, AI·디지털 활용 및 AI 융합교육, AI윤리·디지털 시민성 교육\n[정책제언] 고등교육뿐만 아니라 K-12 교육 과정에도 생성형 AI 도구 활용 교육을 필수적으로 포함하고, 특정 에듀테크 기업과의 협력을 통해 학생들에게 검증된 AI 도구를 체계적으로 제공하는 방안을 모색해야 합니다. 특히, AI 윤리 및 비판적 사고력을 함양하는 교육 내용을 통합하는 데 주력해야 합니다.\n[참고사항] 난양공업대학교의 사례를 벤치마킹하여, AI 도구 활용 교육 시 특정 도구(예: Google Gemini, Microsoft Copilot 등)를 선정하고, 전면적인 도입을 위한 교사 연수 및 교육자료 개발에 착수해야 합니다.",
         "collected_date": "2026-04-10",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "[영국] 영국 교육부, 5세 미만 영유아 스크린 타임 첫 공식 가이드라인 발표",
@@ -476,7 +524,7 @@
         "collected_date": "2026-04-10",
         "apa_citation": "Woo, H. (2026). 외국 문헌 분석을 통한 영재교육에서의 인공지능(AI) 활용과 교사 역할 탐색. *Journal of Gifted/Talented Education*, 36(1). https://doi.org/10.9722/jgte.2026.36.1.41",
         "identifier": "10.9722/jgte.2026.36.1.41",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "장애학생 대상 보편적 학습설계 기반 인공지능 윤리교육 프로그램 개발",
@@ -490,7 +538,7 @@
         "collected_date": "2026-04-10",
         "apa_citation": "Yoon, J. S., Lee, A. H., Choi, H. Y. (2026). 장애학생 대상 보편적 학습설계 기반 인공지능 윤리교육 프로그램 개발. *Journal of Special Education &amp; Rehabilitation Science*, 65(1). https://doi.org/10.23944/jsers.2026.3.65.1.41",
         "identifier": "10.23944/jsers.2026.3.65.1.41",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "인공지능(AI) 시대의 교육과정: 에이전트 교육과정(Agent Curriculum) 담론 제안",
@@ -504,7 +552,7 @@
         "collected_date": "2026-04-10",
         "apa_citation": "Lee, S., Lim, J. (2026). 인공지능(AI) 시대의 교육과정: 에이전트 교육과정(Agent Curriculum) 담론 제안. *The Journal of Curriculum Studies*, 44(1). https://doi.org/10.15708/kscs.44.1.10",
         "identifier": "10.15708/kscs.44.1.10",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "생성형 AI 시대 일본어 번역 교육 고찰 ― ‘비평가-감수자’ 모델을 중심으로 ―",
@@ -831,6 +879,34 @@
     ],
     "academic_international": [
       {
+        "title": "Can Generative Artificial Intelligence Be a Good Teaching Assistant?--An Empirical Analysis Based on Generative AI-Assisted Teaching",
+        "url": "https://eric.ed.gov/?id=EJ1474776",
+        "source": "",
+        "author": "Qianwen Tang, Wenbo Deng, Yidan Huang",
+        "published_date": "2025",
+        "summary": "이 연구는 생성형 인공지능(Generative AI)이 개인 맞춤형 학습 강화 및 교육 효율성 향상에 잠재력이 있음에도 불구하고, 오정보와 과도한 의존성이라는 우려가 커지는 상황에서 교실 수업에서의 역할과 교사 감독의 효과성을 준실험 설계를 통해 체계적으로 평가했습니다. 특히 청소년들의 생성형 AI 사용 시 교사의 감독이 이러한 위험을 완화하고 기술의 효과적인 활용을 보장하는 데 결정적인 역할을 함을 규명했습니다. 연구는 생성형 AI 기반 교육 시 교사의 적절한 개입과 지도가 학습 이점을 극대화하고 잠재적 문제점을 효과적으로 관리하는 데 필수적임을 실증적으로 보여주며, 이는 기술 통합 교육의 성공적인 구현을 위한 중요한 지침을 제공합니다.",
+        "score": 4.6,
+        "implications": "[관련업무] AI·디지털 기반 교육혁신 운영, AI·디지털 활용 및 AI 융합교육, AI·디지털 기반 수업·평가혁신 전문가 연수, AI윤리·디지털 시민성 교육\n[정책제언] 생성형 AI를 활용한 교수학습 모델을 개발하고, 교사의 생성형 AI 활용 역량 강화를 위한 전문 연수 프로그램을 시급히 마련해야 합니다. 특히, 생성형 AI의 교육적 활용 방안과 더불어 오정보 식별, 비판적 사고 함양, 윤리적 사용 등 교사 감독의 구체적인 가이드라인을 포함하여 연수 프로그램을 구성해야 합니다.\n[참고사항] 생성형 AI의 잠재적 위험(오정보, 과도한 의존)을 인지하고, 이를 최소화하기 위한 교사의 역할과 책임에 대한 명확한 교육 및 지침이 중요합니다. 청소년 교육 현장에서 생성형 AI 도입 시에는 단계적 접근을 통해 충분한 시범 운영과 피드백을 거쳐 안정적인 교육 환경을 조성해야 합니다. 예를 들어, '생성형 AI 활용 윤리 가이드라인'을 배포하고 교사 연수 필수 이수 제도를 도입할 수 있습니다.",
+        "collected_date": "2026-04-11",
+        "apa_citation": "Qianwen Tang, Wenbo Deng, Yidan Huang, Shuaijie Wang, Hao Zhang (2025). Can Generative Artificial Intelligence Be a Good Teaching Assistant?--An Empirical Analysis Based on Generative AI-Assisted Teaching. https://eric.ed.gov/?id=EJ1474776",
+        "identifier": "EJ1474776",
+        "is_new": true
+      },
+      {
+        "title": "Towards an AI-Literate Future: A Systematic Literature Review Exploring Education, Ethics, and Applications",
+        "url": "https://eric.ed.gov/?id=EJ1499169",
+        "source": "",
+        "author": "Gabriele Biagini",
+        "published_date": "2025",
+        "summary": "본 연구는 인공지능(AI)의 변혁적 영향을 인식하며 AI 리터러시의 진화하는 지형을 탐색하기 위한 체계적인 문헌 검토를 수행했습니다. Web of Science, SCOPUS, ERIC 등 4개 데이터베이스에서 323개의 기록 중 엄격한 선정 과정을 거쳐 87개의 고품질 연구를 분석하여, AI 리터러시와 관련된 중심 주제와 정의를 식별했습니다. 연구 결과는 교육, 윤리, 그리고 다양한 응용 분야에서 AI 리터러시의 복잡성과 중요성에 대한 포괄적인 이해를 제공하며, AI가 현대 세계에서 지닌 광범위한 역할과 이를 통한 21세기를 준비하는 데 필요한 필수 역량임을 강조합니다.",
+        "score": 4.8,
+        "implications": "[관련업무] AI·디지털 리터러시 교육 활성화, AI윤리·디지털 시민성 교육, AI·디지털 기반 교육혁신 운영\n[정책제언] 본 체계적 문헌 검토에서 제시된 AI 리터러시의 핵심 주제와 정의를 바탕으로 서울시교육청의 'AI 리터러시 핵심 역량 프레임워크'를 개발하고, 이를 K-12 및 고등교육 과정에 필수적으로 반영하는 가이드라인을 수립해야 합니다. 특히 AI 윤리 및 디지털 시민성 교육 내용을 강화하여 단순 기술 활용을 넘어선 비판적 사고와 책임감 있는 AI 사용을 위한 교육 목표를 구체화해야 합니다.\n[참고사항] AI 리터러시 교육은 기술적 지식뿐만 아니라 윤리적 판단, 사회적 영향 이해를 포함하는 포괄적 접근이 필수적입니다. 최신 연구 동향과 다양한 학제적 관점을 교육 내용 개발에 반영하고, 교사 연수 시 AI 리터러시의 중요성 및 교육 방안에 대한 심도 있는 내용을 제공하여 AI 시대에 필요한 역량을 갖춘 교원을 양성하는 것이 중요합니다.",
+        "collected_date": "2026-04-11",
+        "apa_citation": "Gabriele Biagini (2025). Towards an AI-Literate Future: A Systematic Literature Review Exploring Education, Ethics, and Applications. https://eric.ed.gov/?id=EJ1499169",
+        "identifier": "EJ1499169",
+        "is_new": true
+      },
+      {
         "title": "Teaching Artificial Intelligence in K-12 Classrooms: A Scoping Review",
         "url": "https://eric.ed.gov/?id=EJ1449690",
         "source": "",
@@ -842,7 +918,7 @@
         "collected_date": "2026-04-10",
         "apa_citation": "Jiahong Su, Kai Guo, Xinyu Chen, Samuel Kai Wah Chu (2024). Teaching Artificial Intelligence in K-12 Classrooms: A Scoping Review. https://eric.ed.gov/?id=EJ1449690",
         "identifier": "EJ1449690",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "What Would the Matrix Do?: A Systematic Review of K-12 AI Learning Contexts and Learner-Interface Interactions",
@@ -856,7 +932,7 @@
         "collected_date": "2026-04-10",
         "apa_citation": "Moore, Robert L., Jiang, Shiyan, Abramowitz, Brian (2023). What Would the Matrix Do?: A Systematic Review of K-12 AI Learning Contexts and Learner-Interface Interactions. https://eric.ed.gov/?id=EJ1377775",
         "identifier": "EJ1377775",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "Attitudes towards and Expectations on the Role of Artificial Intelligence in the Classroom among Digitally Skilled Finnish K-12 Mathematics Teachers",
