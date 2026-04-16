@@ -1,7 +1,43 @@
 {
-  "last_updated": "2026-04-16T06:47:22.837892+09:00",
+  "last_updated": "2026-04-17T06:39:17.416880+09:00",
   "sections": {
     "news": [
+      {
+        "title": "기계설비 관련학과 AI시대 맞춰 'IoT 융합교육' 잇따라 개설",
+        "url": "http://www.kmecnews.co.kr/news/articleView.html?idxno=46604",
+        "source": "네이버뉴스",
+        "author": "",
+        "published_date": "2026-04-17",
+        "summary": "AI 시대에 기계설비 교육이 '시공' 중심에서 '기술' 중심으로 급변함에 따라, 관련 학과들이 IoT 융합교육을 잇따라 개설하고 있다. 이는 공조, 보일러, 펌프 등 전통적인 기계설비에 센서를 부착하고 IoT로 데이터를 분석하여 에너지 효율을 높이는 등 AI 기술을 활용하는 교육으로의 전환을 의미한다. 이러한 변화는 미래 산업 현장의 수요에 맞춰 AI 기술 융합 인재를 양성하기 위함이다.",
+        "score": 4.0,
+        "implications": "[관련업무] 2. AI·디지털 활용 및 AI 융합교육, 3. AI·정보(AI·SW) 교육\n[정책제언] 서울 시내 특성화고 및 마이스터고의 AI·디지털 융합 교육과정을 고도화하고, 전통 산업 분야와 AI·IoT 기술을 융합한 직업 교육 프로그램을 개발하여 미래 산업 수요에 맞는 인재 양성을 지원해야 한다.\n[참고사항] 산업계와의 협력을 통해 최신 기술 트렌드를 반영한 교육과정을 지속적으로 업데이트하고, 특히 교사들의 AI·IoT 융합 기술 역량 강화를 위한 전문 연수 프로그램을 확대하여 교실 현장에 적용 가능성을 높여야 한다.",
+        "collected_date": "2026-04-17",
+        "is_new": true
+      },
+      {
+        "title": "“AI 리터러시·분별력 교육 강화해야”",
+        "url": "https://www.kmib.co.kr/article/view.asp?arcid=1776324586&code=23111111&cp=nv",
+        "source": "네이버뉴스",
+        "author": "",
+        "published_date": "2026-04-17",
+        "summary": "김수환 총신대 교수는 교회 교육 업무를 인공지능 중심으로 재설계하는 인공지능 전환(AX) 방식을 제안하며, AI 리터러시 및 분별력 교육 강화를 주장했다. 그는 AI가 반복 업무를 맡아 교사의 부담을 줄이면 교사가 아이들에게 더 깊이 집중할 수 있으며, 모든 교육 과정에 '인간 검토' 단계를 포함하여 AI의 한계를 보완해야 한다고 강조했다. 이는 AI 시대에 요구되는 새로운 교육 방향과 교사의 역할 변화를 시사한다.",
+        "score": 4.5,
+        "implications": "[관련업무] 4. AI·디지털 리터러시 교육 활성화, 8. AI윤리·디지털 시민성 교육, 1. AI·디지털 기반 교육혁신 운영\n[정책제언] 서울시교육청은 교사들이 AI를 활용하여 반복적인 업무 부담을 줄이고 학생들에게 심층적인 교육에 집중할 수 있도록 AI 기반 교수학습 지원 시스템 및 교무학사 보조 도구 도입을 검토해야 한다. 또한, 모든 교육 과정에 AI 윤리 및 디지털 시민성 교육을 포함하여 AI 정보를 비판적으로 분석하고 활용하는 능력을 함양해야 한다.\n[참고사항] AI 활용 교육 시 '인간 검토' 단계를 반드시 포함하는 가이드라인을 마련하여 AI의 한계를 보완하고, AI가 교사와 학생 간의 관계를 더욱 심화시키는 도구로 활용될 수 있도록 정책적 지원을 강화해야 한다.",
+        "collected_date": "2026-04-17",
+        "is_new": true
+      },
+      {
+        "title": "동대문구, 학교 경계 허문 ‘거점형 교육’ 추진…AI 해커톤 등 미래형...",
+        "url": "https://www.munhwa.com/article/11582918?ref=naver",
+        "source": "문화일보",
+        "author": "",
+        "published_date": "2026-04-17",
+        "summary": "동대문구는 올해 'AI 해커톤'과 '디지털 탐구 캠프' 등 미래형 특화 프로그램을 최우선 과제로 설정하고, AI·디지털 기반 교육을 운영하는 학교를 중심으로 지원 대상을 선정했다. 사전 수요조사를 거쳐 안평초 등 특정 학교에 AI·디지털 교육 프로그램을 집중적으로 지원하는 거점형 교육을 추진한다. 이는 서울 자치구가 학교 경계를 허물고 지역 내 AI·디지털 교육 생태계를 강화하는 정책 사례이다.",
+        "score": 5.0,
+        "implications": "[관련업무] 1. AI·디지털 기반 교육혁신 운영, 2. AI·디지털 활용 및 AI 융합교육, 9. AI·에듀테크 선도교사단 및 AIEDAP\n[정책제언] 서울시교육청은 동대문구 사례와 같이 자치구 단위의 AI·디지털 교육 선도 거점 학교를 발굴 및 지원하고, 'AI 해커톤'과 '디지털 탐구 캠프' 같은 미래형 특화 프로그램을 개발하여 운영할 수 있도록 예산 및 행정 지원 방안을 마련해야 한다.\n[참고사항] 동대문구의 사전 수요조사 및 거점 학교 지원 모델을 벤치마킹하여 서울시교육청 차원의 지역 기반 AI·디지털 교육 혁신 모델 수립에 활용하고, 우수 프로그램은 다른 자치구로 확산할 수 있다.",
+        "collected_date": "2026-04-17",
+        "is_new": true
+      },
       {
         "title": "뷰티 교육에 AI-DX 도입해 K뷰티 산업 인재 육성",
         "url": "https://www.donga.com/news/Economy/article/all/20260415/133738850/2",
@@ -12,7 +48,7 @@
         "score": 4.0,
         "implications": "[관련업무] AI·디지털 기반 교육혁신 운영, AI·디지털 활용 및 AI 융합교육, AI·정보(AI·SW) 교육, AI·에듀테크 선도교사단 및 AIEDAP\n[정책제언] 특정 분야(예: 예술, 디자인, 직업 교육)에 AI·DX를 융합하는 교육 모델 개발을 지원해야 한다. 교육부 등 외부 기관과 협력하여 서울 관내 학교 및 특성화고 대상의 ‘AI·DX 융합 교육 선도 프로젝트’를 기획하고, 이를 통해 학생들이 미래 산업 변화에 대응하는 전문성을 갖추도록 해야 한다.\n[참고사항] 현장 적용 가능한 AI·DX 기술 교육 콘텐츠를 개발하고, 관련 분야 전문가와의 협력을 통해 실제 산업 현장의 요구를 반영한 교육과정을 구성하는 것이 중요하다. 특히, 특성화고등학교 및 직업계 고등학교에서의 적용 가능성을 적극적으로 검토하여 K-12 교육 현장의 AI 융합 교육 사례를 확장할 수 있다.",
         "collected_date": "2026-04-16",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "‘AI 개인화 기술’로 과목별 약점 분석해 학습 보완",
@@ -24,7 +60,7 @@
         "score": 5.0,
         "implications": "[관련업무] AI·디지털 기반 교육혁신 운영, AI·디지털 활용 및 AI 융합교육, AI·정보(AI·SW) 교육, AI·디지털 리터러시 교육 활성화, 「디벗」교수학습 지원 및 디벗 정책 지원단, AI·디지털 기반 수업·평가혁신 전문가 연수\n[정책제언] 서울시교육청은 AI 개인화 학습 엔진을 활용한 ‘진단-분석-예측-추천-트레이닝’ 5단계 학습 시스템 도입을 적극 검토해야 한다. 특히, ‘디벗’ 기기와 연계하여 AI 기반 맞춤형 학습 콘텐츠를 제공하고, 교사들이 AI 학습 데이터를 활용하여 학생별 학습 지도 계획을 수립할 수 있도록 지원 시스템을 구축해야 한다.\n[참고사항] AI 개인화 학습 시스템 도입 시, 학생들의 학습 데이터 분석을 위한 AI 윤리 및 개인정보 보호 교육을 병행하여 디지털 시민성 함양을 강조해야 한다. 또한, 교사가 AI 도구를 효과적으로 활용하여 수업 전문성을 높일 수 있도록 AI 기반 수업·평가 혁신 전문가 연수를 지속적으로 제공해야 한다.",
         "collected_date": "2026-04-16",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "AI-소프트웨어 기반 교육 전면 확대해 인재 육성",
@@ -36,7 +72,7 @@
         "score": 5.0,
         "implications": "[관련업무] AI·디지털 기반 교육혁신 운영, AI·디지털 활용 및 AI 융합교육, AI·정보(AI·SW) 교육, 디지털튜터 운영, AI·에듀테크 선도교사단 및 AIEDAP\n[정책제언] 서울시교육청 차원에서도 AI·SW 기반 교육을 K-12 교육과정에 전면 확대하고, AI 튜터제 도입 및 운영 방안을 구체화하며, AI 교육 혁신위원회를 구성하여 교육과 연구의 유기적 융합을 추진해야 한다. 또한, 학생 주도형 AI 융합 프로젝트 및 창의 활동을 지원하는 교육 모델을 개발하고 확대할 필요가 있다.\n[참고사항] AI 튜터제는 교사의 업무 부담을 경감하고 학생 맞춤형 학습을 지원하는 효과적인 도구가 될 수 있으므로, 초기 단계부터 교원 연수를 강화하고, 시범 운영을 통해 K-12 현장에 최적화된 모델을 구축하는 데 집중해야 한다.",
         "collected_date": "2026-04-16",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "경기도교육청, AI 서·논술형 평가 전 교과 확대…'사고력 중심 대입' 준...",
@@ -437,6 +473,42 @@
     ],
     "global_trends": [
       {
+        "title": "UNESCO International Bureau of Education",
+        "url": "https://www.ibe.unesco.org/",
+        "source": "UNESCO",
+        "author": "",
+        "published_date": "2026-04-17",
+        "summary": "유네스코 국제 교육국(IBE)은 교육과정 개발 및 혁신에 중점을 두는 기관으로, 각국의 교육 시스템이 미래 사회의 요구에 부응할 수 있도록 지원합니다. 특히 디지털 전환과 AI 시대에 발맞춰 교육과정 내 AI 및 디지털 리터러시 요소를 통합하고, 학생들이 비판적 사고, 창의성, 문제 해결 능력 등 미래 핵심 역량을 갖추도록 돕는 교육과정 모델을 연구하고 보급합니다. IBE는 교육과정 개편을 통해 공정하고 포괄적인 양질의 교육을 보장하는 데 기여하며, 서울형 AI 교육과정 모델을 고도화하고 '신나는 AI교실'의 콘텐츠를 개발하는 데 필요한 국제적 지침을 제공합니다.",
+        "score": 4.6,
+        "implications": "[관련업무] AI·디지털 기반 교육혁신 운영, AI·정보(AI·SW) 교육, AI·디지털 리터러시 교육 활성화, 신나는 AI교실 구축 및 운영\n[정책제언] IBE의 교육과정 혁신 연구를 참조하여 서울형 AI 교육과정 모델을 고도화하고, 초·중·고 교육과정 전반에 걸쳐 AI·정보(AI·SW) 교육 및 AI·디지털 리터러시 교육 요소를 체계적으로 통합한다. 특히, '신나는 AI교실'의 교육 내용 및 운영 방식을 IBE가 제시하는 미래형 교육과정 방향과 연계하여 콘텐츠를 개발하고 확산한다.\n[참고사항] AI 융합교육 및 AI 윤리 교육이 교육과정에 자연스럽게 녹아들 수 있도록 교과 간 연계 방안 모색, IBE의 권고에 따라 학생들의 비판적 사고 및 문제 해결 능력을 함양하는 교육과정 설계에 집중.",
+        "collected_date": "2026-04-17",
+        "is_new": true
+      },
+      {
+        "title": "UNESCO Institute for Lifelong Learning (UIL)Lifelong learning is key to overcoming global challenges and to achieving the Sustainable Development Goals.",
+        "url": "https://www.uil.unesco.org/",
+        "source": "UNESCO",
+        "author": "",
+        "published_date": "2026-04-17",
+        "summary": "유네스코 평생학습원(UIL)은 세계적인 도전과 지속가능발전목표(SDGs) 달성을 위한 핵심 동력으로 평생학습의 중요성을 강조합니다. 이 기관은 특히 성인 교육, 문해력, 비형식 교육 분야에서 연구, 역량 강화, 정책 지원을 제공하며, AI와 디지털 기술의 발전이 요구하는 새로운 기술 및 리터러시 함양을 위한 평생교육 체제 구축에 대한 심층적인 자료와 가이드라인을 제시합니다. UIL은 변화하는 사회에 적응하고 능동적으로 참여하기 위한 지속적인 학습의 기회 보장을 목표로 하며, AI 시대의 교원 및 학부모, 지역주민 대상의 디지털 리터러시 교육 설계에 중요한 참고 자료가 됩니다.",
+        "score": 4.7,
+        "implications": "[관련업무] AI·디지털 리터러시 교육 활성화, AI·디지털 기반 수업·평가혁신 전문가 연수, 디지털튜터 운영\n[정책제언] UIL의 평생학습 프레임워크를 기반으로 교원 및 학부모, 지역주민 대상의 AI·디지털 리터러시 교육 프로그램을 설계하고, 급변하는 AI 시대에 필요한 디지털 시민성 함양 교육을 평생교육의 관점에서 강화한다. 또한, 디지털 튜터의 역할 재정립 및 전문성 강화를 위한 연수 프로그램에 UIL의 가이드라인을 반영한다.\n[참고사항] AI 활용 역량뿐만 아니라 AI 윤리 및 책임감 있는 사용을 포함하는 포괄적인 평생학습 모델 구축, 성인 학습자를 위한 맞춤형 AI/디지털 교육 콘텐츠 개발에 UIL 자료 활용.",
+        "collected_date": "2026-04-17",
+        "is_new": true
+      },
+      {
+        "title": "Global Education Monitoring Report (GEM Report)Established in 2002, the GEM Report is an editorially independent report, hosted and published by UNESCO.",
+        "url": "https://www.unesco.org/gem-report/en",
+        "source": "UNESCO",
+        "author": "",
+        "published_date": "2026-04-17",
+        "summary": "유네스코(UNESCO)가 2002년부터 발행하는 '글로벌 교육 모니터링 보고서(GEM Report)'는 세계 교육 동향을 종합적으로 분석하고 정책적 시사점을 제공하는 독립적인 보고서입니다. 이 보고서는 현재와 미래 교육의 주요 과제를 다루며, 특히 AI 및 디지털 전환 시대의 교육 격차, 접근성, 그리고 포용성에 대한 깊이 있는 분석과 함께 교육 정책 수립에 필요한 구체적인 권고사항을 제시합니다. 이를 통해 각국의 교육 시스템이 지속가능발전목표(SDGs)를 달성하고 미래 사회에 대비할 수 있도록 지원하는 핵심적인 자료가 됩니다. 서울시교육청은 이 보고서를 통해 AI·디지털 교육혁신 전략을 수립하고 디지털 교육 세계화 사업의 방향을 구체화할 수 있습니다.",
+        "score": 4.8,
+        "implications": "[관련업무] AI·디지털 기반 교육혁신 운영, AI·디지털 리터러시 교육 활성화, 디지털 교육 세계화(ODA) 사업\n[정책제언] GEM Report의 최신 동향과 권고사항을 면밀히 분석하여 서울시교육청의 AI·디지털 기반 교육혁신 전략 수립에 반영하고, 특히 디지털 격차 해소 및 포용적 AI 교육 모델 개발에 중점을 둔다. 또한, 보고서에서 제시하는 글로벌 표준과 모범 사례를 참고하여 「디지털 교육 세계화(ODA)」 사업 추진 방향을 구체화한다.\n[참고사항] AI 윤리 및 디지털 시민성 교육 강화, 교사 역량 강화 프로그램 설계 시 글로벌 트렌드 반영, 그리고 AIEDAP과 같은 선도 사업의 국제적 위상 제고 방안 모색에 활용.",
+        "collected_date": "2026-04-17",
+        "is_new": true
+      },
+      {
         "title": "UNESDOC - Digital library",
         "url": "https://unesdoc.unesco.org/",
         "source": "UNESCO",
@@ -446,7 +518,7 @@
         "score": 4.0,
         "implications": "[관련업무] 4. AI·디지털 리터러시 교육 활성화, 2. AI·디지털 활용 및 AI 융합교육, 5. 디지털 교육 세계화(KLIC, 첨단교실)\n[정책제언] UNESDOC 디지털 라이브러리가 제공하는 양질의 교육 콘텐츠와 AI·디지털 관련 자료를 교사 및 학생이 쉽게 접근하고 활용할 수 있도록 서울시교육청의 학습관리 시스템 또는 디지털 학습 플랫폼과 연계하는 방안을 검토해야 합니다. 또한, 디지털 리터러시 교육 자료 개발 시 UNESDOC의 국제 표준 및 모범 사례를 참고하여 교육의 질을 높일 수 있습니다.\n[참고사항] 디지털 라이브러리의 활용은 교사의 수업 전문성 강화 및 학생의 자기 주도 학습 능력 향상에 기여할 수 있으며, 서울시교육청의 디지털 교육 콘텐츠 개발 및 보급 전략 수립 시 벤치마킹 요소로 활용될 수 있습니다. 특히 디지털 교육 세계화 사업(KLIC, 첨단교실)과 연계하여 국제적인 교육 콘텐츠 교류를 모색할 수 있습니다.",
         "collected_date": "2026-04-16",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "G20 - Technology Policy Assistance FacilityAccelerating technological evolution -- especially in the artificial intelligence (AI) space -- offers not only tremendous opportunity but al",
@@ -458,7 +530,7 @@
         "score": 5.0,
         "implications": "[관련업무] 1. AI·디지털 기반 교육혁신 운영, 2. AI·디지털 활용 및 AI 융합교육, 8. AI윤리·디지털 시민성 교육\n[정책제언] UNESCO G20 기술 정책 지원 시설에서 발표하는 보고서 및 정책 가이드라인을 면밀히 분석하여 서울시교육청의 AI·디지털 교육혁신 정책 수립에 반영하고, 특히 AI 윤리 및 디지털 시민성 교육 강화를 위한 국제적 모범 사례를 도입해야 합니다.\n[참고사항] 국제기구의 정책 프레임워크는 AI 교육의 기회뿐만 아니라 잠재적 위험 관리 및 윤리적 활용에 대한 포괄적인 시사점을 제공하므로, 이를 K-12 교육 현장에 적용 가능한 형태로 전환하는 방안을 모색하고 교원 연수 프로그램에 통합하는 것을 고려해야 합니다.",
         "collected_date": "2026-04-16",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "[뉴질랜드] 11학년 과학 과목 의무화 검토",
@@ -801,6 +873,48 @@
     "reports": [],
     "academic_domestic": [
       {
+        "title": "인공지능 활용 과정에서의 인간의 통합 인지능력의 한계와 극복 방안",
+        "url": "https://doi.org/10.20436/oej.29.1.153",
+        "source": "Ordo Economics Journal",
+        "author": "Seyung Hee Sohn",
+        "published_date": "2026",
+        "summary": "이 연구는 인공지능 활용 과정에서 인간의 통합 인지능력 한계를 분석하고 극복 방안을 제시한다. 인간은 AI가 제공하는 정보에 대해 맥락적 이해 부족, 확증 편향, 인지적 과부하 등의 한계를 가지며, AI는 방대한 정보 처리 능력에도 불구하고 고차원적 사고나 윤리적 판단이 어렵다. 연구는 이러한 한계를 극복하기 위해 메타인지 능력 강화, 데이터 리터러시 교육, AI 윤리 교육의 중요성을 강조한다. 궁극적으로 인간과 AI가 상호 보완적으로 협력하는 시스템을 구축하여, 인간이 AI를 단순한 도구를 넘어 인지적 확장을 위한 파트너로 활용할 수 있도록 제언한다. 이는 AI 시대를 살아갈 학생들에게 비판적 사고력과 윤리적 인식을 함양하는 교육의 필요성을 역설한다.",
+        "score": 4.0,
+        "implications": "[관련업무] AI·디지털 리터러시 교육 활성화, AI윤리·디지털 시민성 교육, AI·디지털 기반 교육혁신 운영, AI·디지털 활용 및 AI 융합교육\n[정책제언] 서울시교육청은 AI 시대 학습자의 핵심 역량 강화를 위해 'AI 윤리·디지털 시민성 교육'을 초·중·고 교육 과정에 필수적으로 포함하고, AI가 제공하는 정보의 맥락적 이해 및 비판적 분석을 위한 '메타인지 및 데이터 리터러시 교육' 프로그램을 개발해야 한다. 또한, 교사들이 AI를 활용한 수업 설계 시 인간의 인지적 한계를 보완하고 AI와의 협업을 강화하는 교수 전략을 적용하도록 연수 내용을 개편해야 한다.\n[참고사항] AI 윤리 교육은 단순히 AI의 위험성을 경고하는 것을 넘어, AI 시대에 요구되는 책임감 있는 시민의식 함양에 중점을 두어야 하며, 학생 주도형 토론 및 사례 분석 활동을 통해 실제적인 문제 해결 능력을 기르도록 지원해야 한다.",
+        "collected_date": "2026-04-17",
+        "apa_citation": "Sohn, S. H. (2026). 인공지능 활용 과정에서의 인간의 통합 인지능력의 한계와 극복 방안. *Ordo Economics Journal*, 29(1). https://doi.org/10.20436/oej.29.1.153",
+        "identifier": "10.20436/oej.29.1.153",
+        "is_new": true
+      },
+      {
+        "title": "HCD 기반 생성형 AI 융합 공예·리빙디자인 교육 모형 기초 연구 —휴리스틱 탐구를 통한 ‘디지털 리빙 크래프트맨십’ 역량 구조화—",
+        "url": "https://doi.org/10.17548/ksaf.2026.03.30.203",
+        "source": "The Korean Society of Science &amp; Art",
+        "author": "Kyung Hye Oh",
+        "published_date": "2026",
+        "summary": "이 연구는 생성형 AI를 공예·리빙디자인 교육에 융합하기 위한 HCD(Human-Centered Design) 기반 교육 모형의 기초를 마련하고, '디지털 리빙 크래프트맨십' 역량을 구조화했다. 공예·리빙디자인 분야 전문가 10명을 대상으로 한 델파이 조사를 통해, 사용자 공감, 디지털 제작 구현, 생성형 AI 활용, 융합적 창의, 비판적 혁신 등 5대 핵심 역량을 도출했다. 이는 기존 수공예 기술과 AI 도구의 결합을 통해 디지털 환경에서 새로운 가치를 창출하는 능력을 강조한다. 제안된 교육 모형은 HCD의 '이해-탐색-실행-반성' 과정을 따르며, 학생 주도적 문제 해결 및 창의적 결과물 도출 과정에서 생성형 AI가 핵심적으로 활용됨을 보여준다. 이 연구는 K-12 및 고등교육의 예술·기술 융합 교육에서 AI 활용의 구체적인 방향과 필요한 역량을 제시한다.",
+        "score": 5.0,
+        "implications": "[관련업무] AI·디지털 기반 교육혁신 운영, AI·디지털 활용 및 AI 융합교육, AI·정보(AI·SW) 교육, AI·에듀테크 선도교사단 및 AIEDAP, 신나는 AI교실 구축 및 운영\n[정책제언] 서울시교육청은 AI 융합교육의 일환으로 공예, 디자인, 기술 과목에 생성형 AI를 활용한 '디지털 리빙 크래프트맨십' 교육 프로그램을 개발하여 마이스터고 및 특성화고등학교에 우선 도입해야 한다. 이를 위해 AI·에듀테크 선도교사단을 중심으로 HCD 기반의 AI 융합 수업 모델을 구축하고, '신나는 AI 교실'을 통해 실습 환경을 지원해야 한다.\n[참고사항] 교육 프로그램 개발 시, AI 도구 사용법 뿐만 아니라 사용자 공감, 비판적 혁신 역량 등 창의적 문제 해결 과정을 강조하며, 프로젝트 기반 학습(PBL)을 통해 학생들이 실제 생활 속에서 AI를 활용하여 결과물을 만들어낼 수 있도록 유도해야 한다.",
+        "collected_date": "2026-04-17",
+        "apa_citation": "Oh, K. H. (2026). HCD 기반 생성형 AI 융합 공예·리빙디자인 교육 모형 기초 연구 —휴리스틱 탐구를 통한 ‘디지털 리빙 크래프트맨십’ 역량 구조화—. *The Korean Society of Science &amp; Art*, 44(2). https://doi.org/10.17548/ksaf.2026.03.30.203",
+        "identifier": "10.17548/ksaf.2026.03.30.203",
+        "is_new": true
+      },
+      {
+        "title": "한국어 학습자의 한국어 학습에서의 생성형 인공지능 활용 및 인식 연구 -중국 N 대학교 한국어 전공 학습자를 대상으로-",
+        "url": "https://doi.org/10.31147/iall.108.25",
+        "source": "Korean Language and Literature in International Context",
+        "author": "Yoo So Young",
+        "published_date": "2026",
+        "summary": "이 연구는 중국 N 대학교 한국어 전공 학습자 244명을 대상으로 생성형 AI 활용 실태와 인식을 파악하고, 효과적인 AI 활용 교육 방안을 모색했다. 연구 결과, 응답 학습자의 78.3%가 생성형 AI를 사용해 본 경험이 있었고, 이 중 52.8%가 ChatGPT를 주된 학습 도구로 활용했다. 주로 '작문 및 첨삭' (65.2%)과 '번역' (58.7%)에 활용하며 AI의 유용성(평균 4.12점/5점)을 높이 평가했으나, 정보의 정확성에 대한 우려도 컸다(평균 3.25점/5점). 특히, 한국어 교사의 생성형 AI 활용 교육 경험은 20% 미만에 불과하여, 교사를 위한 실질적인 AI 활용 교육 프로그램과 가이드라인 개발이 시급함을 시사한다. 이는 언어 교육 분야에서의 AI 활용 잠재력과 동시에 디지털 리터러시 및 비판적 사고 교육의 중요성을 강조한다.",
+        "score": 5.0,
+        "implications": "[관련업무] AI·디지털 활용 및 AI 융합교육, AI·디지털 리터러시 교육 활성화, AI·디지털 기반 수업·평가혁신 전문가 연수, AI윤리·디지털 시민성 교육\n[정책제언] 서울시교육청은 K-12 외국어 교육 및 문해력 증진을 위해 생성형 AI 활용 가이드라인을 개발하고, 교사를 대상으로 AI 기반 학습 도구 활용 및 AI 윤리 교육을 포함하는 심화 연수 프로그램을 연 2회 이상 운영해야 한다. 학생들에게는 AI의 유용성과 함께 정보의 비판적 검증 능력을 함양하는 AI 디지털 리터러시 교육을 학년별 수준에 맞춰 정규 교과 과정에 포함해야 한다.\n[참고사항] 교사 연수 시 단순 도구 사용법을 넘어 AI 기반 콘텐츠 생성 및 평가 방식 변화에 대한 실제적인 교수법을 제공하고, 학생 주도적 AI 활용 프로젝트 학습을 지원하여 주체적인 AI 사용 역량을 강화해야 한다.",
+        "collected_date": "2026-04-17",
+        "apa_citation": "So Young, Y. (2026). 한국어 학습자의 한국어 학습에서의 생성형 인공지능 활용 및 인식 연구 -중국 N 대학교 한국어 전공 학습자를 대상으로-. *Korean Language and Literature in International Context*, 108(0). https://doi.org/10.31147/iall.108.25",
+        "identifier": "10.31147/iall.108.25",
+        "is_new": true
+      },
+      {
         "title": "생성형 AI시대 디지털 이미지 구조 인식 기반 평면조형 교육 모형 연구: 점·선·면 분해 및 패턴 재구성 활동을 중심으로",
         "url": "https://doi.org/10.54794/enesg.2026.6.2.247",
         "source": "Global Venture Research Institute",
@@ -812,7 +926,7 @@
         "collected_date": "2026-04-16",
         "apa_citation": "Kim, J. (2026). 생성형 AI시대 디지털 이미지 구조 인식 기반 평면조형 교육 모형 연구: 점·선·면 분해 및 패턴 재구성 활동을 중심으로. *Global Venture Research Institute*, 6(2). https://doi.org/10.54794/enesg.2026.6.2.247",
         "identifier": "10.54794/enesg.2026.6.2.247",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "Custom GPT 기반 기업가정신 교육 프레임워크 설계 및 효과 탐색 - MVP 완성 경험을 중심으로 한 파일럿 연구",
@@ -826,7 +940,7 @@
         "collected_date": "2026-04-16",
         "apa_citation": "Hong, E., Nam, J. (2026). Custom GPT 기반 기업가정신 교육 프레임워크 설계 및 효과 탐색 - MVP 완성 경험을 중심으로 한 파일럿 연구. *Global Venture Research Institute*, 6(2). https://doi.org/10.54794/enesg.2026.6.2.57",
         "identifier": "10.54794/enesg.2026.6.2.57",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "영상 시나리오 교육 과정 내 AI 도입을 위한 글로벌 동향 및 교육 사례 분석",
@@ -840,7 +954,7 @@
         "collected_date": "2026-04-16",
         "apa_citation": "Lee, S. (2026). 영상 시나리오 교육 과정 내 AI 도입을 위한 글로벌 동향 및 교육 사례 분석. *Global Venture Research Institute*, 6(2). https://doi.org/10.54794/enesg.2026.6.2.599",
         "identifier": "10.54794/enesg.2026.6.2.599",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "AI 시대 음악 창작의 도구 변화와 학습 효과: Suno를 활용한 교육 데이터 중심으로",
@@ -1377,6 +1491,34 @@
     ],
     "academic_international": [
       {
+        "title": "AI Literacy for Multilingual Learners: Storytelling, Role-Playing, and Programming",
+        "url": "https://eric.ed.gov/?id=EJ1449429",
+        "source": "",
+        "author": "Santiago Ojeda-Ramirez, Daniel Ritchie, Mark Warschauer",
+        "published_date": "2024",
+        "summary": "이 글은 인공지능(AI) 기술이 보편화됨에 따라 다문화 학습자를 위한 AI 리터러시 교육의 중요성과 필요성을 강조하며, 언어 능력과 AI 리터러시 습득 간의 상호 유익한 관계를 제안합니다. 남부 캘리포니아 여름 캠프에서 다문화 중학생(middle school students)을 대상으로 AI 리터러시 교육을 위해 세 가지 맞춤형 교육 전략이 적용되었습니다. 구체적으로, (1) 스토리텔링, (2) 역할극, (3) 프로그래밍 활동을 통해 학생들이 일상생활 및 전문 분야 어휘를 습득하면서 AI 핵심 개념을 이해하고 비판적으로 상호작용할 수 있도록 지원했습니다. 이 전략들은 AI 리터러시 교육이 언어 학습과 함께 효과적으로 이루어질 수 있음을 보여줍니다.",
+        "score": 5,
+        "implications": "[관련업무] AI·디지털 활용 및 AI 융합교육, AI·정보(AI·SW) 교육, AI·디지털 리터러시 교육 활성화, 신나는 AI교실 구축 및 운영\n[정책제언] 다문화 학생을 포함한 모든 학생들이 AI 리터러시를 효과적으로 습득할 수 있도록 맞춤형 AI 교육 콘텐츠 및 프로그램을 개발해야 합니다. 특히, 스토리텔링, 역할극, 프로그래밍과 같은 활동 중심의 교육 전략을 적극적으로 도입하여 언어 학습과 AI 리터러시를 연계하는 통합 교육 모델을 마련해야 합니다.\n[참고사항] 다문화 학습자의 특성을 고려한 언어적 지원 및 문화적 배경을 반영한 교육 자료를 제작하는 것이 중요합니다. 여름 캠프 사례에서 보듯이, 몰입도 높은 활동 기반 학습은 AI에 대한 긍정적인 경험을 제공하고 학습 효과를 높일 수 있으므로, '신나는 AI교실' 프로그램 등에 적극 활용하여 교육 소외 계층 없이 모든 학생에게 AI 교육 기회를 확대해야 합니다.",
+        "collected_date": "2026-04-17",
+        "apa_citation": "Santiago Ojeda-Ramirez, Daniel Ritchie, Mark Warschauer (2024). AI Literacy for Multilingual Learners: Storytelling, Role-Playing, and Programming. https://eric.ed.gov/?id=EJ1449429",
+        "identifier": "EJ1449429",
+        "is_new": true
+      },
+      {
+        "title": "How Should We Change Teaching and Assessment in Response to Increasingly Powerful Generative Artificial Intelligence? Outcomes of the ChatGPT Teacher Survey",
+        "url": "https://eric.ed.gov/?id=EJ1439944",
+        "source": "",
+        "author": "Matt Bower, Jodie Torrington, Jennifer W. M. Lai",
+        "published_date": "2024",
+        "summary": "이 혼합 연구는 다양한 교육 수준, 경험, 학문 분야 및 지역의 318명 교육자를 대상으로 생성형 AI(ChatGPT 등)가 교육 및 평가에 미치는 영향과 그에 따른 변화 필요성에 대한 인식을 조사했습니다. 대다수의 교사들이 생성형 AI가 교육 및 평가에 '주요하거나 심오한' 영향을 미칠 것이라고 응답했으며, 이는 교수학습의 근본적인 변화를 시사합니다. 이 변화의 주요 동기는 효율성 증대, 학생 참여 촉진, 그리고 미래 사회 대비였으며, 이는 교사들이 AI를 긍정적으로 활용하고자 하는 의지를 보여줍니다. 연구는 생성형 AI 시대에 교육 및 평가 방법이 어떻게 변화해야 하는지에 대한 교사들의 심층적인 관점과 구체적인 제안을 도출했습니다.",
+        "score": 5,
+        "implications": "[관련업무] AI·디지털 기반 교육혁신 운영, AI·디지털 활용 및 AI 융합교육, AI·디지털 기반 수업·평가혁신 전문가 연수, AI윤리·디지털 시민성 교육\n[정책제언] 생성형 AI 시대의 교육과정 및 평가 기준을 재정립하고, AI 활용 교수학습 모델을 개발하며, 이에 필요한 교원 연수 프로그램을 신속히 마련해야 합니다. 특히, AI 윤리 및 디지털 시민성 교육을 강화하여 교사와 학생들이 AI를 책임감 있게 활용할 수 있도록 지원하는 정책이 필요합니다.\n[참고사항] 318명의 교원 대상 설문조사 결과는 현장 교사들의 AI 도입에 대한 심도 있는 인식을 반영하므로, 정책 수립 시 현장의 목소리를 최우선적으로 고려하여 실질적인 변화를 유도하는 방안을 모색해야 합니다. 교사들이 변화의 동기로 밝힌 '효율성 증대', '학생 참여 촉진', '미래 사회 대비'를 정책 방향에 적극적으로 반영해야 합니다.",
+        "collected_date": "2026-04-17",
+        "apa_citation": "Matt Bower, Jodie Torrington, Jennifer W. M. Lai, Peter Petocz, Mark Alfano (2024). How Should We Change Teaching and Assessment in Response to Increasingly Powerful Generative Artificial Intelligence? Outcomes of the ChatGPT Teacher Survey. https://eric.ed.gov/?id=EJ1439944",
+        "identifier": "EJ1439944",
+        "is_new": true
+      },
+      {
         "title": "Developing Middle Schoolers&apos; Artificial Intelligence Literacy through Project-Based Learning: Investigating Cognitive &amp; Affective Dimensions of Learning about AI",
         "url": "https://eric.ed.gov/?id=ED637388",
         "source": "",
@@ -1388,7 +1530,7 @@
         "collected_date": "2026-04-16",
         "apa_citation": "Minji Jeon (2023). Developing Middle Schoolers&apos; Artificial Intelligence Literacy through Project-Based Learning: Investigating Cognitive &amp; Affective Dimensions of Learning about AI. https://eric.ed.gov/?id=ED637388",
         "identifier": "ED637388",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "Kindergarten Teachers&apos; Perceptions of AI Literacy Education for Young Children",
@@ -1402,7 +1544,7 @@
         "collected_date": "2026-04-16",
         "apa_citation": "Jiahong Su (2024). Kindergarten Teachers&apos; Perceptions of AI Literacy Education for Young Children. https://eric.ed.gov/?id=EJ1439594",
         "identifier": "EJ1439594",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "Transforming Teaching with Generative AI: A Comprehensive Guide for Educators",
