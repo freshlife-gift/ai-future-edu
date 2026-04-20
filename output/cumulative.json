@@ -1,7 +1,43 @@
 {
-  "last_updated": "2026-04-20T06:31:17.443567+09:00",
+  "last_updated": "2026-04-21T06:47:02.277975+09:00",
   "sections": {
     "news": [
+      {
+        "title": "경북대 SW교육원, '실무형 AI·SW 인재 양성' 거점 안착…시니어 포용 디...",
+        "url": "https://www.etnews.com/20260420000004",
+        "source": "전자신문",
+        "author": "",
+        "published_date": "2026-04-21",
+        "summary": "경북대 SW교육원은 '실무형 AI·SW 인재 양성' 거점으로 자리매김하며, 특히 대구·경북 지역의 고령 인구 특성을 반영한 '시니어 대상 SW·AI 교육 프로그램'을 성공적으로 운영하고 있다. 이 프로그램은 대학 교육 역량을 지역 사회로 환원하는 차별화된 프로젝트로, 시니어의 디지털 격차 해소와 AI·SW 활용 능력 향상에 크게 기여한다. 이를 통해 지역의 인구통계학적 특성을 고려한 포용적 디지털 교육 모델을 제시하며 높은 평가를 받고 있다.",
+        "score": 4.0,
+        "implications": "[관련업무] AI·디지털 리터러시 교육 활성화, AI·정보(AI·SW) 교육, 디지털튜터 운영\n[정책제언] 서울시교육청은 서울시 내 고등 교육기관(대학)과의 협력을 강화하여, 지역 특성 및 인구통계학적 요소를 반영한 '서울형 AI·SW 및 디지털 리터러시 평생교육 프로그램'을 개발하고 운영해야 합니다. 특히, 디지털튜터 프로그램과 연계하여 시니어 및 디지털 취약계층의 AI·SW 역량 강화를 지원해야 합니다.\n[참고사항] 지역 대학의 전문 인력과 인프라를 활용하여 실습 위주의 교육 프로그램을 구성하고, 교육 수료 후에도 지속적인 디지털 학습 기회를 제공하는 사후 관리 방안을 마련하여 교육의 효과를 높여야 합니다.",
+        "collected_date": "2026-04-21",
+        "is_new": true
+      },
+      {
+        "title": "의료 AI 교육 강화 나선 정부…&quot;수가 등 보상체계 연계 필요&quot;",
+        "url": "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1168360&ref=naverpc",
+        "source": "네이버뉴스",
+        "author": "",
+        "published_date": "2026-04-21",
+        "summary": "정부가 전국 단위의 직역별 의료 AI 교육 강화를 추진하며, 교육의 실질적인 효과를 위해 실무 연계 방안과 수가 등 보상 체계 마련의 중요성이 부각되고 있다. 학계와 현장에서는 교육 강화에 대한 기대감이 높지만, 교육 이수자에 대한 보상과 현장 적용 유인이 핵심 과제로 제기되고 있다. 이는 AI 교육이 단순히 지식 전달을 넘어 실제 직무 역량 강화로 이어지기 위한 구체적인 제도적 뒷받침이 필요함을 시사한다.",
+        "score": 4.5,
+        "implications": "[관련업무] AI·디지털 기반 교육혁신 운영, AI·디지털 활용 및 AI 융합교육\n[정책제언] 서울시교육청은 교원 및 교육전문직 대상으로 AI 역량 강화 연수를 추진하고, 연수 이수자에게 AI 활용 수업 및 평가 혁신을 위한 연구비 지원, 직무 가점 등 실질적인 인센티브 및 보상체계를 마련하여 참여를 독려해야 합니다.\n[참고사항] 교육 프로그램 개발 시 현장 교사의 피드백을 적극 반영하여 실무 적용 가능성을 높이고, 연수 이수 후 AI 활용 수업 및 평가 혁신 사례 공유 플랫폼을 운영하여 우수 사례 확산에 기여해야 합니다.",
+        "collected_date": "2026-04-21",
+        "is_new": true
+      },
+      {
+        "title": "[이광형의 퍼스펙티브] AI 시대, 학교는 무엇을 가르쳐야 하는가",
+        "url": "https://www.joongang.co.kr/article/25421824",
+        "source": "중앙일보",
+        "author": "",
+        "published_date": "2026-04-21",
+        "summary": "AI 시대 학교 교육은 인간 고유의 창의성, 인간에 대한 깊은 이해, 그리고 새로운 문제 정의 및 해결책 도출 능력을 핵심 가치로 삼아야 한다고 강조된다. 이광형 카이스트 총장은 AI가 대체하기 어려운 인간 역량을 강화하는 데 중점을 둔 교육 방향을 제시하며, 미래 사회에 필요한 인재 양성을 위해 AI 기술 교육을 넘어 창의적 사고와 인문학적 소양을 함양하는 것이 중요하다고 언급했다. 이는 AI와 공존하며 주도적으로 미래를 만들어갈 역량 강화의 필요성을 나타낸다.",
+        "score": 5.0,
+        "implications": "[관련업무] AI·디지털 기반 교육혁신 운영, AI·디지털 리터러시 교육 활성화, AI윤리·디지털 시민성 교육\n[정책제언] 서울시교육청은 AI 시대 핵심 역량인 창의적 문제해결 능력과 인간 이해 기반 교육을 강화하기 위해 AI 융합 수업 모델을 개발하고, 교원 대상 AI 활용 창의 수업 연수를 확대해야 합니다.\n[참고사항] 교육과정 개정 시 AI 윤리 및 디지털 시민성 교육을 필수 요소로 포함하고, PBL(문제 중심 학습) 및 디자인 씽킹 등 학생 주도형 창의 학습 방식을 AI 교육에 적극적으로 접목하여 학생들의 비판적 사고와 협력적 문제 해결 능력을 함양해야 합니다.",
+        "collected_date": "2026-04-21",
+        "is_new": true
+      },
       {
         "title": "&quot;AI시대 6대 핵심교육&quot; &quot;유·초연계 멘토링 도입&quot;",
         "url": "https://www.ksilbo.co.kr/news/articleView.html?idxno=1054483",
@@ -12,7 +48,7 @@
         "score": 5.0,
         "implications": "[관련업무] AI·디지털 기반 수업·평가혁신 전문가 연수\n[정책제언] 서울시교육청은 교사 AI 역량 강화를 위한 심화 연수 프로그램을 확대하고, 학교 현장에서 실질적으로 적용 가능한 '디지털 판단력 및 기초 AI·디지털 역량 교육' 모델을 개발하여 모든 학생에게 보편적으로 제공해야 한다.\n[참고사항] 교사 연수 프로그램을 통해 AI 활용 수업 혁신 사례를 공유하고, 학생들이 AI를 윤리적이고 비판적으로 사용할 수 있도록 디지털 시민성 교육을 필수적으로 연계하며, 유·초등 연계 교육을 위한 AI 콘텐츠를 개발해야 한다.",
         "collected_date": "2026-04-20",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "‘AI-SW융합대학’서 미래 인재 양성",
@@ -24,7 +60,7 @@
         "score": 5.0,
         "implications": "[관련업무] AI·디지털 리터러시 교육 활성화\n[정책제언] 서울 관내 초·중·고등학교 학생들을 위한 'AI 리터러시' 교육을 정규 교육과정 또는 창의적 체험활동 시간에 필수적으로 포함시키고, 학생 주도형 AI 융합 프로젝트 활동을 확대해야 한다.\n[참고사항] 모든 학생이 AI의 기본 개념, 윤리, 활용법을 이해하고, 자신의 관심 분야와 AI를 연계할 수 있도록 다양한 수준별, 주제별 AI 융합 교육 프로그램을 개발하여 보급해야 한다.",
         "collected_date": "2026-04-20",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "“AI 융합 교육으로 디자이너 꿈나무 키웁니다” [논설실의 온라인인터...",
@@ -36,7 +72,7 @@
         "score": 5.0,
         "implications": "[관련업무] AI·디지털 활용 및 AI 융합교육\n[정책제언] 서울 관내 특성화고등학교 및 일반고등학교에 디자인, 예술, 공학 등 특정 분야와 AI를 융합하는 교육과정을 개발하고, 이를 위한 교원 연수 및 교재 개발을 지원해야 한다.\n[참고사항] 학생들의 다양한 진로 목표를 반영하여, AI 기술 교육과 함께 창의적 문제 해결 능력 및 맞춤형 포트폴리오 제작을 돕는 실질적인 AI 융합 교육 프로그램을 마련해야 한다.",
         "collected_date": "2026-04-20",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "中, ‘2030 교육 AI 대전환’ 선포… 교실 풍경 통째로 바꾼다",
@@ -581,6 +617,30 @@
     ],
     "global_trends": [
       {
+        "title": "[덴마크] 방학·학교 폐쇄 기간 남녀 독서 격차 확대…남학생 독서량 더 크게 감소",
+        "url": "https://edpolicy.kedi.re.kr/edpolicy/board/30/844778",
+        "source": "코펜하겐 대학교(Københavns Universitet)",
+        "author": "",
+        "published_date": "2026.04.08",
+        "summary": "덴마크 코펜하겐 대학교 연구에 따르면, 방학 및 학교 폐쇄 기간 동안 남녀 학생 간 독서량 격차가 확대되었으며, 특히 남학생의 독서량이 더욱 크게 감소한 것으로 나타났습니다. 이는 비정규 학습 환경에서 학생들의 자기 주도 학습 능력과 리터러시 함양에 공백이 발생할 수 있음을 시사하며, 디지털 교육 환경에서 개인별 학습 격차 해소를 위한 맞춤형 전략의 필요성을 제기합니다.",
+        "score": 4.0,
+        "implications": "[관련업무] AI·디지털 기반 교육혁신 운영, AI·디지털 활용 및 AI 융합교육, AI·디지털 리터러시 교육 활성화, 신나는 AI교실 구축 및 운영\n[정책제언] AI 기반의 개인 맞춤형 독서 학습 시스템 및 디지털 리터러시 강화 프로그램을 개발하고 학교 현장에 보급해야 합니다. 특히, 남학생들의 흥미를 유발할 수 있는 게이미피케이션 요소나 인터랙티브 콘텐츠를 접목한 AI 독서 튜터링 서비스를 도입하여, 방학 등 학교 외 기간에도 지속적인 학습을 유도하고 학습 격차를 해소하는 방안을 강구해야 합니다.\n[참고사항] 학습 격차 해소를 위한 AI 기반 솔루션 도입 시, 데이터 기반의 효과 검증 및 모든 학생이 접근 가능하도록 디지털 소외 계층 지원 방안을 함께 고려해야 합니다. AI 윤리 및 디지털 시민성 교육을 통해 올바른 디지털 독서 습관을 형성하도록 지도하는 것도 중요합니다.",
+        "collected_date": "2026-04-21",
+        "is_new": true
+      },
+      {
+        "title": "[아랍에미리트] UAE 일부 학교, 3월30일 대면수업 복귀 추진, 당국승인 전제로 단계적 전환",
+        "url": "https://edpolicy.kedi.re.kr/edpolicy/board/30/844803",
+        "source": "khaleejtimes",
+        "author": "",
+        "published_date": "2026.04.08",
+        "summary": "아랍에미리트(UAE) 교육 당국은 3월 30일부터 일부 학교의 대면수업 복귀를 당국 승인 전제로 단계적으로 추진합니다. 이는 팬데믹 기간 동안 원격 및 하이브리드 학습 환경에서 사용되었던 디지털 교육 도구 및 인프라의 활용 방식에 변화를 가져올 수 있습니다. 따라서 온라인 학습 경험을 오프라인 수업에 효과적으로 통합하는 블렌디드 러닝 모델의 지속적인 발전과 디지털 기기 활용 전략의 재정립이 요구됩니다.",
+        "score": 4.0,
+        "implications": "[관련업무] AI·디지털 기반 교육혁신 운영, AI·디지털 활용 및 AI 융합교육, 「디벗」교수학습 지원 및 디벗 정책 지원단\n[정책제언] 대면수업 전환 과정에서 온라인 학습 경험의 강점(개인 맞춤형 콘텐츠, 디지털 도구 활용 등)을 유지하고 오프라인 수업과 융합하는 블렌디드 러닝 모델을 연구하고 확산해야 합니다. 특히, 원격 학습 기간 동안 사용된 디지털 기기(예: 디벗)와 플랫폼을 대면수업에서도 효과적으로 활용할 수 있는 수업 설계 및 정책 지원 방안을 마련해야 합니다.\n[참고사항] 대면 복귀 후에도 디지털 교육의 연속성을 확보하고, 디지털 격차 없이 모든 학생이 혜택을 누릴 수 있도록 교육 환경 및 교원 역량 지원 방안을 모색하는 것이 중요합니다.",
+        "collected_date": "2026-04-21",
+        "is_new": true
+      },
+      {
         "title": "[일본] 공립 고등학교 내에 초중고 부등교 학생 대상 지원실 설치",
         "url": "https://edpolicy.kedi.re.kr/edpolicy/board/30/844788",
         "source": "산케이신문",
@@ -590,7 +650,7 @@
         "score": 4,
         "implications": "[관련업무] AI·디지털 기반 교육혁신 운영, AI·디지털 활용 및 AI 융합교육, 디지털튜터 운영, 신나는 AI교실 구축 및 운영\n[정책제언] 서울시교육청은 부등교 학생 지원을 위한 '신나는 AI교실' 또는 '디지털 튜터' 프로그램을 활성화하여, AI 기반 맞춤형 학습 콘텐츠와 비대면 학습 관리 시스템을 제공해야 한다. 또한, 공립학교 내 지원실 모델을 벤치마킹하여 디지털 학습 환경과 연계된 부등교 학생 지원 거점을 마련하고, AI 기반 정서·심리 상담 서비스를 도입하여 학생들의 학교 복귀를 다각도로 지원해야 한다.\n[참고사항] AI·디지털 기술은 부등교 학생들에게 시공간 제약 없는 학습 기회를 제공하고 개별화된 학습 경로를 지원함으로써 교육 소외를 해소하고, 학생들의 학업 복귀 및 적응을 돕는 중요한 수단이 될 수 있다.",
         "collected_date": "2026-04-20",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "[덴마크] 직업학교 교사들 “학생과의 관계형성 중요하지만 관련 역량 개발은 부족해”",
@@ -602,7 +662,7 @@
         "score": 4,
         "implications": "[관련업무] AI·디지털 기반 수업·평가혁신 전문가 연수, AI·에듀테크 선도교사단 및 AIEDAP\n[정책제언] AI·디지털 기반 교육혁신을 위한 교원 역량 강화 정책 수립 시, 단순히 기술 활용 교육을 넘어 교사의 전반적인 교수학습 역량(학생 관계 형성, 상담 등)에 대한 기초적 연수를 포함하고, AI가 이러한 관계 형성 및 맞춤형 교육 지원에 어떻게 활용될 수 있는지 연계한 프로그램을 개발해야 한다.\n[참고사항] AI·디지털 교육은 교사의 새로운 역할과 역량을 요구하며, 기술 활용과 동시에 학생과의 정서적 유대 및 관계 형성 등 휴먼 터치 영역의 중요성을 재확인하여 AI 시대에 교사가 더욱 핵심적인 역할을 수행할 수 있도록 지원해야 한다.",
         "collected_date": "2026-04-20",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "UNESCO International Institute for Higher Education in Latin America and the Caribbean (IESALC)",
@@ -1053,6 +1113,34 @@
     "reports": [],
     "academic_domestic": [
       {
+        "title": "디지털 증거의 복합적 법적 성격에 관한 고찰",
+        "url": "https://doi.org/10.15539/khlj.61.1.1",
+        "source": "Kyung Hee Law Journal",
+        "author": ", JunSeok Koo, Bo Hack Suh",
+        "published_date": "2026",
+        "summary": "이 연구는 한국 형사 절차에서 디지털 증거의 복합적 법적 성격을 고찰하며, 단일 디지털 파일 내에 공존하는 인간 생성 정보와 소프트웨어 생성 정보의 근본적으로 다른 법적 특성을 분석한다. 1999년 이후 대법원 판례의 궤적을 검토하여, 기존의 파일 단위 분석이 가진 한계를 지적하고 정보 생성 주체에 따른 법적 분석 단위 전환을 제안한다. 이러한 접근은 디지털 정보의 신뢰성과 책임 소재를 명확히 하는 데 기여하며, 특히 AI가 생성하는 데이터를 포함한 디지털 정보의 이해가 필수적인 AI·디지털 리터러시 교육의 기반을 제공한다. 본 연구는 디지털 정보의 복합적 성격을 이해하는 것이 AI 윤리 및 디지털 시민성 교육에서 학습자가 디지털 콘텐츠의 출처와 잠재적 편향을 비판적으로 평가하는 능력을 함양하는 데 핵심적인 통찰을 제공한다고 강조한다.",
+        "score": 4.0,
+        "implications": "[관련업무] AI·디지털 리터러시 교육 활성화; AI윤리·디지털 시민성 교육\n[정책제언] AI·디지털 리터러시 교육 시 디지털 정보의 '생성 주체(인간 vs. 소프트웨어)' 개념을 명확히 포함하여, 정보의 신뢰성, 출처, 편향성 등을 비판적으로 판단하는 역량을 강화해야 한다. AI 생성 콘텐츠에 대한 윤리 및 시민성 교육 내용을 구체화하고, 이에 대한 교육자 연수 프로그램을 개발한다.\n[참고사항] 학생들이 AI 기술을 활용한 정보 생성 및 소비 과정에서 디지털 정보의 본질적 특성을 이해하고, AI 윤리 및 책임의 중요성을 인식하도록 교육 커리큘럼에 반영하는 것이 필수적이다.",
+        "collected_date": "2026-04-21",
+        "apa_citation": "Koo, J., Suh, B. H. (2026). 디지털 증거의 복합적 법적 성격에 관한 고찰. *Kyung Hee Law Journal*, 61(1). https://doi.org/10.15539/khlj.61.1.1",
+        "identifier": "10.15539/khlj.61.1.1",
+        "is_new": true
+      },
+      {
+        "title": "병원 스마트 환경, 디지털 문해력이 간호업무 성과에 미치는 영향에 관한 연구 - 고객 지향성 조절 효과",
+        "url": "https://doi.org/10.48206/kceba.2026.10.2.151",
+        "source": "The Korean Career, Entrepreneurship &amp; Business Association",
+        "author": ", Sangseol Han, Eunyoung Kim",
+        "published_date": "2026",
+        "summary": "이 연구는 병원 스마트 환경(EMR, 스마트 침대 시스템, 원격 모니터링 등)과 간호사의 디지털 문해력이 간호업무 성과에 미치는 영향을 분석하며, 고객 지향성의 조절 효과를 검증했다. 연구는 병원 스마트 환경을 물리적 환경과 운영 환경으로, 디지털 문해력을 기술 활용 능력과 기술 기반 협업 능력으로 개념화했다. 주요 발견으로, 병원 스마트 환경과 간호사의 디지털 문해력이 높을수록 간호업무 성과가 향상됨을 확인했으며, 특히 디지털 문해력이 이 관계를 긍정적으로 조절하는 것으로 나타났다. 이는 급변하는 디지털 환경에서 직무 성과 향상을 위해 디지털 역량 강화가 필수적임을 5개의 문항으로 구성된 디지털 문해력 측정 등을 통해 실증적으로 보여주었다.",
+        "score": 4.5,
+        "implications": "[관련업무] AI·디지털 기반 교육혁신 운영; AI·디지털 리터러시 교육 활성화; AI·디지털 기반 수업·평가혁신 전문가 연수\n[정책제언] 교원의 디지털 문해력(기술 활용 능력, 기술 기반 협업 능력) 향상을 위한 맞춤형 연수 프로그램을 강화하고, 학교의 AI·디지털 기반 스마트 학습 환경(첨단교실, 디벗 등) 구축 시 교원의 디지털 역량과의 시너지를 고려한 설계를 추진해야 한다. 특히, 스마트 환경 도입 초기부터 교원의 디지털 문해력 수준을 진단하고, 이에 기반한 교육 및 지원 체계를 마련한다.\n[참고사항] 스마트 환경과 디지털 문해력의 상호작용이 업무 성과에 미치는 긍정적 효과는 교육 현장에서도 동일하게 나타날 것으로 예상되므로, AI·디지털 교육 환경 구축과 함께 교원 및 학생의 디지털 역량 함양을 위한 지속적이고 체계적인 투자가 중요하며, 단순한 기술 도입을 넘어 사용자 역량 강화를 통한 실질적인 교육 효과 증대에 집중해야 한다.",
+        "collected_date": "2026-04-21",
+        "apa_citation": "Han, S., Kim, E. (2026). 병원 스마트 환경, 디지털 문해력이 간호업무 성과에 미치는 영향에 관한 연구 - 고객 지향성 조절 효과. *The Korean Career, Entrepreneurship &amp; Business Association*, 10(2). https://doi.org/10.48206/kceba.2026.10.2.151",
+        "identifier": "10.48206/kceba.2026.10.2.151",
+        "is_new": true
+      },
+      {
         "title": "소매업체의 디지털 전환에 영향을 미치는 요인에 관한 연구",
         "url": "https://doi.org/10.17961/jdmr.26.06.202312.43",
         "source": "Journal of Distribution and Management Research",
@@ -1064,7 +1152,7 @@
         "collected_date": "2026-04-20",
         "apa_citation": "Yeo, C., Hur, C. (2023). 소매업체의 디지털 전환에 영향을 미치는 요인에 관한 연구. *Journal of Distribution and Management Research*, 26(6). https://doi.org/10.17961/jdmr.26.06.202312.43",
         "identifier": "10.17961/jdmr.26.06.202312.43",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "온·오프라인 교육 환경에서 디자인 크리틱의 학습자 참여도 비교 연구",
@@ -1078,7 +1166,7 @@
         "collected_date": "2026-04-20",
         "apa_citation": "Bae, H., Lee, J. (2026). 온·오프라인 교육 환경에서 디자인 크리틱의 학습자 참여도 비교 연구. *Journal of Industrial Design Studies*, 20(1). https://doi.org/10.37254/ids.2026.03.75.03.45",
         "identifier": "10.37254/ids.2026.03.75.03.45",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "예비교사를 위한 다문화 교육 연구 동향: Hollins(2011)의 총체적 실천 기반 접근 관점으로",
@@ -1092,7 +1180,7 @@
         "collected_date": "2026-04-20",
         "apa_citation": "Kim, H., Han, J. (2026). 예비교사를 위한 다문화 교육 연구 동향: Hollins(2011)의 총체적 실천 기반 접근 관점으로. *Multicultural Education Studies*, 19(1). https://doi.org/10.14328/mes.2026.3.31.281",
         "identifier": "10.14328/mes.2026.3.31.281",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "영업사원의 디지털 문해력이 판매효과성에 미치는 영향: 이중 메커니즘을 중심으로",
@@ -1741,6 +1829,34 @@
     ],
     "academic_international": [
       {
+        "title": "A Phenomenological Study: Teacher Perceptions of Generative Artificial Intelligence and Its Impact on Teaching and Learning in High Schools",
+        "url": "https://eric.ed.gov/?id=ED663227",
+        "source": "",
+        "author": "Jill Manczka",
+        "published_date": "2024",
+        "summary": "본 현상학적 연구는 고등학교 교사들이 생성형 인공지능(Generative AI)과 이것이 교육 및 학습에 미치는 영향에 대해 어떻게 인식하는지 탐색하는 것을 목적으로 한다. 연구는 ChatGPT가 2022년에 일반 대중에게 공개된 이후, 생성형 AI가 텍스트, 이미지, 음악 등 다양한 콘텐츠를 빠르게 생성할 수 있다는 점에 주목한다. 핵심 발견은 생성형 AI가 교사들의 수업 준비, 자료 제작, 평가 방식 등 고등학교 교육 전반에 걸쳐 생산성과 효율성 증진에 영향을 미치고 있다는 교사들의 인식을 드러낸다. 이는 교사들의 생성형 AI 활용에 대한 이해도를 높이고, 현장 중심의 AI 교육 정책 수립에 필요한 통찰을 제공한다.",
+        "score": 5.0,
+        "implications": "[관련업무] AI·디지털 기반 교육혁신 운영, AI·디지털 활용 및 AI 융합교육, AI·디지털 기반 수업·평가혁신 전문가 연수\n[정책제언] 고등학교 교사들의 생성형 AI 활용 역량 강화를 위한 맞춤형 심화 연수 프로그램을 개발한다. 특히, 교사들이 수업 자료(텍스트, 이미지 등) 생성, 학생 피드백 자동화, 맞춤형 평가 문항 개발 등 실제 교수학습 활동에서 생성형 AI를 효과적으로 활용할 수 있는 구체적인 가이드라인과 실습 기회를 제공한다.\n[참고사항] 교사 연수 시 생성형 AI의 교육적 장점뿐만 아니라 데이터 편향성, 정보의 정확성 검증, 저작권 및 윤리적 문제 등 잠재적 위험성에 대한 교육을 병행하여 책임감 있는 AI 활용을 독려한다. 교사 커뮤니티(AIEDAP 등)를 통해 우수 활용 사례를 공유하고, 교사 주도적인 생성형 AI 교육혁신을 지원하는 환경을 구축한다.",
+        "collected_date": "2026-04-21",
+        "apa_citation": "Jill Manczka (2024). A Phenomenological Study: Teacher Perceptions of Generative Artificial Intelligence and Its Impact on Teaching and Learning in High Schools. https://eric.ed.gov/?id=ED663227",
+        "identifier": "ED663227",
+        "is_new": true
+      },
+      {
+        "title": "From Access to Empowerment: School Counselors Supporting AI Literacy in Underserved K-8 Communities",
+        "url": "https://eric.ed.gov/?id=EJ1494270",
+        "source": "",
+        "author": "Tyreeka Williams, Michael Brooks, Maylee Vazquez",
+        "published_date": "2025",
+        "summary": "본 연구는 K-8학년 취약 계층 학생들의 인공지능(AI) 리터러시 및 진로 준비도를 증진시키기 위한 학교 상담사의 전략적 역할을 탐색한다. AI 리터러시가 핵심적인 교육적 형평성 문제로 부상하며, 특히 농어촌 지역 등 소외된 공동체에서 AI 리터러시 자원에 대한 접근이 제한적인 현실을 지적한다. 연구는 AI 노출 부족이 학생들의 사회정서적, 학업적, 진로 성공 준비에 필요한 학교 상담사의 역할과 대립되어 기존 교육 격차를 확대할 수 있다고 강조한다. 따라서 학교 상담사가 AI 리터러시를 적극적으로 지원함으로써 취약 계층 학생들의 미래 교육 및 직업 준비를 강화해야 한다고 제언한다.",
+        "score": 5.0,
+        "implications": "[관련업무] AI·디지털 리터러시 교육 활성화, AI윤리·디지털 시민성 교육\n[정책제언] K-8학년 대상으로 AI 리터러시 교육 불평등 해소를 위한 '찾아가는 AI 리터러시 교육' 프로그램 도입을 검토하고, 이를 위해 학교 상담사 역량 강화 연수를 개발한다. 특히 농어촌 및 저소득층 밀집 학교에 우선적으로 교육 자료와 멘토링을 제공하여 디지털 교육 격차를 해소한다.\n[참고사항] 학교 상담사를 AI 리터러시 교육의 핵심 주체로 인식하고, 학생들의 AI 활용 능력뿐만 아니라 AI 윤리 및 디지털 시민성 함양을 위한 상담 및 지도를 지원해야 한다. AI 리터러시 교육 내용에 사회정서적, 진로 탐색 요소를 통합하여 학생들의 전인적 성장을 돕는 방향으로 추진한다.",
+        "collected_date": "2026-04-21",
+        "apa_citation": "Tyreeka Williams, Michael Brooks, Maylee Vazquez, Shirlene Coopwood (2025). From Access to Empowerment: School Counselors Supporting AI Literacy in Underserved K-8 Communities. https://eric.ed.gov/?id=EJ1494270",
+        "identifier": "EJ1494270",
+        "is_new": true
+      },
+      {
         "title": "Preparing Teachers for the Algorithmic Educational Landscape: A Critical Mapping of Generative AI Integration in Language Teacher Education",
         "url": "https://eric.ed.gov/?id=EJ1484591",
         "source": "",
@@ -1752,7 +1868,7 @@
         "collected_date": "2026-04-20",
         "apa_citation": "Kadir Karakaya, Muhammet Furkan Alpat, Hasan Uçar, Özlem Karakaya, Aras Bozkurt (2025). Preparing Teachers for the Algorithmic Educational Landscape: A Critical Mapping of Generative AI Integration in Language Teacher Education. https://eric.ed.gov/?id=EJ1484591",
         "identifier": "EJ1484591",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "OLC Framework for the Comprehensive Design, Equitable Implementation &amp; Continuous Improvement of AI Strategy: A Holistic Tool for Institutions Implementing Generative AI Strategy",
@@ -1766,7 +1882,7 @@
         "collected_date": "2026-04-20",
         "apa_citation": "Angela Gunder (2024). OLC Framework for the Comprehensive Design, Equitable Implementation &amp; Continuous Improvement of AI Strategy: A Holistic Tool for Institutions Implementing Generative AI Strategy. https://eric.ed.gov/?id=ED671718",
         "identifier": "ED671718",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "Insights from Educators: Integrating AI Literacy into Media Literacy Education in Practice",
