@@ -1,7 +1,43 @@
 {
-  "last_updated": "2026-04-23T06:46:37.384864+09:00",
+  "last_updated": "2026-04-24T06:43:42.415447+09:00",
   "sections": {
     "news": [
+      {
+        "title": "동국대 WISE캠퍼스, '대학 AI 기본교육과정 지원사업' 선정",
+        "url": "https://www.ajunews.com/view/20260424010126115",
+        "source": "네이버뉴스",
+        "author": "",
+        "published_date": "2026-04-24",
+        "summary": "동국대학교 WISE캠퍼스는 교육부의 '대학 AI 기본교육과정 지원사업'에 선정되어 전교생 AI 교육 체계 구축을 위한 기반을 마련했다. 이번 사업 선정으로 WISE캠퍼스는 최대 6억원의 재정 지원을 받게 되며, 이를 통해 전교생을 대상으로 하는 AI 교육을 전면 확산하고, 지역사회 및 산업 수요에 부응하는 AI 융합 인재 양성을 추진할 계획이다.",
+        "score": 4.0,
+        "implications": "[관련업무] AI·디지털 기반 교육혁신 운영, AI·정보(AI·SW) 교육\n[정책제언] 서울시교육청은 교육부의 '대학 AI 기본교육과정 지원사업'과 유사하게 K-12 학교를 대상으로 'AI 기본교육과정 도입 및 운영 지원사업'을 기획하여 예산을 지원할 필요가 있다. 이를 통해 서울 관내 각 학교가 전교생 대상의 체계적인 AI 교육 기반을 구축하고, 학교별 특성에 맞는 AI 융합 교육 프로그램을 개발하도록 유도해야 한다.\n[참고사항] 대학이 교육부 지원을 통해 전교생 AI 교육 시스템을 구축하는 것처럼, 서울시교육청도 재정적 지원과 함께 AI 교육 모델 개발 컨설팅을 제공하여 K-12 학교들이 AI 교육을 안정적으로 도입하고 확산할 수 있도록 뒷받침해야 한다.",
+        "collected_date": "2026-04-24",
+        "is_new": true
+      },
+      {
+        "title": "교보생명, 업계 최초 중소기업 대상 AI 활용 교육으로 상생 강화",
+        "url": "https://www.webeconomy.co.kr/news/articleView.html?idxno=2152096",
+        "source": "네이버뉴스",
+        "author": "",
+        "published_date": "2026-04-24",
+        "summary": "교보생명은 업계 최초로 중소기업을 대상으로 생성형 AI 활용 교육을 시작했다. 이번 교육은 '다윈서비스'에 신설된 '리더가 알아야 할 AI 활용 과정'을 통해 중소기업 경영진과 임직원의 디지털 역량을 강화하는 데 목적이 있다. 특히 생성형 AI의 기본 개념부터 업무 적용 사례까지 다루어 실질적인 AI 활용 능력 향상을 지원한다.",
+        "score": 4.0,
+        "implications": "[관련업무] AI·디지털 리터러시 교육 활성화, AI·디지털 기반 수업·평가혁신 전문가 연수\n[정책제언] 서울시교육청은 교원 및 교육행정직을 대상으로 생성형 AI 활용 교육을 필수화하고, '리더(교사/관리자)가 알아야 할 AI 활용 과정'을 신설하여 디지털 리터러시 역량을 강화해야 한다. 특히 수업 설계, 평가 혁신, 교육 행정 효율화 등 교육 현장에 실질적으로 적용할 수 있는 생성형 AI 활용 방안에 초점을 맞춘 연수 프로그램을 개발하고 운영할 필요가 있다.\n[참고사항] 중소기업 임직원 대상 교육 사례에서 보듯이, 교육 대상의 직무 특성을 고려한 맞춤형 생성형 AI 활용 교육은 실제 적용도를 높인다. 교원 연수 시에도 교과별, 업무별 특성에 맞는 생성형 AI 활용 가이드라인과 실습 중심의 연수 콘텐츠를 제공하는 것이 중요하다.",
+        "collected_date": "2026-04-24",
+        "is_new": true
+      },
+      {
+        "title": "[지금, 대학가는] 서울여대, 교육부 '대학 AI 기본교육과정 개발 지원사...",
+        "url": "http://www.bizwnews.com/news/articleView.html?idxno=134795",
+        "source": "네이버뉴스",
+        "author": "",
+        "published_date": "2026-04-24",
+        "summary": "서울여자대학교는 교육부의 '대학 AI 기본교육과정 개발 지원사업'에 선정되어, '인간이해와 사회혁신을 위한 교양-마이크로전공 통합 AI 교육모형'을 운영한다. 이 모형은 인간이해를 바탕으로 AI 기초 교양과 계열별 마이크로전공을 단계적으로 연계하며, 전교생이 AI 역량을 강화하도록 지원한다. 서울여대는 이를 통해 인문학적 소양과 AI 기술을 융합하는 미래 인재를 양성하는 데 기여할 것으로 기대된다.",
+        "score": 4.5,
+        "implications": "[관련업무] AI·디지털 기반 교육혁신 운영, AI·디지털 활용 및 AI 융합교육\n[정책제언] 서울시교육청은 K-12 학생들을 대상으로 'AI 기초 교양'과 '계열별 심화 선택'을 연계하는 교육 모델 개발을 지원해야 한다. 특히 인문학적 소양과 AI 기술을 융합하는 '인간이해와 사회혁신을 위한 AI 교육모형'을 서울 관내 학교에 적용 가능한 형태로 연구하고 시범 운영할 필요가 있다.\n[참고사항] 대학의 전교생 AI 교육 의무화 흐름을 K-12 교육에 맞춰 기초 리터러시 교육과 심화 선택 교육으로 확장하는 방안을 고려하며, 모든 학생이 자신의 관심 분야와 AI를 접목할 수 있는 기회를 제공하는 교육과정을 설계하는 것이 중요하다.",
+        "collected_date": "2026-04-24",
+        "is_new": true
+      },
       {
         "title": "테크빌교육·인천시교육청, 'AI 업무비서' 공식 가동…&quot;교사 3만 명 행정...",
         "url": "https://www.cstimes.com/news/articleView.html?idxno=702982",
@@ -12,7 +48,7 @@
         "score": 4.0,
         "implications": "[관련업무] AI·디지털 기반 교육혁신 운영, AI·디지털 기반 수업·평가혁신 전문가 연수\n[정책제언] 서울시교육청도 인천시교육청 사례를 참고하여 'AI 업무비서' 도입을 적극 검토하고, 교사들의 행정 업무 부담을 줄이기 위한 AI 기반 에듀테크 솔루션 도입 계획을 수립해야 한다. 이를 위해 서울 관내 교사들의 행정 업무 실태를 분석하고, AI 활용 가능성이 높은 영역부터 단계적으로 AI 비서 서비스를 도입하는 시범 사업을 추진해야 한다.\n[참고사항] AI 업무비서 도입 시, 서비스의 안정성과 보안성 확보가 필수적이며, 교사들이 새로운 시스템에 대한 거부감 없이 원활하게 활용할 수 있도록 충분한 사용자 교육과 피드백 과정을 마련해야 한다. 또한, AI가 처리하는 업무의 범위와 한계를 명확히 설정하여 교사 본연의 업무와 혼동이 없도록 주의해야 한다.",
         "collected_date": "2026-04-23",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "&quot;뒤쳐진 아이 없도록..AI로 학습격차 없앨 것&quot;",
@@ -24,7 +60,7 @@
         "score": 4.5,
         "implications": "[관련업무] AI·디지털 기반 교육혁신 운영, AI·디지털 활용 및 AI 융합교육, AI·디지털 기반 수업·평가혁신 전문가 연수\n[정책제언] 서울 관내 학교에 AI 튜터, 생성형 AI 교육 툴, 서논술형 AI 평가 도구 등 학습 격차 해소 및 개별 맞춤 학습을 지원하는 AI 교육 서비스 도입을 위한 가이드라인 및 예산 지원 방안을 마련해야 한다. 특히 저학년 및 학습 부진 학생에게 우선 적용할 수 있는 시범 사업을 추진하여 효과를 검증하고, 교사들의 AI 기반 평가 역량 강화를 위한 연수를 확대해야 한다.\n[참고사항] AI 튜터 도입 시 학습 데이터의 윤리적 활용 및 학생 정보 보호 방안을 철저히 마련해야 하며, 교사의 역할 변화에 대한 연수와 지원을 병행하여 AI 도구가 교사의 전문성을 보완하고 강화하는 방향으로 활용되도록 해야 한다.",
         "collected_date": "2026-04-23",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "한신대-서울정진학교, AI·SW 융복합 인재 양성 및 교육 교류 협약 체결",
@@ -36,7 +72,7 @@
         "score": 5.0,
         "implications": "[관련업무] AI·디지털 기반 교육혁신 운영, AI·정보(AI·SW) 교육, AI·디지털 활용 및 AI 융합교육\n[정책제언] 서울시내 특수학교를 포함한 K-12 학교와 지역대학 간의 AI·SW 교육 협력 모델을 확대해야 한다. 특히 특수교육 대상 학생들을 위한 맞춤형 AI·SW 교육 프로그램을 개발하고, 대학의 인프라와 전문성을 활용하여 심화 학습 기회를 제공하는 MOU 체결을 적극 추진해야 한다.\n[참고사항] 서울정진학교와 같은 특수학교 사례를 벤치마킹하여, AI·SW 교육 기회에서 소외될 수 있는 학생들에게도 디지털 역량 강화의 기회를 보장하는 것이 중요하며, 대학의 인적·물적 자원을 활용한 교육 프로그램 개발 및 운영 지원 방안을 모색해야 한다.",
         "collected_date": "2026-04-23",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "경기도교육청, KT와 협력 도내 600학급에 '디지털 시민교육' 추진",
@@ -698,7 +734,7 @@
         "score": 4.0,
         "implications": "[관련업무] AI·디지털 기반 교육혁신 운영, AI·디지털 활용 및 AI 융합교육, AI·디지털 리터러시 교육 활성화\n[정책제언] 예측 불가능한 상황(재난, 비상사태 등) 발생 시에도 교육의 연속성을 확보하고 유연한 학사 운영을 지원할 수 있도록, AI 기반의 학습 관리 시스템(LMS) 및 원격 평가 도구 도입을 검토하고, 학생들의 개별 학습 진도와 상황에 맞춰 과제 제출 및 평가를 조정할 수 있는 디지털 교육 시스템을 강화해야 한다.\n[참고사항] 이러한 시스템 도입 시, 단순히 기술적 측면뿐만 아니라 AI 윤리 및 디지털 시민성 교육(예: 부정행위 방지, 데이터 프라이버시)을 강화하여 학생들이 책임감 있게 디지털 환경을 활용하도록 지도하고, 교사들에게는 비상 상황에서의 디지털 도구 활용 및 유연한 학사 운영을 위한 전문성 연수를 제공하는 것이 필수적이다.",
         "collected_date": "2026-04-23",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "[일본] 국립대학 운영비교부금 제도 설계 검토, 지역성과 연구분야 따라 배분",
@@ -710,7 +746,7 @@
         "score": 4.2,
         "implications": "[관련업무] AI·디지털 기반 교육혁신 운영, AI·디지털 활용 및 AI 융합교육, AI·정보(AI·SW) 교육\n[정책제언] 서울시 내 고등교육기관 또는 산학연 기관과의 연계를 강화하고, AI·디지털 교육 및 에듀테크 연구개발에 특화된 프로젝트에 대한 재정적 지원 및 협력 체계를 구축해야 한다. 이를 통해 K-12 교육 현장에 적용 가능한 AI·디지털 교육 콘텐츠 및 기술 개발을 촉진할 수 있다.\n[참고사항] 단순히 재정 지원을 넘어, 해당 연구 성과가 서울시 교육청의 AI미래교육팀 업무와 연계될 수 있도록 구체적인 성과 목표(예: AI·SW 교육 과정 개발, AI 융합 교육 모델 제시)를 설정하고, 정기적인 교류 및 피드백 시스템을 마련하여 실질적인 교육 현장 적용을 도모해야 한다.",
         "collected_date": "2026-04-23",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "[싱가포르] 싱가포르 교육부, 교사·교육지원 인력 3만 6,000명 대상 최대 9% 임금 인상",
@@ -722,7 +758,7 @@
         "score": 4.5,
         "implications": "[관련업무] AI·디지털 기반 교육혁신 운영, AI·디지털 기반 수업·평가혁신 전문가 연수, AI·에듀테크 선도교사단\n[정책제언] 서울시교육청의 AI·디지털 교육 혁신을 성공적으로 이끌기 위해, AI 교육 선도교사 및 디지털 역량 강화 연수를 이수한 교원, 디지털튜터 등 핵심 역할을 수행하는 교육인력에 대한 차등적 인센티브(수당, 성과급 등) 지급 방안을 검토해야 한다.\n[참고사항] 싱가포르의 사례를 참고하여, 임금 인상 외에도 AI 교육 환경 변화에 따른 교사들의 업무 경감, 전문성 개발 기회 확대, 그리고 성장 지원 프로그램 개발 등 종합적인 교원 지원 대책을 함께 마련하여 AI 기반 교육혁신의 지속 가능성을 확보하는 것이 중요하다.",
         "collected_date": "2026-04-23",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "[뉴질랜드] 정부의 학교 교육과정 전면 개편에 반대하는 교육 단체 연합",
@@ -1233,6 +1269,34 @@
     "reports": [],
     "academic_domestic": [
       {
+        "title": "인공지능(AI) 딥페이크(deepfake)와 피해자 영향 진술",
+        "url": "https://doi.org/10.22397/wlri.2026.42.1.83",
+        "source": "Wonkwang University Legal Research Institute",
+        "author": ", Jong Goo Kim",
+        "published_date": "2026",
+        "summary": "이 연구는 인공지능(AI), 특히 딥페이크와 같은 생성형 기술이 형사 소송에서 피해자 영향 진술(VIS)에 활용될 때 발생하는 법적 및 헌법적 쟁점을 검토하고 한국 법체계에 대한 시사점을 도출했다. 미국 펠키(Pelkey) 사건에서 사망한 피해자가 AI 생성 디지털 아바타 형태로 법정에 '출현'하여 가해자에게 진술한 사례를 중심으로 AI 기술의 찬반 논쟁을 분석했다. 핵심 발견은 AI 딥페이크를 활용한 VIS가 피해자 중심적 혁신으로 평가받기도 하지만, 정서적 호소로 양형에 영향을 미쳐 절차적 공정성 및 피고인의 반대 심문권을 침해할 수 있다는 심각한 우려가 제기된다는 점이다. 이는 AI 기술의 발전이 법적, 윤리적 문제를 동시에 야기하며, 기술 적용에 앞서 사회적 합의와 제도적 보완이 필수적임을 보여준다.",
+        "score": 4.0,
+        "implications": "[관련업무] AI윤리·디지털 시민성 교육\n[정책제언] AI 딥페이크 등 생성형 AI 기술의 오용 및 사회적 영향에 대한 인식을 높이기 위한 AI 윤리 및 디지털 시민성 교육 프로그램을 K-12 교육 과정에 포함해야 한다. 특히 AI 기술이 사회 각 분야에 미치는 영향을 실제 사례(예: 미국 펠키 사건)를 통해 학습하고, 기술의 윤리적 사용과 법적 쟁점을 다루는 내용을 강화해야 한다.\n[참고사항] AI 기술의 발전 속도를 고려하여 교육 내용과 사례를 지속적으로 업데이트하고, 법조계 등 관련 전문가와 협력하여 교육의 실효성을 높이는 방안을 모색해야 한다. 단순 기술 활용을 넘어 AI의 사회적 책임과 윤리적 문제 해결 역량을 길러주는 데 중점을 두어야 한다.",
+        "collected_date": "2026-04-24",
+        "apa_citation": "Kim, J. G. (2026). 인공지능(AI) 딥페이크(deepfake)와 피해자 영향 진술. *Wonkwang University Legal Research Institute*, 42(1). https://doi.org/10.22397/wlri.2026.42.1.83",
+        "identifier": "10.22397/wlri.2026.42.1.83",
+        "is_new": true
+      },
+      {
+        "title": "간호대학생의 디지털 리터러시와 학업적 자기효능감이 자기주도적 학습능력에 미치는 영향",
+        "url": "https://doi.org/10.14251/crisisonomy.2026.22.3.257",
+        "source": "Crisis and Emergency Management: Theory and Praxis",
+        "author": ", Jong Im Kim Jong Im Kim",
+        "published_date": "2026",
+        "summary": "본 연구는 C시 간호대학생 199명을 대상으로 디지털 리터러시와 학업적 자기효능감이 자기주도적 학습능력에 미치는 영향을 규명하고자 SPSS/WIN 20.0을 활용하여 다중회귀분석을 실시했다. 분석 결과, 학업 성취도(β=0.23, p=.010), 디지털 리터러시(β=0.16, p=.005), 학업적 자기효능감(β=0.38, p<.001)이 자기주도적 학습능력에 유의미한 양(+)의 영향을 미치는 것으로 나타났다. 특히 학업적 자기효능감의 영향력이 가장 강력했으며, 디지털 리터러시 또한 자기주도적 학습능력을 향상시키는 중요한 요인으로 확인되었다. 반면, 중간 경제수준(β=−0.31, p=.003)과 높은 경제수준(β=−0.22, p=.031)은 자기주도적 학습능력에 부정적인 영향을 미쳤다.",
+        "score": 4.5,
+        "implications": "[관련업무] AI·디지털 리터러시 교육 활성화, AI·디지털 기반 교육혁신 운영\n[정책제언] K-12 교육 단계에서 학생들의 디지털 리터러시와 학업적 자기효능감을 체계적으로 증진시킬 수 있는 교육 프로그램을 개발하고, 이를 통해 자기주도적 학습능력을 향상시키는 것이 중요하다. 특히 '디벗' 활용 등 디지털 기기 기반의 수업 환경에서 디지털 리터러시 함양을 위한 구체적인 교수학습 전략(예: 디지털 정보 탐색, 비판적 분석, 협업 도구 활용 등)을 강화해야 한다.\n[참고사항] 디지털 리터러시 교육은 단순 기능 습득을 넘어, 정보를 비판적으로 이해하고 생산하는 역량과 함께 디지털 환경에서의 자기조절 능력 및 학업적 자신감을 키우는 방향으로 추진되어야 한다. 경제적 배경에 따른 자기주도성 차이를 고려하여 디지털 교육 격차 해소 방안도 함께 모색해야 한다.",
+        "collected_date": "2026-04-24",
+        "apa_citation": "Jong Im Kim, J. I. K. (2026). 간호대학생의 디지털 리터러시와 학업적 자기효능감이 자기주도적 학습능력에 미치는 영향. *Crisis and Emergency Management: Theory and Praxis*, 22(3). https://doi.org/10.14251/crisisonomy.2026.22.3.257",
+        "identifier": "10.14251/crisisonomy.2026.22.3.257",
+        "is_new": true
+      },
+      {
         "title": "디지털 뉴스 플랫폼 환경에서의 플랫폼 기업 신뢰 형성 경로 : 성격 특성과 AI 태도, 언론 신뢰의 다중매개효과 분석",
         "url": "https://doi.org/10.46407/kjci.2026.04.136.340",
         "source": "Korean Journal of Communication &amp; Information",
@@ -1244,7 +1308,7 @@
         "collected_date": "2026-04-23",
         "apa_citation": "Choi, M. (2026). 디지털 뉴스 플랫폼 환경에서의 플랫폼 기업 신뢰 형성 경로 : 성격 특성과 AI 태도, 언론 신뢰의 다중매개효과 분석. *Korean Journal of Communication &amp; Information*, 136. https://doi.org/10.46407/kjci.2026.04.136.340",
         "identifier": "10.46407/kjci.2026.04.136.340",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "디지털 전환을 성공적으로 달성한 기업 사례 연구: 전환 단계별 접근을 중심으로",
@@ -1258,7 +1322,7 @@
         "collected_date": "2026-04-23",
         "apa_citation": "Lee, J., Kim, E. (2023). 디지털 전환을 성공적으로 달성한 기업 사례 연구: 전환 단계별 접근을 중심으로. *Journal of Distribution and Management Research*, 26(2). https://doi.org/10.17961/jdmr.26.02.202304.55",
         "identifier": "10.17961/jdmr.26.02.202304.55",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "항공 종사자의 디지털 리더십이 조직성과에 미치는 영향",
@@ -1272,7 +1336,7 @@
         "collected_date": "2026-04-23",
         "apa_citation": "Zhou, Y., Choi, J., Shin, R. (2026). 항공 종사자의 디지털 리더십이 조직성과에 미치는 영향. *Journal of the Korean Society for Aviation and\n                    Aeronautics*, 34(1). https://doi.org/10.12985/ksaa.2026.34.1.144",
         "identifier": "10.12985/ksaa.2026.34.1.144",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "초등학생의 디지털 가치 창출 역량 함양을 위한 인성 동화 제작 프로젝트 수업 개발 및 적용",
@@ -2019,6 +2083,34 @@
     ],
     "academic_international": [
       {
+        "title": "Advancing Students&apos; Academic Excellence in Distance Education: Exploring the Potential of Generative AI Integration to Improve Academic Writing Skills",
+        "url": "https://eric.ed.gov/?id=EJ1427357",
+        "source": "",
+        "author": "Kgabo Bridget Maphoto, Kershnee Sevnarayan, Ntshimane Elphas Mohale",
+        "published_date": "2024",
+        "summary": "이 질적 연구는 원격 교육 기관의 대규모 학생 집단에서 생성형 AI가 학술 작문 능력 향상에 기여할 잠재력을 탐색하는 것을 목적으로 한다. 연구는 사회문화 이론과 인간-AI 협업 프레임워크에 기반하여, 생성형 AI를 활용한 다양한 교수학습 접근법을 질적 방법론으로 탐구했다. 연구자들은 강사 대상 이메일 인터뷰, 학생 대상 포커스 그룹 토론, 채점자 대상 WhatsApp 그룹 비공식 토론을 통해 강사들의 생성형 AI 통합에 대한 인식과 적용 방안을 파악했다. 핵심 시사점은 인간 지능과 생성형 AI 역량 간의 시너지 효과가 학술 작문 능력 향상에 긍정적인 영향을 미칠 수 있다는 점이다.",
+        "score": 4.5,
+        "implications": "[관련업무] AI·디지털 활용 및 AI 융합교육, AI·디지털 리터러시 교육 활성화, AI·디지털 기반 수업·평가혁신 전문가 연수\n[정책제언] 학술 작문 능력 향상을 위한 생성형 AI 활용 가이드라인을 개발하고, 교사와 학생이 AI와 협업하여 글쓰기 과정을 개선할 수 있도록 ‘인간-AI 협업 글쓰기 교육 프로그램’을 도입해야 한다. 특히 원격 교육 환경에서의 생성형 AI 활용 사례를 발굴하여 K-12 원격 수업 및 디지털 학습 자료 개발에 참고하고, 관련 교사 연수를 통해 실제 수업 적용 역량을 강화해야 한다.\n[참고사항] 생성형 AI가 단순 표절 도구가 아닌, 학술적 사고와 작문 역량 강화를 위한 협업 도구로 인식되도록 교육하고, 교사와 학생 모두가 AI의 한계를 이해하고 비판적으로 활용하는 디지털 리터러시 교육을 병행하는 것이 중요함. AI 윤리 교육에서 'AI를 통한 창작 보조' 개념을 강조.",
+        "collected_date": "2026-04-24",
+        "apa_citation": "Kgabo Bridget Maphoto, Kershnee Sevnarayan, Ntshimane Elphas Mohale, Zuleika Suliman, Tumelo Jacquiline Ntsopi, Douglas Mokoena (2024). Advancing Students&apos; Academic Excellence in Distance Education: Exploring the Potential of Generative AI Integration to Improve Academic Writing Skills. https://eric.ed.gov/?id=EJ1427357",
+        "identifier": "EJ1427357",
+        "is_new": true
+      },
+      {
+        "title": "Utilizing Generative AI in Higher Education Teaching and Learning",
+        "url": "https://eric.ed.gov/?id=EJ1458031",
+        "source": "",
+        "author": "Laurie O. Campbell, Thomas D. Cox",
+        "published_date": "2024",
+        "summary": "이 연구는 생성형 AI 챗봇이 고등 교육에서 어떻게 활용되고 인식되는지 탐구하는 것을 목적으로 한다. 확산 이론(Diffusion of Innovation Theory)을 바탕으로, 25명의 교육대학원생을 대상으로 현재 AI 챗봇 사용 경험과 인식을 심층적으로 논의하는 방법론을 사용했다. 핵심 발견은 대부분의 참가 학생들이 개인 생활과 직업 생활을 지원하기 위해 AI 챗봇을 이미 활용하고 있다는 점이다. 이는 고등 교육 현장에서 생성형 AI의 광범위한 침투와 학습자들의 실질적인 활용 수요를 보여주며, 책임 있는 사용 방안 마련의 필요성을 시사한다.",
+        "score": 4.5,
+        "implications": "[관련업무] AI·디지털 리터러시 교육 활성화, AI윤리·디지털 시민성 교육, AI·디지털 활용 및 AI 융합교육\n[정책제언] 학습자들의 생성형 AI 활용 실태를 파악하기 위한 정기적인 설문조사를 실시하고, 이를 바탕으로 개인 및 직업 생활에서의 AI 활용 역량 강화와 함께 책임 있는 AI 윤리 교육 가이드라인을 개발해야 한다. 특히 K-12 학습자 대상 AI 리터러시 교육 시 실제 생활에서의 활용 사례를 제시하고, 오남용 방지 및 윤리적 사용 원칙을 명확히 교육하는 프로그램 마련이 시급하다.\n[참고사항] 고등 교육 학습자 대다수가 이미 AI를 활용하는 점을 고려, K-12 학생들에게도 'AI는 이미 삶의 일부'라는 인식을 바탕으로 교육 접근이 필요하며, 사용 장려와 함께 비판적 사고 및 윤리 교육의 균형이 중요함. 교사 대상 AI 활용 교육 연수 시, 학생들의 실제 활용 사례를 공유하고 오남용 지도 방안을 포함할 것.",
+        "collected_date": "2026-04-24",
+        "apa_citation": "Laurie O. Campbell, Thomas D. Cox (2024). Utilizing Generative AI in Higher Education Teaching and Learning. https://eric.ed.gov/?id=EJ1458031",
+        "identifier": "EJ1458031",
+        "is_new": true
+      },
+      {
         "title": "A Taxonomy of Standardized Terms for Generative AI Use in the Composition Classroom",
         "url": "https://eric.ed.gov/?id=EJ1475945",
         "source": "",
@@ -2030,7 +2122,7 @@
         "collected_date": "2026-04-23",
         "apa_citation": "Michael D'Addario (2025). A Taxonomy of Standardized Terms for Generative AI Use in the Composition Classroom. https://eric.ed.gov/?id=EJ1475945",
         "identifier": "EJ1475945",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "Leveraging AI in Design Education: Exploring Virtual Instructors and Conversational Techniques in Flipped Classroom Models",
@@ -2044,7 +2136,7 @@
         "collected_date": "2026-04-23",
         "apa_citation": "Jing Chen, Nur Azlina Mohamed Mokmin, Qi Shen, Hanjun Su (2025). Leveraging AI in Design Education: Exploring Virtual Instructors and Conversational Techniques in Flipped Classroom Models. https://eric.ed.gov/?id=EJ1480065",
         "identifier": "EJ1480065",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "How to Harness Generative AI to Accelerate Human Learning",
