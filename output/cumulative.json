@@ -1,7 +1,43 @@
 {
-  "last_updated": "2026-04-26T06:31:37.896850+09:00",
+  "last_updated": "2026-04-27T06:33:36.419790+09:00",
   "sections": {
     "news": [
+      {
+        "title": "[새로운 시작 인천] AGI 시대 대비, 인간-AI-자연 잇는 미래 교육 선도",
+        "url": "https://www.joongang.co.kr/article/25423525",
+        "source": "중앙일보",
+        "author": "",
+        "published_date": "2026-04-27",
+        "summary": "인천광역시교육청은 AGI(인공일반지능) 시대를 대비하여 AI를 교육 현장에 단순 도입하는 것을 넘어, 인간다움과 생태적 가치를 융합한 미래 교육의 새로운 표준을 제시하고 있다. 인천시교육청은 인간이 질문하고 AI가 답을 찾아가는 과정을 통해 자연을 이해하고 윤리적 판단을 내리는 능력을 함양하는 교육 모델을 추진한다. 이는 AI 활용 교육을 통해 디지털 시민성과 AI 윤리 교육을 통합적으로 구현하려는 시도로 볼 수 있다.",
+        "score": 4.5,
+        "implications": "[관련업무] AI·디지털 기반 교육혁신 운영, AI·디지털 리터러시 교육 활성화, AI윤리·디지털 시민성 교육, AI·디지털 활용 및 AI 융합교육\n[정책제언] 서울시교육청은 AI 교육 계획 수립 시 기술 도입을 넘어 AGI 시대에 필요한 인간 고유의 역량(창의성, 비판적 사고, 윤리적 판단) 함양과 생태적 가치를 통합하는 '서울형 미래 교육 표준'을 정립해야 한다. 특히, AI 활용 과정에서 디지털 시민성 및 AI 윤리 교육을 필수적으로 연계하는 교육과정 개발 및 프로그램을 강화해야 한다.\n[참고사항] '인간이 질문하고 AI가 답을 찾아가는' 탐구 학습 모델을 활용하여 AI가 단순한 도구가 아닌 사고 확장을 돕는 파트너로서 기능하도록 교육과정을 설계하고, 이를 위한 교사 연수 및 학습 자료 개발에 집중해야 한다.",
+        "collected_date": "2026-04-27",
+        "is_new": true
+      },
+      {
+        "title": "한라대, 교육부 ‘대학 AI 기본교육과정 개발·운영 지원사업’ 최종 선...",
+        "url": "https://www.kwnews.co.kr/page/view/2026042450034800000",
+        "source": "네이버뉴스",
+        "author": "",
+        "published_date": "2026-04-27",
+        "summary": "한라대학교가 교육부의 '대학 AI 기본교육과정 개발·운영 지원사업'에 최종 선정되어 올해 처음 추진되는 정부 재정지원 사업을 통해 AI 교육 생태계를 선도적으로 구축한다. 주요 계획에는 대학 맞춤형 AI 기본교육과정 개발 및 운영, 교수자 AI 역량 강화 프로그램 도입, 그리고 대학 간 모듈 교육과정 공유 및 K-AI 교육 표준 모델 정립 등이 포함된다. 이는 고등교육 단계에서 전 학문 분야에 걸쳐 AI 소양을 강화하는 전국적인 움직임의 일환이다.",
+        "score": 4.5,
+        "implications": "[관련업무] AI·디지털 기반 교육혁신 운영, AI·디지털 활용 및 AI 융합교육, AI·정보(AI·SW) 교육, AI·디지털 기반 수업·평가혁신 전문가 연수\n[정책제언] 서울시교육청은 고등교육기관의 AI 기본교육과정 개발 및 교수자 역량 강화 사례를 참고하여 K-12 교육 현장에 적용 가능한 'AI 소양 필수 교육과정' 모델을 개발하고, 교원 AI 역량 강화 연수 프로그램을 고도화해야 한다. 또한, 교육부 및 대학과의 연계를 통해 K-12와 고등교육 간 AI 교육 연계성을 강화하는 방안을 모색해야 한다.\n[참고사항] AI 기본교육과정 개발 시 '대학 맞춤형' 접근 방식을 K-12에 적용하여 학교급별, 과목별 특성을 반영한 모듈형 교육과정을 구성할 수 있으며, 선도학교를 통해 시범 운영하여 현장 적합성을 검증하는 것이 중요하다.",
+        "collected_date": "2026-04-27",
+        "is_new": true
+      },
+      {
+        "title": "[인공지능 줌인] AI 튜터의 꿈 흔들린다…학생들은 생각보다 쓰지 않는...",
+        "url": "http://www.wikileaks-kr.org/news/articleView.html?idxno=186670",
+        "source": "네이버뉴스",
+        "author": "",
+        "published_date": "2026-04-27",
+        "summary": "최근 AI 튜터 도입에도 불구하고 학생들이 기대만큼 활용하지 않는다는 결과가 보고되었다. 전문가들은 이러한 현상이 향후 AI 교육 방향 설정에 중요한 근거가 될 것이라고 분석하며, 단순한 AI 도입을 넘어 학생들이 AI를 '의미 있게' 활용하는 방안을 모색하는 것이 핵심 과제라고 지적한다. 이는 AI 교육 도구의 실질적 효용성과 사용자 중심의 교육 환경 조성에 대한 근본적인 질문을 던진다.",
+        "score": 5.0,
+        "implications": "[관련업무] AI·디지털 활용 및 AI 융합교육, AI·디지털 기반 교육혁신 운영, 디지털튜터 운영\n[정책제언] AI 튜터 등 AI 교육 도구 도입 시, 기술 도입 자체보다 학생들의 실질적 학습 효과와 의미 있는 활용을 위한 교육 과정 및 콘텐츠 개발에 중점을 두어야 한다. AI 도구 활용 교육 프로그램을 강화하고, 학생 참여 중심의 AI 활용 학습 모델을 개발하여 적용해야 한다.\n[참고사항] AI 튜터의 효과성을 높이기 위해 학생들의 학습 흥미와 개별 학습 요구를 반영한 맞춤형 시나리오 개발이 필수적이며, 교사의 AI 활용 지도 역량 강화 연수를 병행하여 AI 도구가 수업에 효과적으로 통합될 수 있도록 지원해야 한다.",
+        "collected_date": "2026-04-27",
+        "is_new": true
+      },
       {
         "title": "문학 전공까지 스며든 생성형 AI… 대학가 창작 방식 바뀐다",
         "url": "https://it.chosun.com/news/articleView.html?idxno=2023092160974",
@@ -12,7 +48,7 @@
         "score": 4.5,
         "implications": "[관련업무] AI·디지털 활용 및 AI 융합교육, AI·디지털 리터러시 교육 활성화, AI·디지털 기반 수업·평가혁신 전문가 연수\n[정책제언] K-12 교육과정 내에서 문학, 언어 등 인문사회 및 예체능 분야에 AI 도구 활용과 융합적 사고를 키울 수 있는 교과 내용 개발을 지원해야 한다. 또한, 교사들이 다양한 교과에서 생성형 AI를 활용하여 창의적 수업을 설계할 수 있도록 심화 연수 프로그램을 마련하고, 서울시교육청의 '신나는 AI교실' 구축 시 기술 교육을 넘어 인문학과 AI의 융합을 시도하는 프로젝트 기반 학습 공간으로 확장하는 방안을 검토해야 한다.\n[참고사항] 대학 교육의 AI 융합 확대 추세는 K-12 교육의 미래 방향성을 제시하므로, 이를 면밀히 모니터링하여 초중등 교육과정에 선제적으로 반영할 필요가 있다. 생성형 AI 활용 시 윤리적 문제와 저작권 문제 등 디지털 시민성 교육을 병행하여 올바른 AI 활용 역량을 길러야 하며, AI가 인문학적 사고와 창의성을 증진시킬 수 있는 교육 모델 탐색 및 성공 사례 확산에 주력해야 한다.",
         "collected_date": "2026-04-26",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "경북도, 북부권 AI·로봇 체험교육장 운영…청소년 미래교육 확대",
@@ -761,6 +797,18 @@
     ],
     "global_trends": [
       {
+        "title": "[호주] 빅토리아 교사 파업: 35,000명 집회, 수백여 곳 학교 수업 취소·추가 행동 경고",
+        "url": "https://edpolicy.kedi.re.kr/edpolicy/board/30/844785",
+        "source": "The Guardian",
+        "author": "",
+        "published_date": "2026.04.08",
+        "summary": "호주 빅토리아주에서 약 35,000명의 교사 및 지원 인력이 대규모 파업 집회를 벌여 수백여 곳의 학교 수업이 취소되었다. 이들은 연간 7%의 임금 인상, 주당 대면 수업 시간 2시간 단축, 그리고 과중한 행정 업무 경감 등 개선된 근무 조건을 요구하고 있다. 특히 인플레이션을 반영한 임금 인상을 핵심 주장으로 내세우며, 정부와의 협상 진전이 없을 경우 추가적인 파업을 경고하여 교사들의 업무 부담 및 사기 저하 문제가 심각함을 드러냈다. 이는 AI·디지털 교육혁신 추진에 앞서 교원 사기 진작과 근무 환경 개선이 선행되어야 함을 시사한다. 현재의 교원 부족 및 과로 문제는 AI·디지털 교육의 성공적인 현장 적용에 큰 걸림돌이 될 수 있다.",
+        "score": 4.0,
+        "implications": "[관련업무] 1. AI·디지털 기반 교육혁신 운영, 2. AI·디지털 활용 및 AI 융합교육, 7. AI·디지털 기반 수업·평가혁신 전문가 연수\n[정책제언]\nAI·디지털 기반 교육혁신 추진 시, AI 기술을 활용하여 교사의 과중한 행정 업무를 자동화하고 수업 준비 부담을 경감하는 방안을 우선적으로 강구해야 한다.\n교사의 AI·디지털 역량 강화를 위한 연수 프로그램을 설계할 때는 참여 인센티브 제공 및 연수 시간을 업무로 인정하는 등 실질적인 지원책을 포함하여 교사의 업무 부담을 가중시키지 않도록 유의해야 한다.\n「디벗」교수학습 지원 및 AI·에듀테크 선도교사단 운영 시, 현장 교사들의 의견을 적극 수렴하여 AI 교육 도입으로 인한 업무 변화를 면밀히 분석하고, 이에 대한 사전 지원 체계를 구축해야 한다.\n[참고사항]\nAI·디지털 교육 혁신은 교사의 적극적인 참여와 충분한 역량 없이는 성공하기 어렵다는 점을 인지하고, AI 교육 정책을 수립할 때 교원의 업무 부담 경감 및 전문성 신장 방안을 핵심적인 전제로 삼아야 한다.\nAI 도구가 교사의 행정 업무를 실질적으로 줄이고 수업의 질을 높일 수 있는 성공 사례를 발굴하여 확산하고, 이러한 실제적인 이점을 강조함으로써 교사들의 AI 교육 도입에 대한 긍정적 인식을 유도하는 것이 중요하다.",
+        "collected_date": "2026-04-27",
+        "is_new": true
+      },
+      {
         "title": "[호주] 전동 이동 수단의 안전 교육 프로그램 확대 추진",
         "url": "https://edpolicy.kedi.re.kr/edpolicy/board/30/844784",
         "source": "Education Today",
@@ -1317,6 +1365,20 @@
     "reports": [],
     "academic_domestic": [
       {
+        "title": "생성형 인공지능 활용 영어 학습이 학습자의 학업성취도와 인공지능에 대한 효용성 인식에 미치는 영향",
+        "url": "https://doi.org/10.21297/ballak.2026.160.99",
+        "source": "The British and American Language and Literature Association of Korea",
+        "author": ", Sungbae Park",
+        "published_date": "2026",
+        "summary": "이 연구는 생성형 인공지능(AI) 활용 영어 학습이 학습자의 학업성취도와 인공지능에 대한 효용성 인식에 미치는 영향을 탐색하였다. 본 연구는 생성형 AI를 활용한 영어 학습 집단과 대조군 간의 학업성취도 및 인식 변화를 비교 분석하는 양적 연구 방법을 사용하였다. 연구 결과, 생성형 AI를 활용한 영어 학습 환경이 학습자의 영어 능력 향상에 통계적으로 유의미한 긍정적 효과를 가져와, 학습 평가 지표에서 대조군 대비 명확한 향상을 입증하였다. 특히, 학습자들은 생성형 AI가 제공하는 맞춤형 피드백과 다양한 학습 자료를 통해 학습 효율성을 높이는 경향을 보였으며, AI 기술의 유용성에 대해 높은 인식을 형성하는 것으로 나타났다. 이러한 결과는 AI가 단순한 도구를 넘어 학습 동기 및 성취도 향상에 중요한 역할을 할 수 있음을 시사하며, 미래 교육 현장에서 생성형 AI의 적극적인 도입 및 활용 전략 마련의 필요성을 강조한다.",
+        "score": 5.0,
+        "implications": "[관련업무] AI·디지털 활용 및 AI 융합교육, AI·디지털 리터러시 교육 활성화, 신나는 AI교실 구축 및 운영\n[정책제언] 첫째, 생성형 AI를 활용한 영어 및 타 교과 학습 콘텐츠와 프로그램을 개발하여 신나는 AI교실에 적용해야 한다. 둘째, 교사들이 생성형 AI를 수업에 효과적으로 통합하고 평가할 수 있도록 AI 기반 수업·평가혁신 전문가 연수를 확대해야 한다. 셋째, AI 도구 사용법 및 이점을 교육하여 학습자들이 AI에 대한 긍정적 인식을 가지고 적극적으로 활용하도록 지원함으로써 디지털 리터러시를 함양해야 한다.\n[참고사항] AI 활용 교육 모델 수립 시 학습자 중심의 맞춤형 학습 경험 제공에 중점을 두고, 생성형 AI의 윤리적 사용 및 정보 신뢰성 검증을 위한 AI 리터러시 교육을 병행해야 한다. 또한, 학업성취도 및 효용성 인식 변화를 지속적으로 모니터링하여 교육 효과를 극대화해야 한다.",
+        "collected_date": "2026-04-27",
+        "apa_citation": "Park, S. (2026). 생성형 인공지능 활용 영어 학습이 학습자의 학업성취도와 인공지능에 대한 효용성 인식에 미치는 영향. *The British and American Language and Literature Association of Korea*, 160. https://doi.org/10.21297/ballak.2026.160.99",
+        "identifier": "10.21297/ballak.2026.160.99",
+        "is_new": true
+      },
+      {
         "title": "디지털 패션 커뮤니케이션에 나타난 통합 디자인 관점의 패션 크리에이티브 디렉터 핵심 역량 분석",
         "url": "https://doi.org/10.18652/2026.26.1.9",
         "source": "Korean Society of Fashion Design",
@@ -1328,7 +1390,7 @@
         "collected_date": "2026-04-26",
         "apa_citation": "Kim, H., Lee, J. (2026). 디지털 패션 커뮤니케이션에 나타난 통합 디자인 관점의 패션 크리에이티브 디렉터 핵심 역량 분석. *Korean Society of Fashion Design*, 26(1). https://doi.org/10.18652/2026.26.1.9",
         "identifier": "10.18652/2026.26.1.9",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "디지털 전환 시대의 여성 노동과 헌법적 쟁점 - 노동시장의 성차별과 성별 격차를 중심으로 -",
@@ -1342,7 +1404,7 @@
         "collected_date": "2026-04-26",
         "apa_citation": "Kim, B. (2026). 디지털 전환 시대의 여성 노동과 헌법적 쟁점 - 노동시장의 성차별과 성별 격차를 중심으로 -. *Ewha Law Journal*, 30(3). https://doi.org/10.32632/elj.2026.30.3.307",
         "identifier": "10.32632/elj.2026.30.3.307",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "판매원의 디지털 문해력이 판매 효과성에 미치는 영향: 창의성과 고객지향성의 매개 역할",
@@ -1356,7 +1418,7 @@
         "collected_date": "2026-04-26",
         "apa_citation": "Kim, H. Y., Lee, H. (2023). 판매원의 디지털 문해력이 판매 효과성에 미치는 영향: 창의성과 고객지향성의 매개 역할. *Journal of Distribution and Management Research*, 26(1). https://doi.org/10.17961/jdmr.26.01.202302.5",
         "identifier": "10.17961/jdmr.26.01.202302.5",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "스마트 농업조직의 디지털 전환이 지배구조 투명성에 미치는 영향에 관한 연구: 데이터 기반 의사결정과 ESG 경영을 중심으로",
@@ -2215,6 +2277,34 @@
     ],
     "academic_international": [
       {
+        "title": "Making AI Generative for Higher Education: Adoption and Challenges among Instructors and Researchers",
+        "url": "https://eric.ed.gov/?id=ED673282",
+        "source": "",
+        "author": "Claire Baytas, Dylan Ruediger",
+        "published_date": "2025",
+        "summary": "이타카 S+R(Ithaka S+R)은 2023년 가을, 미국 및 캐나다 19개 대학과의 협력을 통해 고등교육에서 생성형 AI가 교수, 학습, 연구에 미치는 영향을 연구하는 공동 프로젝트를 시작했다. 이 프로젝트는 코호트 구성원 간의 공동 학습 기회를 제공하고, 교수자 및 연구자들의 생성형 AI 활용 관행에 대한 데이터를 수집 및 공유했으며, 디자인 씽킹을 활용하여 AI 관련 지원의 새로운 형태를 구상했다. 또한, 고등교육용 생성형 AI 제품 환경을 탐색하고 추적 도구를 출시하였으며, 교수자 및 연구자 인터뷰를 통해 생성형 AI의 도입 및 도전과제에 대한 구체적인 연구 결과를 제시했다.",
+        "score": 5.0,
+        "implications": "[관련업무] AI·디지털 기반 교육혁신 운영, AI·디지털 활용 및 AI 융합교육, AI·디지털 기반 수업·평가혁신 전문가 연수, AI·에듀테크 선도교사단 및 AIEDAP\n[정책제언] 교수자 및 연구자들의 생성형 AI 활용 관행과 도전과제에 대한 현황 파악을 위해 서울시 교육청 산하 학교를 대상으로 설문 및 인터뷰 기반의 실태조사를 실시해야 한다. 이를 바탕으로 교사들이 AI를 수업 및 평가에 효과적으로 활용할 수 있도록 AI 관련 교육 지원 프로그램(예: AIEDAP 연수, 선도교사단 활동)을 디자인 씽킹 방식으로 개발하고, 교육 현장에 적용 가능한 AI 에듀테크 도구 목록을 관리하고 지원하는 시스템을 구축해야 한다.\n[참고사항] 고등교육 기관의 연구 결과를 K-12 현장에 맞게 재해석하고 적용하는 과정이 필요하며, 교사들의 AI 활용 역량 수준과 요구사항을 면밀히 분석하여 맞춤형 지원 체계를 마련하는 것이 중요하다. 다양한 AI 도구의 등장에 발맞춰 지속적인 모니터링과 업데이트가 필수적이다.",
+        "collected_date": "2026-04-27",
+        "apa_citation": "Claire Baytas, Dylan Ruediger (2025). Making AI Generative for Higher Education: Adoption and Challenges among Instructors and Researchers. https://eric.ed.gov/?id=ED673282",
+        "identifier": "ED673282",
+        "is_new": true
+      },
+      {
+        "title": "Generative AI Adoption in Postsecondary Education, AI Hype, and ChatGPT&apos;s Launch",
+        "url": "https://eric.ed.gov/?id=EJ1444882",
+        "source": "",
+        "author": "Isabel Pedersen",
+        "published_date": "2024",
+        "summary": "이 연구는 OpenAI의 ChatGPT 출시 후 6개월간 고등교육 환경에서 생성형 AI가 미치는 다면적인 영향을 세 가지 방식으로 분석했다. 첫째, AI 과대광고(AI hype)를 통해 ChatGPT의 부상을 변혁적인 사건으로 평가하며 주류 담론을 면밀히 조사했다. 둘째, 비판적 담론 분석과 비판적 AI 연구의 관점에서 생성형 AI가 글쓰기, 교수법, 학습에 미치는 인지된 함의를 논의했다. 연구는 ChatGPT가 학업 환경에 미치는 광범위한 영향을 조명하며, 특히 AI 과대광고가 실제 교육 현장에서의 AI 활용 방식에 어떤 영향을 미치는지 분석하였다. 궁극적으로, 생성형 AI 기술 채택에 있어 최적의 실행 방안(best practices)을 마련할 필요성을 강조한다.",
+        "score": 5.0,
+        "implications": "[관련업무] AI·디지털 활용 및 AI 융합교육, AI윤리·디지털 시민성 교육, AI·디지털 기반 수업·평가혁신 전문가 연수\n[정책제언] ChatGPT 등 생성형 AI의 교육 현장 적용에 앞서, AI 과대광고(AI hype)에 대한 비판적 이해를 바탕으로 교육적 함의를 면밀히 분석하는 연구를 추진하고, 교사 및 학생을 위한 생성형 AI 활용 가이드라인을 마련하여 AI 윤리 및 디지털 시민성 교육을 강화해야 한다. 특히, AI가 글쓰기, 학습 평가에 미치는 영향을 고려하여 새로운 교수학습 및 평가 방식을 모색하고, 이를 위한 교원 연수 프로그램을 개발해야 한다.\n[참고사항] AI 과대광고가 교육 현장의 정책 결정 및 기술 도입에 미칠 수 있는 영향력을 경계하고, 비판적 관점에서 AI의 교육적 가치와 한계를 균형 있게 접근하는 것이 중요하며, 초기 도입 단계에서의 명확한 지침과 지속적인 현장 피드백 수렴이 필수적이다.",
+        "collected_date": "2026-04-27",
+        "apa_citation": "Isabel Pedersen (2024). Generative AI Adoption in Postsecondary Education, AI Hype, and ChatGPT&apos;s Launch. https://eric.ed.gov/?id=EJ1444882",
+        "identifier": "EJ1444882",
+        "is_new": true
+      },
+      {
         "title": "Training the Stochastic Parrot: Using Generative AI to Create Textual Materials for Communication Courses",
         "url": "https://eric.ed.gov/?id=EJ1440604",
         "source": "",
@@ -2226,7 +2316,7 @@
         "collected_date": "2026-04-26",
         "apa_citation": "Weixu Lu (2024). Training the Stochastic Parrot: Using Generative AI to Create Textual Materials for Communication Courses. https://eric.ed.gov/?id=EJ1440604",
         "identifier": "EJ1440604",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "Facilitating the Research Writing Process with Generative Artificial Intelligence",
@@ -2240,7 +2330,7 @@
         "collected_date": "2026-04-26",
         "apa_citation": "Laurie O. Campbell, Thomas D. Cox (2024). Facilitating the Research Writing Process with Generative Artificial Intelligence. https://eric.ed.gov/?id=EJ1433545",
         "identifier": "EJ1433545",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "Generative AI Technologies, Multiliteracies, and Language Education. Multiliteracies and Second Language Education",
