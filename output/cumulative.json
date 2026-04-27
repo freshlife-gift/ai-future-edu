@@ -1,7 +1,19 @@
 {
-  "last_updated": "2026-04-27T06:33:36.419790+09:00",
+  "last_updated": "2026-04-28T06:51:54.326415+09:00",
   "sections": {
     "news": [
+      {
+        "title": "'AI·디지털 문해력은 기본권'…성인교육예산·인프라 확충",
+        "url": "https://www.newsis.com/view/NISX20260427_0003608077",
+        "source": "뉴시스",
+        "author": "",
+        "published_date": "2026-04-28",
+        "summary": "교육부는 AI·디지털 문해력을 기본권으로 인식하고 성인 문해교육을 강화하기 위해 2026년까지 관련 정책을 추진한다. 최교진 교육부 장관은 경기 수원 수원제일평생학교를 방문하여 생성형 AI를 활용한 생활 정보 탐색 수업을 참관하고, 문해 교원 및 학습자들과 간담회를 가졌다. 특히 올해는 성인 문해교육 지원사업 예산을 전년 대비 증액한 78억 8천만 원으로 편성하여, 고령층 등 성인들의 AI·디지털 역량 강화에 집중 지원할 예정이다. 이 방문은 AI·디지털 교육이 고령층 삶의 질에 미치는 영향을 현장에서 확인하고 정책 보완사항을 청취하기 위한 목적이다.",
+        "score": 4.5,
+        "implications": "[관련업무] AI·디지털 리터러시 교육 활성화\n[정책제언] 서울시 성인 및 평생교육기관을 대상으로 AI·디지털 문해교육 프로그램 도입 및 확대를 위한 예산 및 인프라 지원을 검토하고, 생성형 AI 활용 교육 콘텐츠 개발을 독려해야 합니다. 또한 서울시 내 평생교육기관과의 협력을 강화하여 현장 의견을 수렴하고 문해 교원 역량 강화 및 디지털 튜터 운영 지원 방안을 모색해야 합니다.\n[참고사항] AI·디지털 문해교육 대상을 고령층에 한정하지 않고, 서울시 내 디지털 취약계층 전반으로 확대하여 보편적 디지털 역량 함양을 목표로 해야 합니다. 성인 학습자의 특성을 고려한 맞춤형 교육 프로그램과 교재 개발이 중요하며, 교육부의 2026년 목표 및 예산 지원 동향을 모니터링하여 서울시 정책에 반영할 필요가 있습니다.",
+        "collected_date": "2026-04-28",
+        "is_new": true
+      },
       {
         "title": "[새로운 시작 인천] AGI 시대 대비, 인간-AI-자연 잇는 미래 교육 선도",
         "url": "https://www.joongang.co.kr/article/25423525",
@@ -12,7 +24,7 @@
         "score": 4.5,
         "implications": "[관련업무] AI·디지털 기반 교육혁신 운영, AI·디지털 리터러시 교육 활성화, AI윤리·디지털 시민성 교육, AI·디지털 활용 및 AI 융합교육\n[정책제언] 서울시교육청은 AI 교육 계획 수립 시 기술 도입을 넘어 AGI 시대에 필요한 인간 고유의 역량(창의성, 비판적 사고, 윤리적 판단) 함양과 생태적 가치를 통합하는 '서울형 미래 교육 표준'을 정립해야 한다. 특히, AI 활용 과정에서 디지털 시민성 및 AI 윤리 교육을 필수적으로 연계하는 교육과정 개발 및 프로그램을 강화해야 한다.\n[참고사항] '인간이 질문하고 AI가 답을 찾아가는' 탐구 학습 모델을 활용하여 AI가 단순한 도구가 아닌 사고 확장을 돕는 파트너로서 기능하도록 교육과정을 설계하고, 이를 위한 교사 연수 및 학습 자료 개발에 집중해야 한다.",
         "collected_date": "2026-04-27",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "한라대, 교육부 ‘대학 AI 기본교육과정 개발·운영 지원사업’ 최종 선...",
@@ -24,7 +36,7 @@
         "score": 4.5,
         "implications": "[관련업무] AI·디지털 기반 교육혁신 운영, AI·디지털 활용 및 AI 융합교육, AI·정보(AI·SW) 교육, AI·디지털 기반 수업·평가혁신 전문가 연수\n[정책제언] 서울시교육청은 고등교육기관의 AI 기본교육과정 개발 및 교수자 역량 강화 사례를 참고하여 K-12 교육 현장에 적용 가능한 'AI 소양 필수 교육과정' 모델을 개발하고, 교원 AI 역량 강화 연수 프로그램을 고도화해야 한다. 또한, 교육부 및 대학과의 연계를 통해 K-12와 고등교육 간 AI 교육 연계성을 강화하는 방안을 모색해야 한다.\n[참고사항] AI 기본교육과정 개발 시 '대학 맞춤형' 접근 방식을 K-12에 적용하여 학교급별, 과목별 특성을 반영한 모듈형 교육과정을 구성할 수 있으며, 선도학교를 통해 시범 운영하여 현장 적합성을 검증하는 것이 중요하다.",
         "collected_date": "2026-04-27",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "[인공지능 줌인] AI 튜터의 꿈 흔들린다…학생들은 생각보다 쓰지 않는...",
@@ -36,7 +48,7 @@
         "score": 5.0,
         "implications": "[관련업무] AI·디지털 활용 및 AI 융합교육, AI·디지털 기반 교육혁신 운영, 디지털튜터 운영\n[정책제언] AI 튜터 등 AI 교육 도구 도입 시, 기술 도입 자체보다 학생들의 실질적 학습 효과와 의미 있는 활용을 위한 교육 과정 및 콘텐츠 개발에 중점을 두어야 한다. AI 도구 활용 교육 프로그램을 강화하고, 학생 참여 중심의 AI 활용 학습 모델을 개발하여 적용해야 한다.\n[참고사항] AI 튜터의 효과성을 높이기 위해 학생들의 학습 흥미와 개별 학습 요구를 반영한 맞춤형 시나리오 개발이 필수적이며, 교사의 AI 활용 지도 역량 강화 연수를 병행하여 AI 도구가 수업에 효과적으로 통합될 수 있도록 지원해야 한다.",
         "collected_date": "2026-04-27",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "문학 전공까지 스며든 생성형 AI… 대학가 창작 방식 바뀐다",
@@ -797,6 +809,42 @@
     ],
     "global_trends": [
       {
+        "title": "Global Coalition for Education",
+        "url": "https://www.unesco.org/en/global-education-coalition",
+        "source": "UNESCO",
+        "author": "",
+        "published_date": "2026-04-28",
+        "summary": "UNESCO Global Coalition for Education은 코로나19 팬데믹으로 인한 교육 위기에 대응하기 위해 설립된 국제 협력체로, 디지털 교육의 형평성 보장, 원격 학습 솔루션 개발 및 보급, 교원의 디지털 역량 강화 등을 핵심 목표로 한다. 이 연합은 175개 이상의 파트너 기관과 협력하여 전 세계 4억 명 이상의 학습자에게 디지털 학습 콘텐츠와 도구를 제공하였으며, 특히 취약계층의 학습 단절을 막고 교육 접근성을 높이는 데 기여했다. 이는 AI와 에듀테크를 활용한 비상시 학습 연속성 확보의 중요성을 보여준다.",
+        "score": 4.5,
+        "implications": "[관련업무] AI·디지털 기반 교육혁신 운영, AI·디지털 활용 및 AI 융합교육, AI·디지털 기반 수업·평가혁신 전문가 연수, 디지털 교육 세계화(ODA) 사업\n[정책제언] Global Coalition for Education의 활동 및 성과를 분석하여 서울시교육청의 디지털 기반 교수학습 시스템 운영에 적용해야 한다. 특히, 위기 상황에서의 학습 연속성 확보를 위한 AI 및 에듀테크 기반의 비대면 학습 플랫폼 고도화 방안을 마련하고, 교원의 디지털 활용 역량 강화를 위한 전문 연수 프로그램을 개발해야 한다. 「디벗」 및 AI 교실 운영에 있어서도 이러한 국제적 협력체의 경험을 반영하여 효과적인 모델을 구축할 수 있다.\n[참고사항] 글로벌 협력 사례를 통해 디지털 교육 콘텐츠의 공동 개발 가능성을 탐색하고, 서울시교육청의 디지털 교육 ODA 사업(KLIC, 첨단교실)과 연계하여 국제적인 교육 비상 대응 및 디지털 전환 노력에 기여하는 방안을 모색해야 한다.",
+        "collected_date": "2026-04-28",
+        "is_new": true
+      },
+      {
+        "title": "G20 Education Working Group",
+        "url": "https://www.unesco.org/en/education/g20",
+        "source": "UNESCO",
+        "author": "",
+        "published_date": "2026-04-28",
+        "summary": "G20 Education Working Group은 세계 주요 20개국이 참여하여 교육 분야의 글로벌 의제를 논의하고 공동의 정책 방향을 모색하는 협의체로, 교육의 디지털 전환, 미래 역량 강화, AI 윤리 및 디지털 시민성 교육 등의 주제를 중점적으로 다룬다. 이 그룹은 AI 교육의 국제적 표준 및 가이드라인 마련에 기여하며, 각 회원국 간의 교육 혁신 사례 공유를 통해 디지털 교육의 세계화와 상호 협력을 촉진한다. 이를 통해 국제적인 공조를 통한 미래 교육 생태계 구축 방안을 모색한다.",
+        "score": 4.5,
+        "implications": "[관련업무] AI·디지털 기반 교육혁신 운영, AI윤리·디지털 시민성 교육, 디지털 교육 세계화(ODA) 사업, AI·에듀테크 선도교사단\n[정책제언] G20 EWG에서 논의되는 AI 교육 및 디지털 리터러시 관련 글로벌 의제를 지속적으로 모니터링하여 서울시교육청의 AI 교육 정책에 반영해야 한다. 특히, AI 윤리 및 디지털 시민성 교육의 국제적 가이드라인을 참고하여 교과 연계 교육 콘텐츠를 개발하고, AIEDAP 및 선도교사단 활동을 통해 국제적 교류를 확대하여 서울 교육의 디지털 세계화를 도모할 수 있다.\n[참고사항] G20 EWG의 합의 사항 및 권고안을 서울시 교육 특성에 맞춰 현지화하는 전략을 수립하고, 디지털 교육 ODA 사업(KLIC, 첨단교실)과의 연계를 통해 서울 교육의 국제적 위상을 제고하는 기회로 활용해야 한다.",
+        "collected_date": "2026-04-28",
+        "is_new": true
+      },
+      {
+        "title": "Global Education Monitoring Report",
+        "url": "https://www.unesco.org/gem-report/en",
+        "source": "UNESCO",
+        "author": "",
+        "published_date": "2026-04-28",
+        "summary": "UNESCO의 Global Education Monitoring Report(GEM Report)는 전 세계 교육 시스템의 현황과 미래 방향을 심층적으로 분석하는 보고서로, 특히 최신 보고서들은 교육 분야에서의 AI 및 디지털 기술의 역할과 영향에 초점을 맞추고 있다. 이 보고서는 디지털 격차 해소, AI 활용 교육 혁신, 교사의 디지털 역량 강화 등 구체적인 정책 권고를 담고 있으며, 에듀테크 도입의 효과와 지속가능성을 평가하는 글로벌 표준을 제시한다. 이를 통해 각국은 디지털 전환 시대에 맞는 교육 정책 수립을 위한 데이터 기반의 통찰력을 얻을 수 있다.",
+        "score": 4.5,
+        "implications": "[관련업무] AI·디지털 기반 교육혁신 운영, AI·디지털 리터러시 교육 활성화, AI·디지털 기반 수업·평가혁신 전문가 연수\n[정책제언] UNESCO GEM Report의 권고사항을 바탕으로, 서울시교육청의 AI·디지털 교육 정책 로드맵을 재점검하고 글로벌 표준에 맞는 AI 윤리 및 디지털 리터러시 교육 지표를 수립해야 한다. 특히, 보고서에서 제시하는 디지털 격차 해소 방안 및 교원 연수 모델을 참고하여 「디벗」 활용 교육의 효과를 극대화하고 AIEDAP 프로그램의 질적 수준을 제고하는 데 활용할 수 있다.\n[참고사항] 최신 GEM Report의 구체적인 데이터와 사례를 심층 분석하여 서울 교육 환경에 적합한 정책을 맞춤형으로 개발하고, 글로벌 모범 사례(best practices)를 벤치마킹하는 데 주력해야 한다.",
+        "collected_date": "2026-04-28",
+        "is_new": true
+      },
+      {
         "title": "[호주] 빅토리아 교사 파업: 35,000명 집회, 수백여 곳 학교 수업 취소·추가 행동 경고",
         "url": "https://edpolicy.kedi.re.kr/edpolicy/board/30/844785",
         "source": "The Guardian",
@@ -806,7 +854,7 @@
         "score": 4.0,
         "implications": "[관련업무] 1. AI·디지털 기반 교육혁신 운영, 2. AI·디지털 활용 및 AI 융합교육, 7. AI·디지털 기반 수업·평가혁신 전문가 연수\n[정책제언]\nAI·디지털 기반 교육혁신 추진 시, AI 기술을 활용하여 교사의 과중한 행정 업무를 자동화하고 수업 준비 부담을 경감하는 방안을 우선적으로 강구해야 한다.\n교사의 AI·디지털 역량 강화를 위한 연수 프로그램을 설계할 때는 참여 인센티브 제공 및 연수 시간을 업무로 인정하는 등 실질적인 지원책을 포함하여 교사의 업무 부담을 가중시키지 않도록 유의해야 한다.\n「디벗」교수학습 지원 및 AI·에듀테크 선도교사단 운영 시, 현장 교사들의 의견을 적극 수렴하여 AI 교육 도입으로 인한 업무 변화를 면밀히 분석하고, 이에 대한 사전 지원 체계를 구축해야 한다.\n[참고사항]\nAI·디지털 교육 혁신은 교사의 적극적인 참여와 충분한 역량 없이는 성공하기 어렵다는 점을 인지하고, AI 교육 정책을 수립할 때 교원의 업무 부담 경감 및 전문성 신장 방안을 핵심적인 전제로 삼아야 한다.\nAI 도구가 교사의 행정 업무를 실질적으로 줄이고 수업의 질을 높일 수 있는 성공 사례를 발굴하여 확산하고, 이러한 실제적인 이점을 강조함으로써 교사들의 AI 교육 도입에 대한 긍정적 인식을 유도하는 것이 중요하다.",
         "collected_date": "2026-04-27",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "[호주] 전동 이동 수단의 안전 교육 프로그램 확대 추진",
@@ -1365,6 +1413,48 @@
     "reports": [],
     "academic_domestic": [
       {
+        "title": "예비유아교사의 디지털 활용 그림책 제작 및 모의수업 경험의 의미",
+        "url": "https://doi.org/10.32349/ecerr.2026.4.30.2.53",
+        "source": "Early Childhood Education Research &amp; Review",
+        "author": "Sungbin Park, Naeun Shin",
+        "published_date": "2026",
+        "summary": "본 연구는 예비유아교사들이 디지털 활용 그림책을 직접 제작하고 이를 모의수업에 적용하는 경험의 의미를 탐색하여 디지털 교육 역량 강화 방안을 모색했다. P대학 유아교육과 예비유아교사 12명을 대상으로 5주간 워크숍을 진행한 후 심층 인터뷰 및 포트폴리오 분석의 질적 연구 방법을 적용하였다. 연구 결과, 참여 예비교사들은 '디지털 교수효능감 증진', '창의적 교수전략 확장', '유아 교육과정 연계 능력 향상'이라는 세 가지 핵심 의미를 보고하였다. 이 경험은 디지털 도구 활용에 대한 자신감 증대와 유아 흥미 유발 수업 방식 구안에 기여하며, 예비유아교사의 디지털 교육 역량 함양에 실질적인 도움이 됨을 시사한다.",
+        "score": 4.0,
+        "implications": "[관련업무] AI·디지털 기반 수업·평가혁신 전문가 연수, AI·에듀테크 선도교사단 및 AIEDAP\n[정책제언] 예비교사 및 현직교사를 위한 AI·디지털 기반 콘텐츠 제작 및 활용 연수 프로그램을 확대하고, 특히 그림책과 같은 교육 자료 개발에 AI·에듀테크 도구를 활용할 수 있는 기회를 제공해야 한다. 교사들이 직접 디지털 콘텐츠를 기획하고 수업에 적용하는 경험을 통해 교수 효능감을 높이고 창의적인 수업 모델을 개발하도록 지원해야 한다.\n[참고사항] 연수 프로그램을 설계할 때, 실제 유아교육 현장에 적용 가능한 구체적인 디지털 도구(예: AI 기반 그림 생성 도구, 인터랙티브 그림책 플랫폼 등)와 실습 위주의 커리큘럼을 제공해야 한다. 우수 사례를 발굴하여 공유하고, 교사 간 협력 학습을 장려하여 디지털 교육 혁신 문화를 조성해야 한다.",
+        "collected_date": "2026-04-28",
+        "apa_citation": "Park, S., Shin, N. (2026). 예비유아교사의 디지털 활용 그림책 제작 및 모의수업 경험의 의미. *Early Childhood Education Research &amp; Review*, 30(2). https://doi.org/10.32349/ecerr.2026.4.30.2.53",
+        "identifier": "10.32349/ecerr.2026.4.30.2.53",
+        "is_new": true
+      },
+      {
+        "title": "유아 디지털 교육을 위한 디지털 도덕성의 체계 구성 : 통합적 도덕성 이론을 바탕으로",
+        "url": "https://doi.org/10.32349/ecerr.2026.4.30.2.443",
+        "source": "Early Childhood Education Research &amp; Review",
+        "author": "Inpyo Hong",
+        "published_date": "2026",
+        "summary": "본 연구는 유아 디지털 교육의 중요성을 강조하며, 통합적 도덕성 이론을 바탕으로 유아에게 적합한 디지털 도덕성 체계를 구성하는 것을 목표로 하였다. 문헌 연구를 통해 유아의 발달 특성을 고려한 디지털 인지, 디지털 정의, 디지털 행동의 세 가지 핵심 요소를 도출하였다. 연구는 유아가 디지털 정보를 올바르게 이해하고(인지), 디지털 환경에서 타인에게 공감하며 책임감을 가지며(정의), 올바른 디지털 사용 습관을 형성하도록(행동) 교육해야 한다고 제안한다. 이는 유아가 디지털 환경에서 윤리적 판단력과 올바른 태도를 어릴 때부터 체계적으로 함양할 수 있도록 하는 교육 프레임워크를 제시한다.",
+        "score": 4.5,
+        "implications": "[관련업무] AI윤리·디지털 시민성 교육, AI·디지털 리터러시 교육 활성화\n[정책제언] 유아 대상의 디지털 도덕성 교육 프로그램 및 콘텐츠를 개발하고, 이를 유치원 및 어린이집 정규 교육과정에 포함하는 방안을 추진해야 한다. 특히 유아의 발달 단계에 맞는 쉽고 재미있는 활동 중심의 디지털 윤리 교육 자료를 보급하고, 교사 연수를 통해 현장에서 효과적으로 교육할 수 있도록 지원해야 한다.\n[참고사항] 유아 디지털 도덕성 교육은 인지적 측면뿐만 아니라 공감, 책임감과 같은 정의적 측면과 실제 올바른 행동을 유도하는 행동적 측면을 통합적으로 다루어야 한다. 디지털 기기 사용의 긍정적인 측면과 부정적인 측면을 균형 있게 교육하고, 보호자 교육을 병행하여 가정과 연계된 교육이 이루어지도록 유도해야 한다.",
+        "collected_date": "2026-04-28",
+        "apa_citation": "Hong, I. (2026). 유아 디지털 교육을 위한 디지털 도덕성의 체계 구성 : 통합적 도덕성 이론을 바탕으로. *Early Childhood Education Research &amp; Review*, 30(2). https://doi.org/10.32349/ecerr.2026.4.30.2.443",
+        "identifier": "10.32349/ecerr.2026.4.30.2.443",
+        "is_new": true
+      },
+      {
+        "title": "디지털 성착취의 심리적 문턱: 초기 물질적 유인이 아동·청소년 온라인 그루밍 피해에 미치는 영향에 관한 다중매개효과 분석",
+        "url": "https://doi.org/10.25277/kcpr.2026.22.1.67",
+        "source": "Korean Association of Criminal Psychology",
+        "author": ", Ju Eun Jung, Sang Hyun Cho",
+        "published_date": "2026",
+        "summary": "본 연구는 아동·청소년을 대상으로 한 온라인 그루밍의 심리적 문턱을 낮추는 초기 물질적 유인의 동적 메커니즘을 규명하고, 이것이 디지털 성착취 피해로 이어지는 과정을 분석했다. 행동경제학의 제한적 합리성과 사회심리학의 사회적 영향 이론을 통합하여 한국청소년정책연구원의 2021년 아동·청소년 디지털 성범죄 피해 실태조사 데이터(3,712명)를 구조방정식 모델링(SEM)으로 분석하였다. 연구 결과, 가해자가 제공하는 초기 물질적 유인이 아동·청소년의 심리적 문턱을 유의미하게 낮추어 온라인 그루밍 피해를 유발하는 핵심 요인임을 확인했다. 이는 아동·청소년이 온라인 환경에서 물질적 유인에 매우 취약하며, 이러한 취약성이 심리적 방어체계를 무너뜨려 디지털 성착취 피해로 이어지는 구체적인 경로를 실증적으로 제시한다.",
+        "score": 4.5,
+        "implications": "[관련업무] AI윤리·디지털 시민성 교육, AI·디지털 리터러시 교육 활성화\n[정책제언] 아동·청소년 대상의 온라인 그루밍 예방 교육 프로그램을 강화하고, 특히 물질적 유인에 대한 비판적 사고 및 거절 역량을 함양하는 구체적인 교육 콘텐츠를 개발해야 한다. 학교 정규 교육과정에 디지털 시민성 교육 시간을 확대하고, 디지털 성범죄 예방을 위한 실질적인 사례 기반 교육을 도입하여 심리적 문턱을 높이는 데 주력해야 한다.\n[참고사항] 교육 콘텐츠 개발 시 실제 피해 사례와 유사한 가상 시나리오를 활용하여 아동·청소년이 현실적인 위험을 인지하고 대응 전략을 학습하도록 해야 하며, 보호자 및 교사 대상 연수를 통해 가정과 학교에서의 지속적인 교육과 상담이 이루어지도록 지원해야 한다.",
+        "collected_date": "2026-04-28",
+        "apa_citation": "Jung, J. E., Cho, S. H. (2026). 디지털 성착취의 심리적 문턱: 초기 물질적 유인이 아동·청소년 온라인 그루밍 피해에 미치는 영향에 관한 다중매개효과 분석. *Korean Association of Criminal Psychology*, 22(1). https://doi.org/10.25277/kcpr.2026.22.1.67",
+        "identifier": "10.25277/kcpr.2026.22.1.67",
+        "is_new": true
+      },
+      {
         "title": "생성형 인공지능 활용 영어 학습이 학습자의 학업성취도와 인공지능에 대한 효용성 인식에 미치는 영향",
         "url": "https://doi.org/10.21297/ballak.2026.160.99",
         "source": "The British and American Language and Literature Association of Korea",
@@ -1376,7 +1466,7 @@
         "collected_date": "2026-04-27",
         "apa_citation": "Park, S. (2026). 생성형 인공지능 활용 영어 학습이 학습자의 학업성취도와 인공지능에 대한 효용성 인식에 미치는 영향. *The British and American Language and Literature Association of Korea*, 160. https://doi.org/10.21297/ballak.2026.160.99",
         "identifier": "10.21297/ballak.2026.160.99",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "디지털 패션 커뮤니케이션에 나타난 통합 디자인 관점의 패션 크리에이티브 디렉터 핵심 역량 분석",
@@ -2277,6 +2367,34 @@
     ],
     "academic_international": [
       {
+        "title": "Generative AI and the Future of the Scholarship of Teaching and Learning: What Do We Stand to Gain or Lose?",
+        "url": "https://eric.ed.gov/?id=EJ1491398",
+        "source": "",
+        "author": "Kathryn C. Wymer",
+        "published_date": "2025",
+        "summary": "본 개념 에세이는 고등교육에서 생성형 AI에 대한 논의가 지배적인 상황에서, 교수학습법 연구(SoTL) 종사자들이 생성형 AI의 적절한 활용 방안과 잠재적 위험을 함께 평가해야 할 시급성을 다룬다. 생성형 AI와 SoTL 관련 연구 격차를 해소하기 위해 세 가지 핵심 연구 질문을 제시하며, 이에 대한 답변은 AI 강화 미래에서 SoTL의 중요성과 교수학습센터에 대한 지속적인 지원을 옹호하는 데 도움이 될 것이다. 이는 AI 통합 시 이점과 위험을 균형 있게 고려하는 접근 방식이 필수적임을 강조한다.",
+        "score": 4.0,
+        "implications": "[관련업무] AI·디지털 기반 교육혁신 운영, AI윤리·디지털 시민성 교육, AI·디지털 기반 수업·평가혁신 전문가 연수, AI·디지털 리터러시 교육 활성화\n[정책제언] 생성형 AI의 교육적 활용에 대한 학교 현장의 혼란을 줄이기 위해, AI를 활용한 수업 및 평가 방안에 대한 연구 기반의 가이드라인을 수립해야 한다. 특히, AI의 잠재적 위험(표절, 정보 왜곡 등)과 윤리적 문제에 대한 교육 콘텐츠를 개발하고, 교사들이 AI를 교육 과정에 책임감 있게 통합할 수 있도록 심화된 전문가 연수를 제공해야 한다.\n[참고사항] 고등교육의 '교수학습법 연구(SoTL)'에서 제기된 생성형 AI의 '이득과 손실'에 대한 논의를 K-12 교육 맥락에 맞춰 재해석하여, 교사들이 수업 설계 및 평가 혁신 과정에서 AI를 비판적으로 성찰하고 활용할 수 있는 역량을 길러주어야 한다.",
+        "collected_date": "2026-04-28",
+        "apa_citation": "Kathryn C. Wymer (2025). Generative AI and the Future of the Scholarship of Teaching and Learning: What Do We Stand to Gain or Lose?. https://eric.ed.gov/?id=EJ1491398",
+        "identifier": "EJ1491398",
+        "is_new": true
+      },
+      {
+        "title": "AEJMC Advertising Division 2023 Teaching Pre-Conference Review: Innovating Data Storytelling and Visualization with Artificial Intelligence and Chat Generative Pre-Trained Transformer",
+        "url": "https://eric.ed.gov/?id=EJ1420503",
+        "source": "",
+        "author": "Robin Spring, Shanshan Lou",
+        "published_date": "2024",
+        "summary": "2023년 제26회 AEJMC 광고 부문 사전 컨퍼런스는 AI 및 ChatGPT를 활용한 데이터 스토리텔링 및 시각화 혁신에 중점을 두었다. 주요 미디어 기업 및 대학의 5명의 저명한 연사들은 광고 산업에서의 생성형 AI 적용, 영향, 도전 과제 및 교실 통합 방안에 대한 통찰력을 광고 교육자들과 공유했다. 컨퍼런스에서는 세 가지 핵심 트렌드가 논의되었으며, 관련 AI 도구와 수업 활동도 보고서에 포함되어 교육 현장에 생성형 AI를 효과적으로 통합하는 실질적인 방안을 제시했다. 이는 교육자들이 AI 기반의 데이터 리터러시 기술로 학생들을 무장시킬 긴급한 필요성을 강조한다.",
+        "score": 4.5,
+        "implications": "[관련업무] AI·디지털 활용 및 AI 융합교육, AI·정보(AI·SW) 교육, AI·디지털 리터러시 교육 활성화, AI·디지털 기반 수업·평가혁신 전문가 연수\n[정책제언] 학생들의 AI 기반 데이터 스토리텔링 및 시각화 역량 강화를 위한 교과 연계 교육 프로그램을 개발하고, 이를 지원할 수 있는 교사 연수를 필수화해야 한다. 특히 ChatGPT와 같은 생성형 AI 도구를 활용하여 다양한 교과(예: 사회, 과학, 국어)에서 데이터를 분석하고 시각적으로 표현하는 수업 모델을 제시하고, 관련 AI 도구 활용 가이드라인을 제공해야 한다.\n[참고사항] 특정 산업(예: 광고)의 AI 활용 사례를 K-12 교육 환경에 맞게 재구성하여 실생활 문제 해결형 프로젝트 학습에 적용 가능성을 모색하고, 실제 AI 도구를 활용한 수업 활동 예시를 교사들에게 적극적으로 공유하여 수업 적용도를 높일 수 있다.",
+        "collected_date": "2026-04-28",
+        "apa_citation": "Robin Spring, Shanshan Lou (2024). AEJMC Advertising Division 2023 Teaching Pre-Conference Review: Innovating Data Storytelling and Visualization with Artificial Intelligence and Chat Generative Pre-Trained Transformer. https://eric.ed.gov/?id=EJ1420503",
+        "identifier": "EJ1420503",
+        "is_new": true
+      },
+      {
         "title": "Making AI Generative for Higher Education: Adoption and Challenges among Instructors and Researchers",
         "url": "https://eric.ed.gov/?id=ED673282",
         "source": "",
@@ -2288,7 +2406,7 @@
         "collected_date": "2026-04-27",
         "apa_citation": "Claire Baytas, Dylan Ruediger (2025). Making AI Generative for Higher Education: Adoption and Challenges among Instructors and Researchers. https://eric.ed.gov/?id=ED673282",
         "identifier": "ED673282",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "Generative AI Adoption in Postsecondary Education, AI Hype, and ChatGPT&apos;s Launch",
@@ -2302,7 +2420,7 @@
         "collected_date": "2026-04-27",
         "apa_citation": "Isabel Pedersen (2024). Generative AI Adoption in Postsecondary Education, AI Hype, and ChatGPT&apos;s Launch. https://eric.ed.gov/?id=EJ1444882",
         "identifier": "EJ1444882",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "Training the Stochastic Parrot: Using Generative AI to Create Textual Materials for Communication Courses",
