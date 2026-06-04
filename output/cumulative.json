@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-04T08:01:10.620029+09:00",
+  "last_updated": "2026-06-05T07:17:34.202408+09:00",
   "sections": {
     "news": [
       {
@@ -12,7 +12,7 @@
         "score": 4.5,
         "implications": "[관련업무] AI·디지털 기반 교육혁신 운영, AI·디지털 활용 및 AI 융합교육, AI·디지털 리터러시 교육 활성화, AI윤리·디지털 시민성 교육\n[정책제언] 서울시교육청은 모든 학생에게 AI 학습 기회를 균등하게 제공하는 정책을 수립해야 한다. 특히 AI 활용 교육 확대와 더불어, AI 시대에 필수적인 AI 윤리, 디지털 시민성 교육을 강화하고 인문학 및 감성 교육을 통해 디지털 역기능을 보완하는 통합 교육 모델을 개발해야 한다.\n[참고사항] AI 교육과 인문 감성 교육의 균형 잡힌 연계 방안을 모색하고, 실제 교육 현장에서 두 영역이 시너지를 낼 수 있는 수업 모델과 평가 방법을 개발해야 한다. 이를 위한 교사 연수 및 교육 자료 개발이 선행되어야 한다.",
         "collected_date": "2026-06-04",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "진보 인천교육감 도성훈 '3선' 성공…&quot;읽걷쓰AI로 학생성공시대&quot;",
@@ -24,7 +24,7 @@
         "score": 4.5,
         "implications": "[관련업무] AI·디지털 기반 교육혁신 운영, AI·디지털 활용 및 AI 융합교육, AI·정보(AI·SW) 교육, 신나는 AI교실 구축 및 운영\n[정책제언] 서울시교육청은 특정 교육 거점 지역 또는 권역별로 'AI융합교육센터'를 구축하여 AI 기반의 교육 혁신을 선도할 필요가 있다. '읽걷쓰'와 같은 핵심 교육 역량 강화 프로그램에 AI 기술을 융합하는 모델을 개발하여 학생들의 미래 역량 함양을 도모해야 한다.\n[참고사항] 지역별 센터 구축 시 각 센터가 특화된 AI 융합 교육 모델을 개발하고, 주변 학교 및 지역 사회와 연계하여 시너지를 창출할 수 있도록 운영 방안을 마련해야 한다. 첨단 기술 도입 시 교원 연수 및 교육 콘텐츠 개발이 필수적으로 수반되어야 한다.",
         "collected_date": "2026-06-04",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "국·영·수 공부법부터 작곡·코딩까지, 초등학생 AI 실전 강의… EBS '처...",
@@ -36,7 +36,7 @@
         "score": 5.0,
         "implications": "[관련업무] AI·디지털 활용 및 AI 융합교육, AI·정보(AI·SW) 교육, AI·디지털 리터러시 교육 활성화, AI·디지털 기반 수업·평가혁신 전문가 연수\n[정책제언] 서울시교육청은 K-12 학생들을 위한 맞춤형 AI 활용 교육 콘텐츠 개발 및 보급을 강화해야 한다. 특히 AI를 활용한 교과 융합 학습(예: AI 작곡, AI 코딩 등) 및 창작 활동 지원 프로그램을 기획하고, EBS와 같은 공영 교육기관과의 협력을 통해 양질의 교육 자료를 확보해야 한다.\n[참고사항] 단순히 AI 도구 사용법을 넘어, AI를 통해 학습 역량을 심화하고 창의적 문제 해결 능력을 기르는 실질적인 교육 방안에 초점을 맞출 필요가 있다. 교사들이 이러한 AI 활용 수업을 설계하고 운영할 수 있도록 연수 프로그램을 함께 제공해야 한다.",
         "collected_date": "2026-06-04",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "영암군, 공직자 생성형 AI 교육 확대…행정혁신 박차",
@@ -3056,7 +3056,7 @@
         "collected_date": "2026-06-04",
         "apa_citation": "Lee, H. (2026). 디지털 기술을 활용한 전통생태지식 기반 국제교류 프로젝트 사례 연구 : 발효 식문화 교육을 중심으로. *Journal of Korean Practical Arts Education*, 32(2). https://doi.org/10.29113/skpaer.2026.32.2.03",
         "identifier": "10.29113/skpaer.2026.32.2.03",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "제주 노인의 디지털 역량이 삶의 만족도에 미치는 영향: 사회적 관계망과 우울의 순차적 매개효과를 중심으로",
@@ -3070,7 +3070,7 @@
         "collected_date": "2026-06-04",
         "apa_citation": "Oh, J. H., Koh, B. (2026). 제주 노인의 디지털 역량이 삶의 만족도에 미치는 영향: 사회적 관계망과 우울의 순차적 매개효과를 중심으로. *Journal of the Korean Gerontological Society*, 46(3). https://doi.org/10.31888/jkgs.2026.46.3.399",
         "identifier": "10.31888/jkgs.2026.46.3.399",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "인공지능 환각 현상에 관한 입법론적 연구 — 인공지능 허위개인정보에 대한 정정·삭제요구권을 중심으로 -",
@@ -5480,7 +5480,7 @@
         "collected_date": "2026-06-04",
         "apa_citation": "Xiaofan Wu, Nagaletchimee Annamalai (2026). Ecological Predictors of AI Literacy in Chinese K-12 Teachers: A Structural Equation Modeling Study. https://eric.ed.gov/?id=EJ1504759",
         "identifier": "EJ1504759",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "Investigating Indonesian Graduate Business Students' Generative Artificial Intelligence Readiness and Usage in the Classroom",

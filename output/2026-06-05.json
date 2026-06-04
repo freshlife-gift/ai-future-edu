@@ -1,0 +1,20 @@
+{
+  "date": "2026-06-05",
+  "updated_at": "2026-06-05T07:17:34.202408+09:00",
+  "new_counts": {
+    "news": 0,
+    "global_trends": 0,
+    "policy": 0,
+    "reports": 0,
+    "academic_domestic": 0,
+    "academic_international": 0
+  },
+  "sections": {
+    "news": [],
+    "global_trends": [],
+    "policy": [],
+    "reports": [],
+    "academic_domestic": [],
+    "academic_international": []
+  }
+}
