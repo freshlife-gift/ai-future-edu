@@ -1,7 +1,43 @@
 {
-  "last_updated": "2026-08-17T06:14:07.165637+09:00",
+  "last_updated": "2026-08-18T06:20:13.095359+09:00",
   "sections": {
     "news": [
+      {
+        "title": "[단독] ‘인공지능’ 교육 넘어 ‘인간지능’ 학위 등장",
+        "url": "https://www.chosun.com/national/education/2026/08/18/WNSO5KY2UJFQ5MVNZ5NLC3WJUI/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+        "source": "조선일보",
+        "author": "",
+        "published_date": "2026-08-18",
+        "summary": "국내 대학에서 인문·사회계열 학생 취업 지원을 위한 인공지능(AI) 교육을 넘어, 이공계 학생을 대상으로 '인간지능' 학위가 새롭게 도입되고 있습니다. 이 학위는 AI 기술 고도화에 따라 인간의 고유한 판단력, 비판적 사고, 창의성 등 AI가 대체하기 어려운 역량을 강화하는 데 중점을 둡니다. 이는 미래 교육이 AI 활용 능력뿐만 아니라, AI와 공존하며 인간만이 발휘할 수 있는 핵심 역량을 함양하는 방향으로 진화하고 있음을 시사합니다.",
+        "score": 4.3,
+        "implications": "[관련업무] AI·디지털 기반 교육혁신 운영; AI·디지털 활용 및 AI 융합교육; AI·디지털 리터러시 교육 활성화; AI윤리·디지털 시민성 교육\n[정책제언] K-12 교육과정에서 AI 융합교육을 강화하고, 인간 고유의 역량(비판적 사고, 문제 해결, 창의성, 공감 능력 등)을 함양하는 교육 프로그램을 개발 및 확대. '인간지능' 개념을 반영한 미래형 교육과정 연구.\n[참고사항] AI 기술 교육과 함께 인간 고유의 인지적, 정서적, 사회적 역량을 키우는 교육의 중요성을 강조해야 하며, 이러한 균형 잡힌 교육이 미래 사회 인재 양성의 핵심이 될 것임. 교사 연수를 통해 AI 시대에 필요한 핵심 역량 교육 방안을 모색해야 함.",
+        "collected_date": "2026-08-18",
+        "is_new": true
+      },
+      {
+        "title": "학생부 작성·서술 평가도 AI가… 교...",
+        "url": "",
+        "source": "머니투데이",
+        "author": "",
+        "published_date": "2026-08-18",
+        "summary": "(본문 내용 부재로 구체적인 사실, 수치, 정책내용은 확인 불가) 해당 기사 제목은 AI가 학생부 작성 및 서술형 평가에 활용될 가능성을 제시하고 있습니다. 이는 교사의 행정 업무 부담을 줄이고 평가의 효율성과 객관성을 높이는 방안으로 주목받고 있습니다. AI를 통해 학생 개개인의 성장 데이터를 체계적으로 관리하고 맞춤형 피드백을 제공하는 등 미래 교육 현장의 변화를 가져올 잠재력을 가질 것으로 예상됩니다.",
+        "score": 4.5,
+        "implications": "[관련업무] AI·디지털 기반 교육혁신 운영; AI·디지털 기반 수업·평가혁신 전문가 연수\n[정책제언] AI 기반 학생부 작성 및 서술형 평가 지원 시스템 도입을 위한 연구 및 시범 운영 추진. 교사의 AI 활용 역량 강화를 위한 전문 연수 프로그램 개발.\n[참고사항] AI 도구의 도입은 교사의 업무 경감과 평가의 질 향상에 초점을 맞추되, AI 활용에 따른 평가의 공정성 및 윤리적 기준 마련이 필수적임. 학생부 기재 역량 교육과 AI 지원 시스템 활용 교육을 병행해야 함.",
+        "collected_date": "2026-08-18",
+        "is_new": true
+      },
+      {
+        "title": "[시론] AI시대 인간이 ‘학습’해야 할 이유",
+        "url": "https://www.etoday.co.kr/news/view/2615180",
+        "source": "네이버뉴스",
+        "author": "",
+        "published_date": "2026-08-18",
+        "summary": "교육부는 올해부터 수행평가 시 AI 활용 범위를 명시하도록 지침을 마련하여 교육 현장의 투명성을 높이고 있습니다. 이는 지난해 제출된 자기소개서의 64% 이상이 생성형 AI로 작성된 것으로 추정되는 상황에 대응하는 조치입니다. 기업들도 지원자 검증 방식을 변화시키고 있으며, 이 같은 움직임은 AI 시대에 학습자가 AI를 윤리적으로 활용하고 비판적으로 사고하는 능력의 중요성을 강조하고 있습니다.",
+        "score": 4.8,
+        "implications": "[관련업무] AI·디지털 리터러시 교육 활성화; AI윤리·디지털 시민성 교육; AI·디지털 기반 수업·평가혁신 전문가 연수\n[정책제언] 수행평가 AI 활용 가이드라인을 서울시교육청 실정에 맞게 구체화하고, AI 윤리 및 디지털 시민성 교육 프로그램을 K-12 과정에 확대 적용. 교원 대상 AI 윤리 및 평가 혁신 연수 의무화.\n[참고사항] AI 활용을 무조건적으로 금지하기보다는, AI를 보조 도구로써 올바르게 활용하는 방법을 교육하고, AI가 대체할 수 없는 인간 고유의 역량(비판적 사고, 창의성 등)을 평가하는 방향으로의 전환이 필요함.",
+        "collected_date": "2026-08-18",
+        "is_new": true
+      },
       {
         "title": "청년과 친한 광진… AI 교육·취업·주거로 지원 넓힌다 [현장 행정]",
         "url": "https://www.seoul.co.kr/news/publicnews/seoul_local/place_seoul/2026/08/17/20260817021004?wlog_tag3=naver",
@@ -12,7 +48,7 @@
         "score": 4.5,
         "implications": "[관련업무] 2. AI·디지털 활용 및 AI 융합교육, 4. AI·디지털 리터러시 교육 활성화\n[정책제언] 서울시교육청은 광진구의 청년 AI 교육 지원 사례를 참고하여, K-12 학생들도 미래 사회 및 고등 교육 단계에 필요한 AI 도구 활용 능력과 디지털 리터러시를 체계적으로 함양할 수 있도록 교육과정을 강화해야 한다. 또한, 서울시 지자체 및 대학과의 협력을 통해 학생들의 AI 교육 기회를 확장하는 방안을 모색해야 한다.\n[참고사항] 청년 대상의 AI 도구 활용 교육 지원이 강조되는 점을 고려하여, K-12 단계부터 AI 리터러시 및 실질적인 AI 활용 교육의 연계성을 강화하여 학생들이 상위 교육 단계에서 필요한 역량을 미리 갖출 수 있도록 지원해야 한다.",
         "collected_date": "2026-08-17",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "&quot;AI 서논술 평가 궁금해요&quot;...신기술 보러 교사·학부모 3.4만명 몰렸다",
@@ -24,7 +60,7 @@
         "score": 4.5,
         "implications": "[관련업무] 1. AI·디지털 기반 교육혁신 운영, 8. AI윤리·디지털 시민성 교육\n[정책제언] 서울시교육청은 AI 서논술 평가와 같은 AI 기반 수업 및 평가 혁신 기술 도입을 위한 연구와 파일럿 프로그램을 운영하고, 교사 연수를 통해 현장 적용 역량을 강화해야 한다. 동시에 AI 평가의 공정성과 신뢰성 확보를 위한 가이드라인을 수립하고, AI 윤리 교육을 필수적으로 포함해야 한다.\n[참고사항] 박람회에 몰린 3.4만명의 교사·학부모의 높은 관심사를 적극적으로 반영하여, 실제 교육 현장의 요구에 부합하는 AI 기반 교육 솔루션을 개발하고 확산하는 데 집중해야 한다.",
         "collected_date": "2026-08-17",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "인천AI융합교육원, 대학과 함께 AI 도시설계 서머스쿨 마무리",
@@ -4013,6 +4049,18 @@
     ],
     "global_trends": [
       {
+        "title": "[덴마크] 2026학년도 대학 지원 분석 결과, 전년 대비 2% 감소",
+        "url": "https://edpolicy.kedi.re.kr/edpolicy/board/30/845097",
+        "source": "DR",
+        "author": "",
+        "published_date": "2026.07.22",
+        "summary": "덴마크의 2026학년도 대학 지원 분석 결과, 전년 대비 2%의 지원자 감소가 나타났다. 이는 전통적인 대학 진학 경로에 대한 학생들의 인식 변화를 시사하며, AI 및 디지털 기술 발전으로 인한 미래 사회의 직업 구조 변화가 학생들의 학습 및 진로 선택에 영향을 미치기 시작했음을 암시할 수 있다. 구체적인 감소 학과 정보는 없지만, 이러한 추세는 고등 교육 기관이 미래 인재 양성을 위한 교육 과정 개편의 필요성을 제고할 계기가 될 수 있다.",
+        "score": 4.0,
+        "implications": "[관련업무] AI·디지털 기반 교육혁신 운영, AI·디지털 활용 및 AI 융합교육, AI·정보(AI·SW) 교육\n[정책제언] 서울시교육청은 덴마크 사례를 참고하여 K-12 학생들의 미래 진로 탐색을 위한 AI·디지털 관련 교육 프로그램을 강화하고, 고등 교육 연계 시 AI 융합 교육 과정을 적극적으로 안내해야 한다. 특히, AI·SW 교육을 통한 문제 해결 역량 강화와 변화하는 직업 세계에 필요한 디지털 리터러시 함양에 중점을 둔 정책을 마련해야 한다.\n[참고사항] 국내 대학 지원 현황을 AI 및 디지털 기술 발전과 연관 지어 분석하고, 학생들이 미래에 요구되는 역량(예: AI, SW, 데이터 과학)을 갖출 수 있도록 교육 과정 및 진로 상담을 고도화해야 한다. 전통 학문의 수요 감소가 디지털 전환과 어떤 상관관계를 가지는지 면밀히 조사할 필요가 있다.",
+        "collected_date": "2026-08-18",
+        "is_new": true
+      },
+      {
         "title": "[프랑스] 교육중재관 처리 민원 지속 증가, 2025년 2만 8,000건 넘어",
         "url": "https://edpolicy.kedi.re.kr/edpolicy/board/30/845110",
         "source": "Le Monde",
@@ -5733,6 +5781,48 @@
     "reports": [],
     "academic_domestic": [
       {
+        "title": "디지털 부문 혁신과 신북방 주요국의 구조 전환: 신북방 중진국과의 IT 협력을 중심으로 (Development of the IT Industry and Structural Transformation: Focused on IT Cooperation with Russia, Kazakhstan and Uzbekistan)",
+        "url": "https://doi.org/10.2139/ssrn.4269813",
+        "source": "",
+        "author": "Minhyeon Jeong, Jiyoung Min, Dong Yeon Jeong",
+        "published_date": "2026",
+        "summary": "본 연구는 4차 산업혁명 시대의 도래에 맞춰 러시아, 카자흐스탄, 우즈베키스탄 3개 신북방 국가와의 디지털 부문 협력의 경제적 의미와 가능성을 분석했다. 특히 산업구조 전환 관점에서 IT 부문 협력의 중요성을 강조하며, 한국과 러시아 간 IT 협력이 러시아 경제의 구조 전환에 긍정적인 영향을 미칠 것으로 정량적으로 추정했다. 개별 국가별 IT 산업 발전 현황 및 정책을 면밀히 분석하여, 한국이 각국과 협력할 최적의 IT 부문을 객관적으로 식별하는 맞춤형 협력 방향을 제시했다. 이는 디지털 산업 발전을 통한 국가 경제 구조의 변화가 교육 시스템에도 새로운 요구를 가져올 것임을 시사한다.",
+        "score": 4,
+        "implications": "[관련업무] 1, 2, 5\n[정책제언] 미래 교육 혁신을 위한 AI·디지털 기반 교육과정을 수립할 때, 4차 산업혁명 시대의 글로벌 산업구조 변화 및 IT 기술 협력 동향을 반영해야 한다. 또한, 디지털 교육 세계화(ODA) 사업 추진 시 신북방 국가 등 디지털 전환 수요가 높은 국가들을 대상으로 AI·디지털 활용 및 AI 융합교육 모델을 수출하고, 첨단 교실 구축을 지원하는 방안을 모색해야 한다.\n[참고사항] 러시아, 카자흐스탄, 우즈베키스탄 등 신북방 3개국의 IT 산업 발전 현황 및 인력 수요를 고려하여, 해당 국가들이 필요로 하는 AI·SW 교육, 디지털 리터러시 교육 등 맞춤형 교육 콘텐츠 및 연수 프로그램을 개발하는 것이 중요하다.",
+        "collected_date": "2026-08-18",
+        "apa_citation": "Jeong, M., Min, J., Jeong, D. Y. (2026). 디지털 부문 혁신과 신북방 주요국의 구조 전환: 신북방 중진국과의 IT 협력을 중심으로 (Development of the IT Industry and Structural Transformation: Focused on IT Cooperation with Russia, Kazakhstan and Uzbekistan). https://doi.org/10.2139/ssrn.4269813",
+        "identifier": "10.2139/ssrn.4269813",
+        "is_new": true
+      },
+      {
+        "title": "디지털 플랫폼 경제의 경쟁정책 (Competition Policy in the Digital Platform Economy)",
+        "url": "https://doi.org/10.2139/ssrn.4934335",
+        "source": "",
+        "author": "Min Jung Kim, Kyoungbo Sim, Kyoung-Soo Yoon",
+        "published_date": "2026",
+        "summary": "본 연구는 디지털 플랫폼 경제에서 발생하는 경쟁제한적 행위에 효과적으로 개입하기 위한 경쟁정책 개선 방안을 모색했다. 디지털 플랫폼의 가치 창출이 네트워크 효과 및 규모·범위의 경제에서 기인하지만, 소수 플랫폼으로의 경제력 집중이 새로운 경쟁정책 과제를 야기한다고 진단했다. 특히, 시장지배력 남용 사례로 자사우대 행위와 불투명한 수수료 정책을 지적하며, 이들이 경쟁을 저해할 수 있음을 분석했다. 기존 경쟁정책 틀을 넘어선 규율 강화 움직임이 필요함을 강조하며, 플랫폼 사업자의 자사우대 및 수수료 정책에 대한 구체적인 개선 방안을 제시하는 데 중점을 두었다.",
+        "score": 4.5,
+        "implications": "[관련업무] 1, 4, 8, 11\n[정책제언] 교육 현장에서 활용되는 에듀테크 플랫폼 및 AI 서비스 선정 시, 플랫폼의 독점적 지위 남용 가능성을 고려한 가이드라인을 수립해야 한다. 학생들의 AI·디지털 리터러시 및 AI윤리·디지털 시민성 교육에 디지털 플랫폼의 작동 원리, 데이터 공정성, 알고리즘 편향성 등 경쟁정책적 시사점을 포함하여 비판적 사고력을 함양해야 한다.\n[참고사항] 소수 플랫폼의 경제력 집중 및 자사우대 행위가 교육 콘텐츠의 다양성과 접근성을 저해할 수 있음을 인지하고, 개방형 에듀테크 생태계 조성 및 공공 플랫폼 역할 강화 방안을 검토해야 한다.",
+        "collected_date": "2026-08-18",
+        "apa_citation": "Kim, M. J., Sim, K., Yoon, K., Lee, G., Cho, S. I. (2026). 디지털 플랫폼 경제의 경쟁정책 (Competition Policy in the Digital Platform Economy). https://doi.org/10.2139/ssrn.4934335",
+        "identifier": "10.2139/ssrn.4934335",
+        "is_new": true
+      },
+      {
+        "title": "디지털 전환에 따른 노동시장의 변화와 정책 시사점 (Digital Transformation and Its Impact on Labor Market Outcomes: Analyses Based on Country-Level, Korean Workers, and Korean Firm-Level Data)",
+        "url": "https://doi.org/10.2139/ssrn.4091580",
+        "source": "",
+        "author": "Do Won Kwak, Dong-Eun Rhee, Ju Hyun Pyun",
+        "published_date": "2026",
+        "summary": "이 연구는 디지털 전환이 노동시장에 미치는 영향을 29개 OECD 회원국의 2008-2019년 패널 자료를 활용하여 분석했다. 전자상거래 확대가 고용률을 하락시키고 실업률을 증가시키는 것으로 나타났으며, 특히 저학력 노동시장에서 부정적 영향이 더욱 컸다. 고졸 미만 교육수준에서 고용률 감소가 가장 두드러졌고, 대졸 이상 교육수준에서는 부정적 효과의 크기와 유의성이 점차 감소했다. 인공지능 및 머신러닝 기술의 발전이 지난 10년간 혁명적인 변화를 가져왔음을 강조하며, 디지털 전환이 노동 대체와 생산성 증가라는 상반된 영향을 미칠 수 있음을 실증적으로 보여주었다. 이는 미래 인력 양성을 위한 교육 시스템 개편의 시급성을 시사한다.",
+        "score": 5,
+        "implications": "[관련업무] 1, 2, 3, 4, 7\n[정책제언] 저학력층의 노동시장 위협을 완화하고 전 계층의 디지털 전환 적응력을 높이기 위해 K-12 교육과정 전반에 AI·디지털 리터러시 및 AI·SW 교육을 강화해야 한다. 특히, AI·디지털 기반 수업·평가혁신 전문가 연수를 확대하여 교사들의 지도 역량을 제고하고, 디지털 교육 기회 격차 해소를 위한 정책적 지원을 확대해야 한다.\n[참고사항] 29개 OECD 국가 분석 결과, 저학력층에서 고용률 하락 및 실업률 증가가 크게 나타난 점을 고려하여, 생애주기 전반에 걸친 디지털 역량 강화 교육 프로그램을 개발하고, 소외 계층을 위한 특별 지원 방안을 마련하는 데 집중해야 한다.",
+        "collected_date": "2026-08-18",
+        "apa_citation": "Kwak, D. W., Rhee, D., Pyun, J. H. (2026). 디지털 전환에 따른 노동시장의 변화와 정책 시사점 (Digital Transformation and Its Impact on Labor Market Outcomes: Analyses Based on Country-Level, Korean Workers, and Korean Firm-Level Data). https://doi.org/10.2139/ssrn.4091580",
+        "identifier": "10.2139/ssrn.4091580",
+        "is_new": true
+      },
+      {
         "title": "중국의 디지털 통상 발전 전략과 시사점(China’s Digital Trade Development Strategy and&amp;nbsp;&lt;span&gt;Implications for Korea)&lt;/span&gt;",
         "url": "https://doi.org/10.2139/ssrn.5896203",
         "source": "",
@@ -5744,7 +5834,7 @@
         "collected_date": "2026-08-17",
         "apa_citation": "Lee, S., Choi, W., Na, S. Y., Kim, Y., SEO, B. (2026). 중국의 디지털 통상 발전 전략과 시사점(China’s Digital Trade Development Strategy and&amp;nbsp;&lt;span&gt;Implications for Korea)&lt;/span&gt;. https://doi.org/10.2139/ssrn.5896203",
         "identifier": "10.2139/ssrn.5896203",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "디지털 전환에 따른 인도의 사회ㆍ경제적 변화와 시사점(Digital Transformation in India and&amp;nbsp;&lt;span&gt;Its Socioeconomic Impact)&lt;/span&gt;",
@@ -5758,7 +5848,7 @@
         "collected_date": "2026-08-17",
         "apa_citation": "Ro, Y. J., Kim, K., Kim, M., Nam, Y., Park, J. (2026). 디지털 전환에 따른 인도의 사회ㆍ경제적 변화와 시사점(Digital Transformation in India and&amp;nbsp;&lt;span&gt;Its Socioeconomic Impact)&lt;/span&gt;. https://doi.org/10.2139/ssrn.5890089",
         "identifier": "10.2139/ssrn.5890089",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "디지털 정책과 규제 변화 분석: Digital Policy Alert 통계를 중심으로 (Analysis on Digital Policy and Regulations: Based on the Digital Policy Alert Database)",
@@ -5772,7 +5862,7 @@
         "collected_date": "2026-08-17",
         "apa_citation": "Kim, J. (2026). 디지털 정책과 규제 변화 분석: Digital Policy Alert 통계를 중심으로 (Analysis on Digital Policy and Regulations: Based on the Digital Policy Alert Database). https://doi.org/10.2139/ssrn.4703586",
         "identifier": "10.2139/ssrn.4703586",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "디지털 금융혁신과 예금보험 (Digital Financial Innovation and Deposit Insurance in Korea)",
