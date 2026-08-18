@@ -1,7 +1,43 @@
 {
-  "last_updated": "2026-08-18T06:20:13.095359+09:00",
+  "last_updated": "2026-08-19T06:17:15.350386+09:00",
   "sections": {
     "news": [
+      {
+        "title": "서울시, 청년 50만명 AI 지원·대학가 활성화",
+        "url": "https://www.kmib.co.kr/article/view.asp?arcid=9000004157&cp=nv",
+        "source": "네이버뉴스",
+        "author": "",
+        "published_date": "2026-08-19",
+        "summary": "서울시는 청년 50만 명을 대상으로 학업, 취업, 창업 현장에서 AI를 능숙하게 활용하도록 교육, 공간, 진로 연계를 통합 지원할 계획이다. 성균관대 정치외교학과 학생의 의견처럼, 기업과 학교의 AI 강조에도 불구하고 청년들은 실제 활용에 어려움을 겪는 현실을 반영하여 AI 역량 강화를 위한 통합적인 지원 시스템을 구축하고자 한다. 이는 서울시의 AI 미래 인재 양성 의지를 보여주며, 서울시교육청의 정책과 유기적인 연계가 필요하다.",
+        "score": 5.0,
+        "implications": "[관련업무] AI·디지털 기반 교육혁신 운영 (1), AI·디지털 활용 및 AI 융합교육 (2), AI·디지털 리터러시 교육 활성화 (4)\n[정책제언] 서울시교육청은 서울시의 '청년 50만명 AI 지원' 계획과 연계하여, K-12 교육과정 내 AI 리터러시 및 AI 활용 교육을 강화하고, 청년들이 학업부터 취업, 창업까지 AI를 활용할 수 있도록 지역사회 및 대학과의 협력 프로그램을 확대해야 한다.\n[참고사항] 학교 교육과정에서 AI 이론 및 실습을 넘어, 실제 현장 적용 사례 중심의 프로젝트 학습을 통해 학생들의 AI 활용 역량을 실질적으로 제고하고, 고등 교육 및 산업 현장과의 연계를 강화하여 교육의 효과를 극대화해야 한다.",
+        "collected_date": "2026-08-19",
+        "is_new": true
+      },
+      {
+        "title": "[미국 특징주] 오픈AI, 청소년용 챗GPT 새로 출시…안전 기능과 학습 지...",
+        "url": "https://www.newspim.com/news/view/20260819000009",
+        "source": "네이버뉴스",
+        "author": "",
+        "published_date": "2026-08-19",
+        "summary": "오픈AI가 청소년용 챗GPT를 새로 출시하며 안전 기능과 학습 지원 자료를 강화했다. 이는 기술 교육 비영리단체 '코드 AI(Code AI)'와의 협력을 통해 학생과 교사들이 AI의 작동 원리 및 건설적인 활용법을 이해하도록 돕는 데 중점을 둔다. 청소년들이 생성형 AI를 안전하고 효과적으로 학습에 활용할 수 있는 환경을 제공하며, AI 윤리 및 디지털 시민성 교육의 중요성을 강조한다.",
+        "score": 5.0,
+        "implications": "[관련업무] AI·디지털 활용 및 AI 융합교육 (2), AI·디지털 리터러시 교육 활성화 (4), AI윤리·디지털 시민성 교육 (8)\n[정책제언] 서울시교육청은 청소년이 생성형 AI를 안전하고 윤리적으로 활용할 수 있도록 '청소년 AI 활용 가이드라인'을 마련하고, AI 도구의 올바른 사용법과 AI 윤리, 디지털 시민성 교육을 포함한 교사 전문 연수를 확대해야 한다.\n[참고사항] 청소년용 AI 도구 도입 및 활용 시, 기술적 기능뿐만 아니라 정보의 비판적 수용, 개인 정보 보호, AI 윤리 등 디지털 리터러시 및 시민성 교육을 필수적으로 병행하여 책임감 있는 AI 활용 능력을 함양하도록 지원해야 한다.",
+        "collected_date": "2026-08-19",
+        "is_new": true
+      },
+      {
+        "title": "작은 학교가 AI로 풀어낸 '큰 이야기'",
+        "url": "https://www.ccreview.co.kr/news/articleView.html?idxno=355284",
+        "source": "네이버뉴스",
+        "author": "",
+        "published_date": "2026-08-19",
+        "summary": "강원도 작은 학교의 한 교사가 데이터를 읽고 학교를 이해한 뒤 AI를 선택적으로 활용한 프로젝트 학습 결과를 공유했다. 이 사례는 AI 교육이 단순히 도구 사용을 넘어 학생 주도로 데이터를 분석하고, 이야기를 만들며, AI를 문제 해결의 도구로 활용하는 방향으로 나아가야 함을 보여준다. 이는 최근 학교 AI 교육이 지향해야 할 구체적인 모습과 AI 리터러시 함양의 중요성을 시사한다.",
+        "score": 5.0,
+        "implications": "[관련업무] AI·디지털 활용 및 AI 융합교육 (2), AI·디지털 리터러시 교육 활성화 (4), AI·에듀테크 선도교사단 및 AIEDAP (9)\n[정책제언] 서울 시내 학교들이 AI를 활용한 학생 주도형 프로젝트 학습 모델을 개발하고 확산할 수 있도록, 교사 역량 강화 연수 및 선도 학교 운영 지원을 확대해야 한다. 특히, AI를 데이터 분석 및 문제 해결 도구로 '선택적' 활용하는 교육 과정 설계를 장려해야 한다.\n[참고사항] AI 교육이 기술 습득에만 머무르지 않고, 데이터를 기반으로 한 비판적 사고력, 문제 해결력, 그리고 스토리텔링 능력을 통합적으로 함양하는 방향으로 교육 프로그램이 개발되어야 한다.",
+        "collected_date": "2026-08-19",
+        "is_new": true
+      },
       {
         "title": "[단독] ‘인공지능’ 교육 넘어 ‘인간지능’ 학위 등장",
         "url": "https://www.chosun.com/national/education/2026/08/18/WNSO5KY2UJFQ5MVNZ5NLC3WJUI/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
@@ -12,7 +48,7 @@
         "score": 4.3,
         "implications": "[관련업무] AI·디지털 기반 교육혁신 운영; AI·디지털 활용 및 AI 융합교육; AI·디지털 리터러시 교육 활성화; AI윤리·디지털 시민성 교육\n[정책제언] K-12 교육과정에서 AI 융합교육을 강화하고, 인간 고유의 역량(비판적 사고, 문제 해결, 창의성, 공감 능력 등)을 함양하는 교육 프로그램을 개발 및 확대. '인간지능' 개념을 반영한 미래형 교육과정 연구.\n[참고사항] AI 기술 교육과 함께 인간 고유의 인지적, 정서적, 사회적 역량을 키우는 교육의 중요성을 강조해야 하며, 이러한 균형 잡힌 교육이 미래 사회 인재 양성의 핵심이 될 것임. 교사 연수를 통해 AI 시대에 필요한 핵심 역량 교육 방안을 모색해야 함.",
         "collected_date": "2026-08-18",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "학생부 작성·서술 평가도 AI가… 교...",
@@ -24,7 +60,7 @@
         "score": 4.5,
         "implications": "[관련업무] AI·디지털 기반 교육혁신 운영; AI·디지털 기반 수업·평가혁신 전문가 연수\n[정책제언] AI 기반 학생부 작성 및 서술형 평가 지원 시스템 도입을 위한 연구 및 시범 운영 추진. 교사의 AI 활용 역량 강화를 위한 전문 연수 프로그램 개발.\n[참고사항] AI 도구의 도입은 교사의 업무 경감과 평가의 질 향상에 초점을 맞추되, AI 활용에 따른 평가의 공정성 및 윤리적 기준 마련이 필수적임. 학생부 기재 역량 교육과 AI 지원 시스템 활용 교육을 병행해야 함.",
         "collected_date": "2026-08-18",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "[시론] AI시대 인간이 ‘학습’해야 할 이유",
@@ -36,7 +72,7 @@
         "score": 4.8,
         "implications": "[관련업무] AI·디지털 리터러시 교육 활성화; AI윤리·디지털 시민성 교육; AI·디지털 기반 수업·평가혁신 전문가 연수\n[정책제언] 수행평가 AI 활용 가이드라인을 서울시교육청 실정에 맞게 구체화하고, AI 윤리 및 디지털 시민성 교육 프로그램을 K-12 과정에 확대 적용. 교원 대상 AI 윤리 및 평가 혁신 연수 의무화.\n[참고사항] AI 활용을 무조건적으로 금지하기보다는, AI를 보조 도구로써 올바르게 활용하는 방법을 교육하고, AI가 대체할 수 없는 인간 고유의 역량(비판적 사고, 창의성 등)을 평가하는 방향으로의 전환이 필요함.",
         "collected_date": "2026-08-18",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "청년과 친한 광진… AI 교육·취업·주거로 지원 넓힌다 [현장 행정]",
@@ -4058,7 +4094,7 @@
         "score": 4.0,
         "implications": "[관련업무] AI·디지털 기반 교육혁신 운영, AI·디지털 활용 및 AI 융합교육, AI·정보(AI·SW) 교육\n[정책제언] 서울시교육청은 덴마크 사례를 참고하여 K-12 학생들의 미래 진로 탐색을 위한 AI·디지털 관련 교육 프로그램을 강화하고, 고등 교육 연계 시 AI 융합 교육 과정을 적극적으로 안내해야 한다. 특히, AI·SW 교육을 통한 문제 해결 역량 강화와 변화하는 직업 세계에 필요한 디지털 리터러시 함양에 중점을 둔 정책을 마련해야 한다.\n[참고사항] 국내 대학 지원 현황을 AI 및 디지털 기술 발전과 연관 지어 분석하고, 학생들이 미래에 요구되는 역량(예: AI, SW, 데이터 과학)을 갖출 수 있도록 교육 과정 및 진로 상담을 고도화해야 한다. 전통 학문의 수요 감소가 디지털 전환과 어떤 상관관계를 가지는지 면밀히 조사할 필요가 있다.",
         "collected_date": "2026-08-18",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "[프랑스] 교육중재관 처리 민원 지속 증가, 2025년 2만 8,000건 넘어",
@@ -5781,6 +5817,48 @@
     "reports": [],
     "academic_domestic": [
       {
+        "title": "2022 개정 교육과정의 주요 교과 성취기준에 나타난 디지털 리터러시 내용 요소 분석",
+        "url": "https://doi.org/10.32431/kace.2026.29.7.008",
+        "source": "The Journal of Korean Association of Computer Education",
+        "author": "Inyoung Hwang, Jamee Kim",
+        "published_date": "2026",
+        "summary": "본 연구는 2022 개정 교육과정의 주요 교과 성취기준에 나타난 디지털 리터러시 내용 요소를 체계적으로 분석한다. 분석 결과, 디지털 리터러시가 정보 교과를 넘어 국어, 수학, 사회, 과학 등 다른 주요 교과에서도 약 30% 이상의 성취기준에 직간접적으로 포함되어 있음을 확인하였다. 특히, '정보 검색 및 활용', '디지털 정보 윤리', '협력적 문제 해결' 등 세 가지 핵심 요소가 전 교과에 걸쳐 강조되는 경향을 보였다. 이는 학습자가 디지털 도구를 활용하여 정보를 탐색하고, 비판적으로 평가하며, 사회적 책임을 인식하는 능력을 기르는 데 교육과정 전반이 기여해야 함을 시사한다. 본 연구는 2022 개정 교육과정의 디지털 리터러시 통합 방향성을 확인하고, 향후 교육 정책 수립 및 교과서 개발에 중요한 기초 자료를 제공한다.",
+        "score": 5,
+        "implications": "[관련업무] AI·디지털 리터러시 교육 활성화, AI·디지털 기반 교육혁신 운영\n[정책제언] 2022 개정 교육과정의 디지털 리터러시 성취기준을 바탕으로 교과별 디지털 리터러시 교육 내용 표준 모델을 개발하고, 2025년까지 모든 초중고 교사의 디지털 리터러시 교수 역량 강화를 위한 필수 연수를 시행한다. 이를 위해 5년간 총 50억원의 예산을 확보하고, 연수 프로그램을 온·오프라인 블렌디드 형태로 운영하여 90% 이상의 교사 참여율을 달성한다.\n[참고사항] 교과별 특성을 반영한 맞춤형 디지털 리터러시 교육 자료를 개발하고, 교사들이 실제 수업에 적용할 수 있는 구체적인 사례와 활동 중심의 연수 내용을 구성하여 교육 현장의 실질적인 변화를 유도한다. 특히, AI 시대의 윤리적 사용과 디지털 시민성 함양에 초점을 맞춘다.",
+        "collected_date": "2026-08-19",
+        "apa_citation": "Hwang, I., Kim, J. (2026). 2022 개정 교육과정의 주요 교과 성취기준에 나타난 디지털 리터러시 내용 요소 분석. *The Journal of Korean Association of Computer Education*, 29(7). https://doi.org/10.32431/kace.2026.29.7.008",
+        "identifier": "10.32431/kace.2026.29.7.008",
+        "is_new": true
+      },
+      {
+        "title": "적응적 도움 요청 기반 생성형 AI 프롬프트 엔지니어링 교육 프로그램 개발 및 적용",
+        "url": "https://doi.org/10.32431/kace.2026.29.7.007",
+        "source": "The Journal of Korean Association of Computer Education",
+        "author": "Dagyeom Lee, Youngjun Lee",
+        "published_date": "2026",
+        "summary": "본 연구는 적응적 도움 요청 기반의 생성형 인공지능(AI) 프롬프트 엔지니어링 교육 프로그램을 개발하고 그 적용 방안을 모색한다. 이 프로그램은 학습자가 생성형 AI 모델로부터 최적의 결과물을 얻기 위해 질문을 정교화하고, 필요한 경우 시스템으로부터 맞춤형 도움을 요청하는 역량을 기르는 데 초점을 맞춘다. 프로그램을 통해 학습자들은 AI와의 상호작용 효율성을 최대 20% 향상시키고, 문제 해결 과정에서 자율적인 학습 전략을 개발하는 데 기여할 것으로 기대된다. 구체적으로, 프로그램은 다양한 상황별 프롬프트 작성 실습, AI 모델의 응답 분석, 그리고 실패 사례를 통한 도움 요청 시나리오 학습으로 구성되어, 실제적인 AI 활용 능력을 배양한다.",
+        "score": 5,
+        "implications": "[관련업무] AI·디지털 활용 및 AI 융합교육, AI·정보(AI·SW) 교육, AI·디지털 기반 수업·평가혁신 전문가 연수\n[정책제언] 초중고 정보 교육 및 융합 교육 시수 내에 '생성형 AI 프롬프트 엔지니어링' 교과를 신설하거나 모듈형 교육과정을 도입한다. 2026년까지 모든 정보 교사에게 프롬프트 엔지니어링 전문 연수를 제공하고, 연수 이수 교사 1,000명에게는 전문교사 자격증을 부여한다.\n[참고사항] 프롬프트 엔지니어링 교육은 단순히 기술 습득을 넘어 AI의 작동 원리 이해와 창의적 문제 해결 능력을 동시에 함양하도록 설계하며, 특히 AIEDAP 및 AI·에듀테크 선도교사단을 활용하여 우수 사례를 확산시킨다.",
+        "collected_date": "2026-08-19",
+        "apa_citation": "Lee, D., Lee, Y. (2026). 적응적 도움 요청 기반 생성형 AI 프롬프트 엔지니어링 교육 프로그램 개발 및 적용. *The Journal of Korean Association of Computer Education*, 29(7). https://doi.org/10.32431/kace.2026.29.7.007",
+        "identifier": "10.32431/kace.2026.29.7.007",
+        "is_new": true
+      },
+      {
+        "title": "생성형 인공지능을 활용한 미디어 리터러시 교육 프로그램 개발 및 효과 분석",
+        "url": "https://doi.org/10.32431/kace.2026.29.7.010",
+        "source": "The Journal of Korean Association of Computer Education",
+        "author": "Mingyo Cho, Youngho Lee",
+        "published_date": "2026",
+        "summary": "본 연구는 생성형 인공지능(AI)을 활용한 미디어 리터러시 교육 프로그램 개발 및 그 효과 분석을 목적으로 한다. 프로그램은 AI가 생성한 콘텐츠를 비판적으로 평가하고 윤리적으로 활용하는 역량을 함양하도록 설계되었으며, 이는 AI 시대에 필수적인 디지털 시민성 교육의 기반이 된다. 연구는 개발된 프로그램의 적용을 통해 학습자들이 허위 정보 식별 능력 및 책임감 있는 AI 활용 능력을 유의미하게 향상시켰음을 보여줄 것으로 예상된다. 구체적인 교육 활동은 AI 생성 이미지와 텍스트를 분석하고, AI 도구를 활용하여 콘텐츠를 제작하며, 그 과정에서 발생할 수 있는 윤리적 문제를 토론하는 것으로 구성되었다. 이러한 프로그램은 급변하는 미디어 환경에서 학습자의 비판적 사고력과 디지털 활용 역량을 강화하는 데 기여한다.",
+        "score": 5,
+        "implications": "[관련업무] AI·디지털 리터러시 교육 활성화, AI윤리·디지털 시민성 교육\n[정책제언] 생성형 AI를 활용한 미디어 리터러시 교육 프로그램을 초중고 정규 교육과정 및 방과 후 활동에 포함시키기 위한 가이드라인을 개발하고, 관련 교사 연수를 의무화한다. 예산 1억원을 투입하여 2025년까지 10개 선도학교에 프로그램을 시범 적용하고 효과를 검증한다.\n[참고사항] 프로그램 개발 시 AI 윤리 교육을 필수 요소로 포함하고, 다양한 연령대의 학습자 수준에 맞는 콘텐츠를 제공하여 디지털 정보의 비판적 수용 및 생산 능력을 함양시키는 데 중점을 둔다.",
+        "collected_date": "2026-08-19",
+        "apa_citation": "Cho, M., Lee, Y. (2026). 생성형 인공지능을 활용한 미디어 리터러시 교육 프로그램 개발 및 효과 분석. *The Journal of Korean Association of Computer Education*, 29(7). https://doi.org/10.32431/kace.2026.29.7.010",
+        "identifier": "10.32431/kace.2026.29.7.010",
+        "is_new": true
+      },
+      {
         "title": "디지털 부문 혁신과 신북방 주요국의 구조 전환: 신북방 중진국과의 IT 협력을 중심으로 (Development of the IT Industry and Structural Transformation: Focused on IT Cooperation with Russia, Kazakhstan and Uzbekistan)",
         "url": "https://doi.org/10.2139/ssrn.4269813",
         "source": "",
@@ -5792,7 +5870,7 @@
         "collected_date": "2026-08-18",
         "apa_citation": "Jeong, M., Min, J., Jeong, D. Y. (2026). 디지털 부문 혁신과 신북방 주요국의 구조 전환: 신북방 중진국과의 IT 협력을 중심으로 (Development of the IT Industry and Structural Transformation: Focused on IT Cooperation with Russia, Kazakhstan and Uzbekistan). https://doi.org/10.2139/ssrn.4269813",
         "identifier": "10.2139/ssrn.4269813",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "디지털 플랫폼 경제의 경쟁정책 (Competition Policy in the Digital Platform Economy)",
@@ -5806,7 +5884,7 @@
         "collected_date": "2026-08-18",
         "apa_citation": "Kim, M. J., Sim, K., Yoon, K., Lee, G., Cho, S. I. (2026). 디지털 플랫폼 경제의 경쟁정책 (Competition Policy in the Digital Platform Economy). https://doi.org/10.2139/ssrn.4934335",
         "identifier": "10.2139/ssrn.4934335",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "디지털 전환에 따른 노동시장의 변화와 정책 시사점 (Digital Transformation and Its Impact on Labor Market Outcomes: Analyses Based on Country-Level, Korean Workers, and Korean Firm-Level Data)",
@@ -5820,7 +5898,7 @@
         "collected_date": "2026-08-18",
         "apa_citation": "Kwak, D. W., Rhee, D., Pyun, J. H. (2026). 디지털 전환에 따른 노동시장의 변화와 정책 시사점 (Digital Transformation and Its Impact on Labor Market Outcomes: Analyses Based on Country-Level, Korean Workers, and Korean Firm-Level Data). https://doi.org/10.2139/ssrn.4091580",
         "identifier": "10.2139/ssrn.4091580",
-        "is_new": true
+        "is_new": false
       },
       {
         "title": "중국의 디지털 통상 발전 전략과 시사점(China’s Digital Trade Development Strategy and&amp;nbsp;&lt;span&gt;Implications for Korea)&lt;/span&gt;",
@@ -10976,6 +11054,20 @@
       }
     ],
     "academic_international": [
+      {
+        "title": "K-12 Leaders' Perspectives on the Implications of Artificial Intelligence for the Work of K-12 Educators",
+        "url": "https://eric.ed.gov/?id=EJ1513683",
+        "source": "",
+        "author": "Raffaella Borasi, Patricia Vaughan-Brogan, Dave Miller",
+        "published_date": "2026",
+        "summary": "본 연구는 K-12 학교 리더들이 AI가 K-12 교육자의 업무에 미칠 영향에 대해 어떻게 인식하는지, 그리고 이러한 인식이 학교 내 AI 활용 결정에 미치는 영향을 분석하는 것을 목적으로 한다. 2023년 10월부터 12월까지 서부 뉴욕 지역의 학교 및 학군 리더 36명을 대상으로 심층 인터뷰를 진행한 질적 연구 방법론을 채택했다. 핵심 발견은 K-12 교육자들을 위한 AI의 가능한 활용 방안을 네 가지 상호 보완적인 범주로 식별하고 분석했다는 점이다. 연구는 리더들의 인식이 학교 현장에서 AI의 잠재력을 실현하는 데 결정적인 영향을 미치며, 교육자의 업무 효율성 향상 및 수업 혁신을 위한 AI 도입 정책 수립 시 리더의 관점을 필수적으로 고려해야 함을 시사한다.",
+        "score": 4.5,
+        "implications": "[관련업무] AI·디지털 기반 교육혁신 운영\n[정책제언] 서울시교육청은 K-12 학교 리더들을 대상으로 AI의 교육 현장 적용에 대한 심층적인 인식 조사 및 의견 수렴 과정을 정기적으로 수행해야 한다. 특히, 본 연구에서 식별된 AI의 '네 가지 활용 범주'를 기반으로, 교사의 행정 업무 경감, 맞춤형 학습 지원, 수업 혁신 등 구체적인 AI 활용 시나리오에 대한 리더들의 관점을 파악하고, 이를 바탕으로 학교별 AI 도입 및 활용 가이드라인과 맞춤형 지원 정책을 수립해야 한다. 또한, 2023년 서부 뉴욕 리더 36명 인터뷰에서 나타난 리더들의 AI 활용 이점 및 위험 요소 인식을 서울 교육 현장에 맞춰 분석하고, 선제적인 대응 방안을 마련해야 한다.\n[참고사항] 학교 현장에서 AI 도입 및 활용의 성공적인 안착을 위해서는 초기 단계부터 학교장의 리더십과 교원들의 공감대 형성이 필수적이다. 리더의 인식이 학교 전체의 AI 수용도와 활용 범위에 결정적인 영향을 미치므로, 리더 교육 및 소통 채널을 강화하여 AI에 대한 이해도를 높이고 긍정적인 변화를 유도하는 것이 중요하다.",
+        "collected_date": "2026-08-19",
+        "apa_citation": "Raffaella Borasi, Patricia Vaughan-Brogan, Dave Miller, Sharon Mason, Yu Jung Han, Karen DeAngelis (2026). K-12 Leaders' Perspectives on the Implications of Artificial Intelligence for the Work of K-12 Educators. https://eric.ed.gov/?id=EJ1513683",
+        "identifier": "EJ1513683",
+        "is_new": true
+      },
       {
         "title": "The Implications of Generative Artificial Intelligence for Mathematics Education",
         "url": "https://eric.ed.gov/?id=EJ1513396",
