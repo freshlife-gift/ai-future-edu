@@ -1,0 +1,100 @@
+{
+  "date": "2026-10-26",
+  "updated_at": "2026-10-26T07:59:12.057517+09:00",
+  "new_counts": {
+    "news": 3,
+    "global_trends": 0,
+    "policy": 0,
+    "reports": 0,
+    "academic_domestic": 3,
+    "academic_international": 0
+  },
+  "sections": {
+    "news": [
+      {
+        "title": "한·중 고교생, 경기도서 교육·문화 교류로 우정 다진다…AI부터 직업교...",
+        "url": "https://www.kgnews.co.kr/news/article.html?no=916580",
+        "source": "네이버뉴스",
+        "author": "",
+        "published_date": "2026-10-26",
+        "summary": "경기도는 한국과 중국 고교생 100여 명이 참여하는 '한-중 청소년 교육·문화 교류' 행사를 진행하며, 이 중 원곡고등학교와 저장성항저우학군중학교는 AI·정보교육을 중심으로 교류한다. 남양주다산고등학교는 IB 교육을, 창의고등학교는 RAS(로봇, 인공지능, 소프트웨어) 교육을 주제로 중국 학교와 협력한다. 이는 단순 문화 교류를 넘어 AI·정보 교육 등 미래 역량 강화를 위한 심도 있는 교육 교류의 장을 마련한 사례이다.",
+        "score": 4.0,
+        "implications": "[관련업무] AI·정보(AI·SW) 교육, 디지털 교육 세계화(ODA) 사업(KLIC, 첨단교실), AI·디지털 기반 교육혁신 운영\n[정책제언] 서울시교육청 차원에서 국제 교육 교류 프로그램에 AI·정보교육 분야를 필수적으로 포함하고, 자매결연 학교와의 'AI 융합 교육 공동 프로젝트' 운영을 적극 추진해야 한다. 이를 통해 서울 학생들의 글로벌 AI 역량을 강화하고, 디지털 교육 세계화의 기반을 다져야 한다.\n[참고사항] AI·SW 교육과 연계하여 국제 공동 수업 및 멘토링 프로그램을 기획하고, 온라인 플랫폼을 활용하여 시공간 제약 없는 교류를 활성화해야 한다. 또한, 교류 과정에서 발생하는 AI 윤리 및 문화적 차이에 대한 이해 교육도 병행하여 글로벌 시민성 함양을 도모해야 한다.",
+        "collected_date": "2026-10-26",
+        "is_new": true
+      },
+      {
+        "title": "고양시, AI 실생활 활용 교육 4개 과정 수강생 모집",
+        "url": "https://sports.donga.com/region/article/all/20261026/134906456/1",
+        "source": "동아일보",
+        "author": "",
+        "published_date": "2026-10-26",
+        "summary": "고양시는 11월 2일부터 30일까지 백마 화사랑에서 시민들을 대상으로 AI 실생활 활용 교육 4개 과정을 운영한다. 해당 과정은 'AI 디지털 기초', 'AI 디지털 생활', 'AI 활용 성장', 'AI 이미지 영상'으로 구성되며, 메시지·이미지·영상 제작 및 전자책 만들기 등 실습 위주로 진행된다. 이는 고양시민의 디지털 문해력 향상 및 AI 활용 능력 강화를 목표로 한다.",
+        "score": 4.5,
+        "implications": "[관련업무] AI·디지털 리터러시 교육 활성화, AI·디지털 활용 및 AI 융합교육\n[정책제언] 서울시민의 AI 활용 역량 강화를 위한 '서울형 AI 리빙랩 교육 프로그램' 개발 및 운영을 검토해야 한다. 특히, 생성형 AI를 활용한 이미지·영상 제작, 전자책 발행 등 실생활 및 생산성 향상에 초점을 맞춘 시민 대상 교육 과정을 기획할 필요가 있다.\n[참고사항] K-12 학생뿐만 아니라 교원, 학부모, 일반 시민 등 교육공동체 전반의 AI 리터러시 함양을 위한 생애 주기별 맞춤형 교육 콘텐츠를 발굴하고, 지역 사회 문화시설과 연계한 교육 공간 확보를 고려해야 한다.",
+        "collected_date": "2026-10-26",
+        "is_new": true
+      },
+      {
+        "title": "&quot;마음을 그려요&quot;.. 서울시교육청 'AI 미술 전시회' 연다",
+        "url": "https://www.edupress.kr/news/articleView.html?idxno=30560",
+        "source": "네이버뉴스",
+        "author": "",
+        "published_date": "2026-10-26",
+        "summary": "서울시교육청은 11월 30일까지 성동구 제2서울창의예술교육센터와 다음 달 4~6일 신청사에서 열리는 '2026 서울학생 예술몽땅'과 연계하여 '마음풍경 AI 미술 전시회'를 개최한다. 이번 전시회는 학생들이 AI 시대를 살아가며 자신의 감정과 미래를 평면 회화, 디지털 작품, AI 활용 디지털 작품 등으로 표현하도록 지원하며, 특히 AI 활용 작품은 프롬프트 작성과 편집 과정을 거쳐 창의적 결과물을 선보인다. 황은숙 장학관은 이를 통해 학생들의 AI 리터러시 및 디지털 시민성 함양에 기여하고자 한다고 밝혔다.",
+        "score": 5.0,
+        "implications": "[관련업무] AI·디지털 활용 및 AI 융합교육, AI·디지털 리터러시 교육 활성화, AI윤리·디지털 시민성 교육\n[정책제언] 서울시 학생들의 AI 활용 창의성 및 비판적 사고력 증진을 위해 'AI 융합 예술 교육 프로그램'을 정규 교육과정 또는 창의적 체험활동으로 확대하고, 이를 지원할 수 있는 교원 연수 및 교육 자료 개발이 필요하다.\n[참고사항] AI 윤리 및 디지털 시민성 교육의 실제적 적용을 위해 프롬프트 엔지니어링의 중요성을 강조하고, AI가 생성한 결과물을 단순 소비하는 것을 넘어 비판적으로 판단하고 재창조하는 과정을 교육하여 학생들의 주도적인 AI 활용 역량을 강화해야 한다.",
+        "collected_date": "2026-10-26",
+        "is_new": true
+      }
+    ],
+    "global_trends": [],
+    "policy": [],
+    "reports": [],
+    "academic_domestic": [
+      {
+        "title": "Developing the Litera-Tech model: A pedagogical framework for digital literacy in primary teacher education",
+        "url": "https://doi.org/10.1016/j.ssaho.2026.103627",
+        "source": "Social Sciences &amp; Humanities Open",
+        "author": "Supartinah, Fery Muhamad Firdaus, Septia Sugiarsih",
+        "published_date": "2026",
+        "summary": "이 연구는 초등 교원 양성을 위한 디지털 리터러시 교수학습 프레임워크인 「Litera-Tech 모델」을 개발하고 그 효과성을 검증했다. 「Litera-Tech 모델」은 안전한 온라인 활동, 정보의 비판적 평가, 책임감 있는 디지털 소통 등 핵심 디지털 역량을 체계적으로 통합하는 특징을 가진다. 연구 결과, 이 모델은 초등 교사들이 디지털 리터러시를 교과 전반에 걸쳐 자신감 있고 유능하게 통합하도록 준비시키는 데 효과적인 것으로 나타났다. 이는 교사들이 단순히 도구를 활용하는 것을 넘어, 학생들에게 더 깊이 있는 디지털 이해와 윤리적 참여를 가르칠 수 있도록 지원할 수 있음을 보여준다.",
+        "score": 5,
+        "implications": "[관련업무] AI·디지털 리터러시 교육 활성화, AI·디지털 기반 수업·평가혁신 전문가 연수\n[정책제언] 「Litera-Tech 모델」을 서울시 교육청 교원 연수 프로그램에 도입하여 초등 교원의 디지털 리터러시 교육 역량을 체계적으로 강화해야 합니다. 특히, 디지털 시민성 및 AI 윤리 교육과 연계하여 교사들이 단순 도구 활용을 넘어선 비판적이고 윤리적인 디지털 교육을 수행하도록 지원해야 합니다.\n[참고사항] 교사 디지털 리터러시 교육의 중요성을 인식하고, 초등학생 대상 디지털 교육의 질 제고를 위한 교사 전문성 강화 방안을 모색하는 데 집중해야 합니다.",
+        "collected_date": "2026-10-26",
+        "apa_citation": "Supartinah, ., Firdaus, F. M., Sugiarsih, S., Sayekti, O. M., Fauzi, W. N. A. (2026). Developing the Litera-Tech model: A pedagogical framework for digital literacy in primary teacher education. *Social Sciences &amp; Humanities Open*, 14. https://doi.org/10.1016/j.ssaho.2026.103627",
+        "identifier": "10.1016/j.ssaho.2026.103627",
+        "is_new": true
+      },
+      {
+        "title": "AI-enabled assessment in higher education: Institutional culture and student meta-skill readiness across university tiers",
+        "url": "https://doi.org/10.1016/j.ssaho.2026.103141",
+        "source": "Social Sciences &amp; Humanities Open",
+        "author": "Chi Che",
+        "published_date": "2026",
+        "summary": "본 연구는 고등 교육에서 AI 기반 평가 시스템 도입에 영향을 미치는 기관 문화와 학생들의 메타 인지 능력의 역할을 조사했다. 다양한 대학 계층을 대상으로 한 분석 결과, AI 평가 도입 성공은 기관의 기술 혁신에 대한 적극적인 문화와 학생들의 비판적 사고, 자기 조절 능력과 같은 메타 스킬 수준에 크게 좌우됨을 발견했다. 특히, 상위권 대학들은 더 강력한 기관 프레임워크와 학생들의 높은 디지털 역량 덕분에 AI 평가 도입 준비도가 높았다. 이는 성공적인 AI 평가 통합을 위해 지원적인 교육 문화 조성과 학생들의 핵심 역량 개발이 필수적임을 시사한다.",
+        "score": 5,
+        "implications": "[관련업무] AI·디지털 기반 교육혁신 운영, AI·디지털 기반 수업·평가혁신 전문가 연수\n[정책제언] AI 기반 평가 시스템 도입을 위한 학교 단위의 'AI 평가 문화' 조성 지원 및 학생들의 메타 인지 능력 강화를 위한 교육 프로그램 개발을 추진해야 합니다. AI 평가 도입 시 기관의 기술 수용성 수준과 학생의 디지털 역량을 종합적으로 고려하여 K-12 현장에 단계적 적용 가이드라인을 마련해야 합니다.\n[참고사항] AI 평가 도입 시 학교 문화, 교사 역량, 학생 메타 스킬 수준 간의 상호작용 분석을 통해 K-12 교육 현장에 적합한 AI 평가 도입 기반을 조성하는 것이 중요합니다.",
+        "collected_date": "2026-10-26",
+        "apa_citation": "Che, C. (2026). AI-enabled assessment in higher education: Institutional culture and student meta-skill readiness across university tiers. *Social Sciences &amp; Humanities Open*, 14. https://doi.org/10.1016/j.ssaho.2026.103141",
+        "identifier": "10.1016/j.ssaho.2026.103141",
+        "is_new": true
+      },
+      {
+        "title": "Smishing risk assessment using RAG and its potential for pedagogical recontextualization for cybersecurity education",
+        "url": "https://doi.org/10.1016/j.ssaho.2026.103485",
+        "source": "Social Sciences &amp; Humanities Open",
+        "author": "Daiga Kalniņa, Edgaras Norgaila, Linda Daniela",
+        "published_date": "2026",
+        "summary": "이 연구는 스미싱 위험 평가를 위해 RAG(Retrieval-Augmented Generation) 모델을 활용하고, 이를 사이버 보안 교육에 교수학적으로 재맥락화하는 방안을 모색했다. 연구진은 RAG 기반 접근 방식이 스미싱 메시지에서 핵심 위험 지표를 효과적으로 식별하여 실시간 위협 분석에 강력한 도구가 됨을 확인했다. 이 기술 프레임워크는 학생들이 실제 스미싱 사례를 분석하고 대응 전략을 학습하는 인터랙티브 교육 모듈로 전환될 수 있음을 제시했다. 이는 단순한 이론적 지식 습득을 넘어 구체적인 위협 탐지 기술과 비판적 디지털 시민성을 함양하는 데 기여할 수 있다.",
+        "score": 5,
+        "implications": "[관련업무] AI·디지털 리터러시 교육 활성화, AI윤리·디지털 시민성 교육\n[정책제언] RAG 기반 스미싱 위험 평가 기술을 활용한 AI·디지털 리터러시 교육 콘텐츠 개발 및 학교 현장 도입을 추진해야 합니다. 학생들에게 실제 스미싱 사례를 분석하고 대응 전략을 학습할 수 있는 실습형 AI 교육 프로그램을 제공하여 디지털 위협 대응 역량을 강화해야 합니다.\n[참고사항] AI 모델을 활용한 실제 위협 시나리오 학습의 효과성을 극대화하여 디지털 시민성 함양을 위한 실용적 위협 탐지 능력 강화에 중점을 두어야 합니다.",
+        "collected_date": "2026-10-26",
+        "apa_citation": "Kalniņa, D., Norgaila, E., Daniela, L. (2026). Smishing risk assessment using RAG and its potential for pedagogical recontextualization for cybersecurity education. *Social Sciences &amp; Humanities Open*, 14. https://doi.org/10.1016/j.ssaho.2026.103485",
+        "identifier": "10.1016/j.ssaho.2026.103485",
+        "is_new": true
+      }
+    ],
+    "academic_international": []
+  }
+}
